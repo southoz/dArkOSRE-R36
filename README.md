@@ -1,7 +1,7 @@
 # dArkOS-G80CA RetroOZ Edition
 
 <p align="center">
-<img width="480" height="320" alt="image" src="[https://github.com/user-attachments/assets/9ae34f22-6b2c-4317-8577-0ca37aab80f9](https://github.com/southoz/dArkOS-G80CA-RE/blob/main/files/BOOT/logo.bmp)" />
+<img width="480" height="320" alt="image" src="https://github.com/southoz/dArkOS-G80CA-RE/blob/main/files/BOOT/logo.bmp" />
 </p>
 
 **Customised dArkOS build optimized for G80CA / G80CA-MB devices**  
