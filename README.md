@@ -13,15 +13,6 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/southoz/dArkOS-G80CA-SE?style=flat-square)](https://github.com/southoz/dArkOS-G80CA-SE/releases)
 [![GitHub stars](https://img.shields.io/github/stars/southoz/dArkOS-G80CA-SE?style=flat-square)](https://github.com/southoz/dArkOS-G80CA-SE/stargazers)
 
-## Prelease Version - [Mega](https://mega.nz/file/gqwQjQpS#VdtE8CBKT4ODqXWeDWQ9DJtHUduuaaZyoSbj22hdwnQ)
-- SHA1 Hash - 811B5E3AB88A6C7C8E738CCCB4D9B9E311AC7493
-- dArkOS 01142026 Version 
-- Testing only, with work to be done on the emulated systems' fine-tuning and user documentation.
-- See the [Wiki](https://github.com/southoz/dArkOS-G80CA-RE/wiki) for completed items.
-- If you are using a second SD Card, ensure you read the instructions in the Wiki and delete the controls.ini, ppsspp.ini and ppsspp.ini.sdl out of the /psp/ppsspp folder.
-- dArkOS update supported (recommended) but will overwrite the Battery LED process.
-- Manages the removal of brightness control through an Audio and Screen revamp, supporting Brightness, Gamma and Volume controls, see [Wiki](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Audio-and-Screen-Control).
-
 ## ✅ What's Working
 
 - Screen Panel 8 (default) and [Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/Panel9)
