@@ -11,8 +11,8 @@
 
 Confirmed working with:
 - G80CA-MB V1.2-20250422 Panel 8
-- G80CA-MB V1.2-20250422 Panel 9 (Maybe a Joystick Inversion that needs fixing)
-- G80CA-MB V1.3-20251212
+- G80CA-MB V1.2-20250422 Panel 9 (Maybe a Joystick Inversion that needs fixing?)
+- G80CA-MB V1.3-20251212 Panel 8
 
 In development:
 - G80C-MB V1.1-20250319 (Working in kernel, uBoot is not initialising screen and showing logo - should be released shortly)
