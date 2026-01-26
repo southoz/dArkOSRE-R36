@@ -7,6 +7,8 @@
 **Customised dArkOS build optimized for G80CA / G80CA-MB devices**  
 (RK3326-based R36S/RG351MP-style clones)
 
+- This version of [dArkOS](https://github.com/christianhaitian/dArkOS) is customised for the best experience on G80CA hardware.
+
 Confirmed working with:
 - G80CA-MB V1.2-20250422 Panel 8
 - G80CA-MB V1.2-20250422 Panel 9 (Maybe a Joystick Inversion that needs fixing)
@@ -14,8 +16,6 @@ Confirmed working with:
 
 In development:
 - G80C-MB V1.1-20250319 (Working in kernel, uBoot is not initialising screen and showing logo - should be released shortly)
-
-- This version of [dArkOS](https://github.com/christianhaitian/dArkOS) is customised for the best experience on G80CA hardware.
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/southoz/dArkOS-G80CA-SE?style=flat-square)](https://github.com/southoz/dArkOS-G80CA-SE/releases)
 [![GitHub stars](https://img.shields.io/github/stars/southoz/dArkOS-G80CA-SE?style=flat-square)](https://github.com/southoz/dArkOS-G80CA-SE/stargazers)
