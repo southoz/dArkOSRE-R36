@@ -14,12 +14,13 @@
 - This version of [dArkOS](https://github.com/christianhaitian/dArkOS) is customised for the best experience on G80CA hardware.
 
 Confirmed working with:
+- G80C-MB V1.1-20250319 Panel 8
 - G80CA-MB V1.2-20250422 Panel 8
-- G80CA-MB V1.2-20250422 Panel 9 (Maybe a Joystick Inversion that needs fixing?)
+- G80CA-MB V1.2-20250422 Panel 9 
 - G80CA-MB V1.3-20251212 Panel 8
 
 In development:
-- G80C-MB V1.1-20250319 - Working in kernel; however uboot still needs work, so the logo is not showing. If you want to test and are happy with a blank screen during boot, the DTB files are available [here](https://mega.nz/file/JyJzzJRC#OCmARcO1--IHTTndr8V3TzdyQZpwQ0u_58JtqShqt-M)
+- G80C-MB V1.1-20250319 with Unknown Panel - Working in kernel; however uboot still needs work, so the logo is not showing. If you want to test and are happy with a blank screen during boot, the DTB files are available [here](https://mega.nz/file/JyJzzJRC#OCmARcO1--IHTTndr8V3TzdyQZpwQ0u_58JtqShqt-M)
 - Plenty of systems to test and Document.
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/southoz/dArkOS-G80CA-SE?style=flat-square)](https://github.com/southoz/dArkOS-G80CA-SE/releases)
