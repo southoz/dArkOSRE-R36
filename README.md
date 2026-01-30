@@ -8,7 +8,7 @@
 (RK3326-based R36S/RG351MP-style clones)
 
 <p align="center">
-<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/ea2ce915-3735-4c09-8e9d-bdbc6212df9b" /><img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/7ca0ee9e-2727-40f9-859e-1a731a485425" />
+<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/ea2ce915-3735-4c09-8e9d-bdbc6212df9b" /> &emsp; <img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/7ca0ee9e-2727-40f9-859e-1a731a485425" />
 </p>
 
 - This version of [dArkOS](https://github.com/christianhaitian/dArkOS) is customised for the best experience on G80CA hardware.
