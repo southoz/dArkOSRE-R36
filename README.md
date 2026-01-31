@@ -17,7 +17,9 @@ Confirmed working with:
 - G80C-MB V1.1-20250319 Panel 8
 - G80C-MB V1.1-20250319 Panel 9
 - G80CA-MB V1.2-20250422 Panel 8
-- G80CA-MB V1.2-20250422 Panel 9 
+- G80CA-MB V1.2-20250422 Panel 9
+- G80CA-MB V1.2-20250423 Panel 8
+- G80CA-MB V1.2-20250423 Panel 9 
 - G80CA-MB V1.3-20251212 Panel 8
 
 In development:
