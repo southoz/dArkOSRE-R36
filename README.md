@@ -32,7 +32,7 @@ In development:
 
 - Advanced Drastic
 - Kodi 21.3
-- Screen Panel 8 (default) and [Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/Panel9) support.
+- Screen Panel 8 (default) and [Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/G80CA-MB%20V1.2-20250422/Panel9) support
 - Wi-Fi (rtl8192cu, rtl8821cu, rtl8812au and mt7601u verified)
 - Joystick with per-emulator controls updates and hotkeys.
 - Function button support (Menu).
