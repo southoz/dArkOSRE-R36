@@ -22,9 +22,9 @@ Confirmed working with:
 - G80CA-MB V1.2-20250423 Panel 8
 - G80CA-MB V1.2-20250423 Panel 9 
 - G80CA-MB V1.3-20251212 Panel 8 thanks to Robadel
-- R36S-V12 2023-08-18 [Variant 1](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/R36S-V12%202023-08-18%20EMMC) with EMMC and AMP thanks to @erraja97
-- R36S-V12 2023-08-18 [Variant 2](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/R36S-V12%202023-08-18) thanks to SethZero
-- R36S-V20 2025-05-18 [736MB RAM](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/R36S-V20%202025-05-18) thanks to GreatestGoon (Long first boot).
+- R36S-V12 2023-08-18 [Variant 1](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/R36S-V12%202023-08-18/Variant%201) with EMMC and AMP thanks to @erraja97
+- R36S-V12 2023-08-18 [Variant 2](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/R36S-V12%202023-08-18/Variant%202) thanks to SethZero
+- R36S-V20 2025-05-18 [736MB RAM](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/R36S-V20%202025-05-18/768MB) thanks to GreatestGoon (Long first boot).
 
 In development:
 - Plenty of systems to test and Document.
