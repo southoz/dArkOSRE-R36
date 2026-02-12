@@ -15,20 +15,18 @@
 - **Guaranteed Virus and Malware free** - Scanned with 4th Feb 2026 ClamAV Daily update.
 
 Confirmed working with R36S Clones:
-- G80C-MB V1.1-20250319 [Panel 8](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/G80C-MB%20V1.1-20250319/Panel8)
-- G80C-MB V1.1-20250319 [Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/G80C-MB%20V1.1-20250319/Panel9) thanks to filthyc0mmie
+- G80C-MB V1.1-20250319 [Panel 8](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/_edit#r36s-clones) thanks to filthyc0mmie
+- G80C-MB V1.1-20250319 [Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/_edit#r36s-clones)
 - G80CA-MB V1.2-20250422 Panel 8
-- G80CA-MB V1.2-20250422 [Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/G80CA-MB%20V1.2-20250422/Panel9)
+- G80CA-MB V1.2-20250422 [Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/_edit#r36s-clones)
 - G80CA-MB V1.2-20250423 Panel 8
-- G80CA-MB V1.2-20250423 [Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/G80CA-MB%20V1.2-20250423/Panel9) 
+- G80CA-MB V1.2-20250423 [Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/_edit#r36s-clones)
 - G80CA-MB V1.3-20251212 Panel 8 thanks to Robadel
-- R36S-V12 2023-08-18 [Variant 1](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/R36S-V12%202023-08-18/Variant%201) with EMMC and AMP thanks to @erraja97
-- R36S-V12 2023-08-18 [Variant 2](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/R36S-V12%202023-08-18/Variant%202) thanks to SethZero
+- R36S-V12 2023-08-18 [Variant 1](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/_edit#r36s-clones) with EMMC and AMP thanks to @erraja97
+- R36S-V12 2023-08-18 [Variant 2](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/_edit#r36s-clones) thanks to SethZero
 
 Confirmed working with Genuine R36S devices:
 - R36S-V21 2024-12-18 
-
-Please note that with the R36S-V12, the testers reported no audio issues, but some users found the devices muted. A deep analysis shows there is a lot of work to do on the dtb files and pinctrl terminations. In the short term, double-tap the power button if your device has no audio. 
 
 In development:
 - R36S-V20 2025-05-18 [736MB RAM](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/R36S-V20%202025-05-18/768MB) thanks to GreatestGoon (Long first boot).
@@ -41,8 +39,7 @@ In development:
 
 - Advanced Drastic
 - Kodi 21.3
-- Screen Panel 8 (default) and [Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/tree/main/files/DTB/G80CA-MB%20V1.2-20250422/Panel9) support
-- Wi-Fi rtl8192cu, rtl8821cu, rtl8812au (flakey) and mt7601u verified
+- Wi-Fi
 - Joystick with per-emulator controls updates and hotkeys.
 - Function button support (Menu).
 - Sound (speakers + headphones)
