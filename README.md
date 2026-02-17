@@ -21,7 +21,7 @@ Confirmed working with R36S Clones:
 - [G80CA-MB V1.2-20250422 Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones)
 - G80CA-MB V1.2-20250423 Panel 8
 - [G80CA-MB V1.2-20250423 Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones)
-- G80CA-MB V1.3-20251212 Panel 8 thanks to Robadel
+- G80CA-MB V1.3-20251212 Panel 8 thanks to Robadel and metinbsv
 - [R36S-V12 2023-08-18 Variant 1](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) with EMMC and AMP thanks to @erraja97
 - [R36S-V12 2023-08-18 Variant 2](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) thanks to SethZero
 - [R36S-V12 2023-08-18 Variant 3](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) thanks to Ace007186
