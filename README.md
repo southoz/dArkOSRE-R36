@@ -31,17 +31,17 @@
 - [R36S-V12 2023-08-18 Variant 2](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) thanks to SethZero
 - [R36S-V12 2023-08-18 Variant 3](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) thanks to Ace007186
 
-## Genuine R36S devices:  
+### Genuine R36S devices:  
 - [R36S-V21 2024-12-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s)
 - [R36XX-V21 2024-12-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s) thanks to Jason3x
 
-## Soysauce R36S devices:
+### Soysauce R36S devices:
 - [Y3506_V04_20250529](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s) thanks to Rokumaehn
 
-## Not fully supported:  
+### Not fully supported:  
 - R36H thanks to xgenmann
 
-## In development:
+### In development:
 - R36S-V20 2025-05-18 Vatiant 1 and Variant 2
 - Y3506_V05_20251215 Variant 1 and Variant 2
 
