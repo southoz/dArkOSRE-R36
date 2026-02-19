@@ -7,7 +7,7 @@
 
 
 - **Customised dArkOS build** optimised for R36S devices and clones. 
-- **Guaranteed Virus and Malware free** - Scanned with 7th Feb 2026 ClamAV Daily update.
+- **Guaranteed Virus and Malware free** - Scanned with 7th Feb 2026 ClamAV Daily update.  
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/southoz/dArkOS-G80CA-SE?style=flat-square)](https://github.com/southoz/dArkOS-G80CA-SE/releases)
 [![GitHub stars](https://img.shields.io/github/stars/southoz/dArkOS-G80CA-SE?style=flat-square)](https://github.com/southoz/dArkOS-G80CA-SE/stargazers)
 
