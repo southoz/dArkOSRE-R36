@@ -14,7 +14,12 @@
 - This version of [dArkOS](https://github.com/christianhaitian/dArkOS) is customised for the best experience on R36S and clone hardware.
 - **Guaranteed Virus and Malware free** - Scanned with 4th Feb 2026 ClamAV Daily update.
 
-Confirmed working with R36S Clones:
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/southoz/dArkOS-G80CA-SE?style=flat-square)](https://github.com/southoz/dArkOS-G80CA-SE/releases)
+[![GitHub stars](https://img.shields.io/github/stars/southoz/dArkOS-G80CA-SE?style=flat-square)](https://github.com/southoz/dArkOS-G80CA-SE/stargazers)
+
+## Supported Systems  
+
+### Clones R36S devices:  
 - [G80C-MB V1.1-20250319 Panel 8](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) thanks to filthyc0mmie
 - [G80C-MB V1.1-20250319 Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones)
 - G80CA-MB V1.2-20250422 Panel 8
@@ -26,11 +31,11 @@ Confirmed working with R36S Clones:
 - [R36S-V12 2023-08-18 Variant 2](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) thanks to SethZero
 - [R36S-V12 2023-08-18 Variant 3](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) thanks to Ace007186
 
-Confirmed working with Genuine R36S devices:
+## Genuine R36S devices:  
 - [R36S-V21 2024-12-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s)
 - [R36XX-V21 2024-12-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s) thanks to Jason3x
 
-Confirmed working with Soysauce R36S devices:
+## Soysauce R36S devices:
 - [Y3506_V04_20250529](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s) thanks to Rokumaehn
 
 Confirmed Working, but I have created an issue by using the Function Button for emulator Menus
@@ -40,11 +45,8 @@ In development:
 - R36S-V20 2025-05-18 Vatiant 1 and Variant 2
 - Y3506_V05_20251215 Variant 1 and Variant 2
 
-**If your system is not listed**  
+## If your system is not listed
 Raise an [issue](https://github.com/southoz/dArkOS-G80CA/issues) with the motherboard ID and attached your original .dtb files and boot.ini in a zip file
-
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/southoz/dArkOS-G80CA-SE?style=flat-square)](https://github.com/southoz/dArkOS-G80CA-SE/releases)
-[![GitHub stars](https://img.shields.io/github/stars/southoz/dArkOS-G80CA-SE?style=flat-square)](https://github.com/southoz/dArkOS-G80CA-SE/stargazers)
 
 ## ✅ Features
 
