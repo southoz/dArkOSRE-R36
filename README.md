@@ -38,15 +38,15 @@
 ## Soysauce R36S devices:
 - [Y3506_V04_20250529](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s) thanks to Rokumaehn
 
-Confirmed Working, but I have created an issue by using the Function Button for emulator Menus
+## Not fully supported:  
 - R36H thanks to xgenmann
 
-In development:
+## In development:
 - R36S-V20 2025-05-18 Vatiant 1 and Variant 2
 - Y3506_V05_20251215 Variant 1 and Variant 2
 
 ## If your system is not listed
-Raise an [issue](https://github.com/southoz/dArkOS-G80CA/issues) with the motherboard ID and attached your original .dtb files and boot.ini in a zip file
+Raise an [issue](https://github.com/southoz/dArkOS-G80CA/issues) with the motherboard ID and attach your original .dtb files and boot.ini in a zip file
 
 ## ✅ Features
 
