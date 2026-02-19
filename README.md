@@ -1,18 +1,16 @@
-# dArkOS-G80CA RetroOZ Edition
+# dArkOSRE
 
 <p align="center">
 <img width="204" height="320" alt="image" src="https://github.com/user-attachments/assets/d0334598-9296-466f-8e6e-4ca2e15daf70" />
 </p>
 
-**Customised dArkOS build** optimised for selected clones and genuine R36S devices. 
-(RK3326-based RG351MP clones)
+- **Customised dArkOS build** optimised for R36S devices and clones. 
 
 <p align="center">
 <img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/ea2ce915-3735-4c09-8e9d-bdbc6212df9b" /> &emsp; <img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/7ca0ee9e-2727-40f9-859e-1a731a485425" /> 
 </p>
 
-- This version of [dArkOS](https://github.com/christianhaitian/dArkOS) is customised for the best experience on R36S and clone hardware.
-- **Guaranteed Virus and Malware free** - Scanned with 4th Feb 2026 ClamAV Daily update.
+- **Guaranteed Virus and Malware free** - Scanned with 7th Feb 2026 ClamAV Daily update.
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/southoz/dArkOS-G80CA-SE?style=flat-square)](https://github.com/southoz/dArkOS-G80CA-SE/releases)
 [![GitHub stars](https://img.shields.io/github/stars/southoz/dArkOS-G80CA-SE?style=flat-square)](https://github.com/southoz/dArkOS-G80CA-SE/stargazers)
