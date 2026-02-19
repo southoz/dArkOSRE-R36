@@ -44,7 +44,7 @@
 - Y3506_V05_20251215 Variant 1 and Variant 2
 
 ### If your system is not listed
-Raise an [issue](https://github.com/southoz/dArkOS-G80CA/issues) with the motherboard ID and attach your original sdcard .dtb files and boot.ini in a zip file
+Raise an [issue](https://github.com/southoz/dArkOS-G80CA/issues) with the motherboard ID and attach your original SD card .dtb files and boot.ini in a zip file
 
 ## ✅ Features
 
