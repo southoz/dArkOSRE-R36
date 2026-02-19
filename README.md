@@ -45,7 +45,7 @@
 - R36S-V20 2025-05-18 Vatiant 1 and Variant 2
 - Y3506_V05_20251215 Variant 1 and Variant 2
 
-## If your system is not listed
+### If your system is not listed
 Raise an [issue](https://github.com/southoz/dArkOS-G80CA/issues) with the motherboard ID and attach your original .dtb files and boot.ini in a zip file
 
 ## ✅ Features
@@ -53,7 +53,7 @@ Raise an [issue](https://github.com/southoz/dArkOS-G80CA/issues) with the mother
 - Advanced Drastic
 - Kodi 21.3
 - Wi-Fi
-- USB Tethering (USB C to USB A adapter)
+- USB Tethering (USB-C to USB-A adapter)
 - Joystick with per-emulator controls updates and hotkeys.
 - Function button support (Menu).
 - Sound (speakers + headphones)
