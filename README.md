@@ -43,7 +43,15 @@
 - R36H thanks to xgenmann
 
 ### In development:
-- R36S-V20 2025-05-18 Vatiant 1 and Variant 2
+- R36S-V20 2025-05-18 Vatiant 1 and Variant 2 (in testing)
+- Bring back Drastic! - Selectable Advanced Drastic and Drastic (ready for testing)
+- Fix bg music not playing on SD1 (ready for testing)
+- Fix Swap SD1 / SD2 Kodi database (yup, I missed this one when releasing the image).
+- Developer ID and Pass in Screenscaper (compiling now, make clean didn't work)
+- ogage update to support Jason3x's Pulse Audio implementation.
+- Script to update the controls for each emulator to support the R36H
+- LED swap scripts for different devices (R36S, Clones and Soysauce)
+- Supporting community requests for device support.
 
 ### If your system is not listed
 Raise an [issue](https://github.com/southoz/dArkOS-G80CA-RE/issues) with the motherboard ID and attach your original SD card .dtb files and boot.ini in a zip file
