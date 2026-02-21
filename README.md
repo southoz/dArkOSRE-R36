@@ -36,14 +36,14 @@
 
 ### Soysauce R36S devices:
 - [Y3506_V04_20250529](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s) thanks to Rokumaehn
-- [Y3506_V05_20251215 2601](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s)
+- [Y3506_V05_20251215 2601](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s) thanks to Pedro
+- [Y3506_V05_20251215 2601](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s) thanks to Lucannus
 
 ### Not fully supported:  
 - R36H thanks to xgenmann
 
 ### In development:
 - R36S-V20 2025-05-18 Vatiant 1 and Variant 2
-- Y3506_V05_20251215 2551
 
 ### If your system is not listed
 Raise an [issue](https://github.com/southoz/dArkOS-G80CA-RE/issues) with the motherboard ID and attach your original SD card .dtb files and boot.ini in a zip file
