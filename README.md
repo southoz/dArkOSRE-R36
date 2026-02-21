@@ -48,6 +48,7 @@
 - Fix bg music not playing on SD1 (ready for testing)
 - Fix Swap SD1 / SD2 Kodi database (yup, I missed integrating the update scripts one when releasing the image).
 - Developer ID and Pass in Screenscaper (compiling now, make clean didn't work)
+- Integrate expandtofat.sh fix to suppress "In the Future Warnings".
 - ogage update to support Jason3x's Pulse Audio implementation.
 - Script to update the controls for each emulator to support the R36H
 - LED swap scripts for different devices (R36S, Clones and Soysauce)
