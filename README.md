@@ -78,7 +78,7 @@ Raise an [issue](https://github.com/southoz/dArkOS-G80CA-RE/issues) with the mot
 ## Related Projects & Thanks
 
 - [dArkOS main project](https://github.com/christianhaitian/dArkOS) – huge thanks to christianhaitian!
-- Community discussions: r/R36S, r/SBCGaming, Retro Handhelds groups
+- Community discussions: [r/R36S](https://www.reddit.com/r/R36S/) and [RetroHandhelds.gg](https://discord.com/channels/741895796315914271/1452057823927341196) R36S and clones discord channel.
 
 Feel free to report issues or suggest improvements in the [Issues tab](https://github.com/southoz/dArkOS-G80CA-RE/issues).  
 Happy retro gaming! 🎮
