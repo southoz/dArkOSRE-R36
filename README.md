@@ -47,10 +47,10 @@
 ### In development:
 - R36S-V20 2025-05-18 Vatiant 1 and Variant 2 (in testing)
 - Y3506_V03_20250317 Soysauce V3 thanks to trumaz02 for posting his dtb files.
-- Bring back Drastic! - Selectable Advanced Drastic and Drastic (ready for testing)
-- Fix bg music not playing on SD1 (ready for testing)
-- Fix Swap SD1 / SD2 Kodi database (yup, I missed integrating the update scripts one when releasing the image).
-- Developer ID and Pass in Screenscaper (compiling now, make clean didn't work)
+- Bring back Drastic! - Selectable Advanced Drastic and Drastic (In update being tested [here](https://github.com/southoz/dArkOS-G80CA-RE/issues/16))
+- Fix bg music not playing on SD1 (rIn update being tested [here](https://github.com/southoz/dArkOS-G80CA-RE/issues/16))
+- Fix Swap SD1 / SD2 Kodi database (In update being tested [here](https://github.com/southoz/dArkOS-G80CA-RE/issues/16)).
+- Developer ID and Pass in Screenscaper (In update being tested [here](https://github.com/southoz/dArkOS-G80CA-RE/issues/16))
 - Integrate expandtofat.sh fix to suppress "In the Future Warnings".
 - ogage update to support Jason3x's Pulse Audio implementation.
 - Script to update the controls for each emulator to support the R36H
