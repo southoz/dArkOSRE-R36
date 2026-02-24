@@ -16,6 +16,10 @@
 <img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/ea2ce915-3735-4c09-8e9d-bdbc6212df9b" /> &emsp; <img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/7ca0ee9e-2727-40f9-859e-1a731a485425" /> 
 </p>
 
+## 02062026 Update Patch   
+
+[Download](https://github.com/southoz/dArkOS-G80CA-RE/releases/tag/darkOS-G80CA-RE(02062026)) from the release page.
+
 ## Supported Systems  
 
 ### Clone R36S devices:  
