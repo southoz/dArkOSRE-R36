@@ -67,8 +67,7 @@ Raise an [issue](https://github.com/southoz/dArkOS-G80CA-RE/issues) with the mot
 - Joystick with per-emulator controls updates and hotkeys.
 - Function button support (Menu).
 - Sound (speakers + headphones)
-- Working Battery LED Indicator
-- Battery Charge current 800mAh
+- LED is working on clones, update shortly for Soy Sauce and OG devices.
 
 ## Important Installation Information
 
