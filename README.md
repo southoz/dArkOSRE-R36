@@ -21,31 +21,29 @@
 
 ## Supported Systems  
 
-### Clone R36S devices:  
-- [G80C-MB V1.1-20250319 Panel 8](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) thanks to filthyc0mmie
-- [G80C-MB V1.1-20250319 Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones)
-- G80CA-MB V1.2-20250422 Panel 8
-- [G80CA-MB V1.2-20250422 Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones)
-- G80CA-MB V1.2-20250423 Panel 8
-- [G80CA-MB V1.2-20250423 Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones)
-- G80CA-MB V1.3-20251212 Panel 8 thanks to Robadel and metinbsv
-- [R36S-V12 2023-08-18 Variant 1](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) with EMMC and AMP thanks to @erraja97
-- [R36S-V12 2023-08-18 Variant 2](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) thanks to SethZero
-- [R36S-V12 2023-08-18 Variant 3](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) thanks to Ace007186
-
-### Genuine R36S devices:  
-- [R36S Plus-V20 2025-03-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s) thanks to skajmer
-- [R36S-V12 2023-08-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s)
-- [R36S-V21 2024-12-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s)
-- [R36S-V22 2024-12-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s)
-- [R36XX-V21 2024-12-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s) thanks to Jason3x
-
-### Soysauce R36S devices:
-- [Y3506_V03_20241104](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s)
-- [Y3506_V03_20250317](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s)
-- [Y3506_V04_20250529](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s) thanks to Rokumaehn
-- [Y3506_V05_20251215 2551](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s) thanks to Pedro
-- [Y3506_V05_20251215 2601](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s) thanks to Lucannus
+| Motherboard ID (Variant/Panel) | Type | Status | Tester |
+|----------------|----------------|---------------|---------------|
+| [R36H](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s) | r36s | development | (untested) |
+| [R36S-V12 2023-08-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s) | r36s | completed | southoz  |
+| [R36S-V21 2024-12-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s) | r36s | completed | southoz |
+| [R36S-V22 2024-12-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s) | r36s | untested | (untested) |
+| [R36S Plus-V20 2025-03-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s) | r36s | development | (untested) |
+| [R36XX-V21 2024-12-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s)| r36s | development | (untested) |
+| [G80C-MB V1.1-20250319 Panel 8](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones)  | clone | development | (untested) |
+| [G80C-MB V1.1-20250319 Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones)  | clone | development | (untested) |
+| [G80CA-MB V1.2-20250422 Panel 8]](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) | clone  | completed | southoz |
+| [G80CA-MB V1.2-20250422 Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) | clone | development | (untested) |
+| [G80CA-MB V1.2-20250422 Panel 8]](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones)  | clone  | completed | southoz |
+| [G80CA-MB V1.2-20250422 Panel 9](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) | clone | development | (untested) |
+| [G80CA-MB V1.2-20250423 Panel 8]](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) | clone  | completed | 66dude |
+| [G80CA-MB V1.3-20251212 Panel 8]](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) | clone  | untested | (untested) |
+| [R36S-V12 2023-08-18  Variant 2 Panel 1](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) | clone  | untested | (untested) |
+| [R36S-V12 2023-08-18  Variant 3 Panel A](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#r36s-clones) | clone  | completed | southoz |
+| [Y3506_V03_20241104](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s) | soysauce   | untested  | (untested) |
+| [Y3506_V03_20250317](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s) | soysauce   | completed | darrynmelck |
+| [Y3506_V04_20250529](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s) | soysauce   | untested | (untested) |
+| [Y3506_V05_20251215 2551](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s) | soysauce   | untested| (untested) |
+| [Y3506_V05_20251215 2601](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation#soy-sauce-r36s) | soysauce   | completed | southoz |
 
 ### Not fully supported (No Function Button for Emulator Menus by default):  
 - R36H thanks to the champion, xgenmann, for his help to get this **Operating System** working on his device!
