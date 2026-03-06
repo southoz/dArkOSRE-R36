@@ -13,7 +13,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/southoz/dArkOS-G80CA-RE?style=flat-square)](https://github.com/southoz/dArkOS-G80CA-RE/stargazers)
 
 ## News
-- Issue are disabled for a few days as its a long weekend, sorry if you have a urgent issue jump into [RetroHandhelds.gg](https://discord.com/channels/741895796315914271/1452057823927341196)
+- Issues are disabled for the long weekend. Sorry if you have an urgent issue. [RetroHandhelds.gg](https://discord.com/channels/741895796315914271/1452057823927341196)
 
 ## 02062026 Update Patch   
 
