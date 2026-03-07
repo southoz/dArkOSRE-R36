@@ -3,7 +3,7 @@
 directory=$(dirname "$1" | cut -d "/" -f2)
 if [[ ! -d "/$directory/atarijaguar/.bigpemu_userdata" ]]; then
   mkdir -p /$directory/atarijaguar/.bigpemu_userdata
-  if [ -f "/boot/rk3326-rg351mp-linux.dtb" ] || [ -f "/boot/rk3326-g350-linux.dtb" ] || [ -f "/boot/rk3326-g80ca-linux.dtb" ]; then
+  if [ -f "/boot/rk3326-rg351mp-linux.dtb" ] || [ -f "/boot/rk3326-g350-linux.dtb" ] || [ -f "/boot/rk3326-r36s-linux.dtb" ]; then
     CONFIG="BigPEmuConfig.bigpcfg.rg351mp"
   elif [ -f "/boot/rk3326-odroidgo2-linux.dtb" ] || [ -f "/boot/rk3326-odroidgo2-linux-v11.dtb" ]; then
     if [[ ! -z $(cat /etc/emulationstation/es_input.cfg | grep "190000004b4800000010000001010000") ]]; then

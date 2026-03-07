@@ -79,6 +79,13 @@ status=$?
   unlink /opt/drastic/savestates
   ln -sf /roms/nds/savestates/ /opt/drastic/savestates
   unlink /opt/drastic/slot2
+  unlink /opt/advanceddrastic/backup
+  ln -sf /roms/nds/backup/ /opt/advanceddrastic/backup
+  unlink /opt/advanceddrastic/cheats
+  ln -sf /roms/nds/cheats/ /opt/advanceddrastic/cheats
+  unlink /opt/advanceddrastic/savestates
+  ln -sf /roms/nds/savestates/ /opt/advanceddrastic/savestates
+  unlink /opt/advanceddrastic/slot2
   ln -sf /roms/nds/slot2/ /opt/drastic/slot2
   unlink /home/ark/.config/ppsspp
   ln -sf /roms/psp/ppsspp/ /home/ark/.config/ppsspp

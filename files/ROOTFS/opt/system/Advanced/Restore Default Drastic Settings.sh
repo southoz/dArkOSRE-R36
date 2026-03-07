@@ -7,7 +7,7 @@ JSON=""
 if [ -f "/boot/rk3326-rg351v-linux.dtb" ]; then
   DEVICE="RG351V"
   CONFIG="drastic.cfg.351v"
-elif [ -f "/boot/rk3326-rg351mp-linux.dtb" ] || [ -f "/boot/rk3326-g350-linux.dtb" ] || [ -f "/boot/rk3326-g80ca-linux.dtb" ]; then
+elif [ -f "/boot/rk3326-rg351mp-linux.dtb" ] || [ -f "/boot/rk3326-g350-linux.dtb" ] || [ -f "/boot/rk3326-r36s-linux.dtb" ]; then
   DEVICE="RG351MP"
   CONFIG="drastic.cfg.rg351mp"
   JSON="settings.json.rg351mp"

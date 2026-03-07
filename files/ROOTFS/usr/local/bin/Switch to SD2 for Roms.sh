@@ -95,7 +95,7 @@ then
   sed -i '/roms\//s//roms2\//g'  /home/ark/.config/duckstation/settings.ini
   sed -i '/roms\/bios/s//roms2\/bios/g' /opt/amiberry/conf/amiberry.conf
   sed -i '/.\/351Files 2/s//.\/351Files-sd2 2/g' /opt/system/351Files.sh
-  sed -i 's/roms/roms2/g' /opt/drastic/resources/settings.json
+  sed -i 's/roms/roms2/g' /opt/advanceddrastic/resources/settings.json
   sqlite3 /home/ark/.kodi/userdata/Database/MyVideos131.db "UPDATE path SET strPath = REPLACE(strPath, '/roms/movies', '/roms2/movies');"
   sqlite3 /home/ark/.kodi/userdata/Database/MyMusic83.db "UPDATE path SET strPath = REPLACE(strPath, '/roms/music', '/roms2/music');"
   sed -i '/roms\//s//roms2\//g' /home/ark/.kodi/userdata/sources.xml
@@ -137,6 +137,12 @@ then
   ln -sf /roms2/nds/savestates/ /opt/drastic/savestates
   unlink /opt/drastic/slot2
   ln -sf /roms2/nds/slot2/ /opt/drastic/slot2
+  unlink /opt/advanceddrastic/cheats
+  ln -sf /roms2/nds/cheats/ /opt/advanceddrastic/cheats
+  unlink /opt/advanceddrastic/savestates
+  ln -sf /roms2/nds/savestates/ /opt/advanceddrastic/savestates
+  unlink /opt/advanceddrastic/slot2
+  ln -sf /roms2/nds/slot2/ /opt/advanceddrastic/slot2
   unlink /home/ark/.config/ppsspp
   ln -sf /roms2/psp/ppsspp/ /home/ark/.config/ppsspp
   #sudo rm -rf /roms2/roms/
