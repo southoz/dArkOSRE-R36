@@ -23,7 +23,7 @@
 
 | Motherboard ID (Variant/Panel) | Type | Status | Tester |
 |----------------|----------------|---------------|---------------|
-| [R36H](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s) | r36s | :x: development | |
+| [HL-R36H-V20 2024-05-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s) | r36s | :x: development | |
 | [R36S-V12 2023-08-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s) | r36s | :white_check_mark: completed | :white_check_mark: southoz  |
 | [R36S-V21 2024-12-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s) | r36s | :white_check_mark: completed | :white_check_mark: southoz |
 | [R36S-V22 2024-12-18](https://github.com/southoz/dArkOS-G80CA-RE/wiki/Firmware-Installation/#genuine-r36s) | r36s | :warning: untested |  |
