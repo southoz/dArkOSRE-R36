@@ -1,0 +1,2854 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: recalbox-emulationstation\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Turkce ceviri - Salih Yazitas, 2026
+#: 
+msgid "DISPLAY SETTINGS"
+msgstr "EKRAN AYARLARI"
+
+#: 
+msgid "DISPLAY"
+msgstr "EKRAN"
+
+#: 
+msgid "BRIGHTNESS"
+msgstr "PARLAKLIK"
+
+#: 
+msgid "CONFIGURATION"
+msgstr "AYARLAR"
+
+#: 
+msgid "TIMEZONE"
+msgstr "SAAT DİLİMİ"
+
+#: 
+msgid "ON"
+msgstr "AÇIK"
+
+#: 
+msgid "OFF"
+msgstr "KAPALI"
+
+msgid "EMULATOR SETTINGS"
+msgstr "EMÜLATÖR AYARLARI"
+
+#:
+msgid "LOG LEVEL"
+msgstr "KAYIT SEVİYESİ"
+
+#: 
+msgid "Loading..."
+msgstr "Yükleniyor..."
+
+#:
+msgid "THEME INSTALLED SUCCESSFULLY"
+msgstr "TEMA BAŞARIYLA KURULDU"
+
+#:
+msgid "Downloading"
+msgstr "İndiriliyor"
+
+#:
+msgid "Extracting"
+msgstr "Çıkarılıyor"
+
+#:
+msgid "AUDIO CARD"
+msgstr "SES KARTI"
+
+#:
+msgid "Only missing medias"
+msgstr "Sadece eksik medya"
+
+#:
+msgid "always"
+msgstr "her zaman"
+
+#:
+msgid "start & end"
+msgstr "başta ve sonda"
+
+#:
+msgid "never"
+msgstr "asla"
+
+#:
+msgid "SCRAPE VIDEOS"
+msgstr "VİDEOLARI TARA"
+
+#:
+msgid "RESET GAMELIST CUSTOMISATIONS"
+msgstr "OYUN LİSTESİNİ SIFIRLA"
+
+#:
+msgid "RESET"
+msgstr "SIFIRLA"
+
+#:
+msgid "SHOW FOLDERS"
+msgstr "KLASÖRLERİ GÖSTER"
+
+#:
+msgid "ARE YOU SURE YOU WANT TO CONFIGURE INPUT?"
+msgstr "GİRİŞİ AYARLAMAK İSTİYOR MUSUNUZ?"
+
+#:
+msgid "disabled"
+msgstr "kapalı"
+
+#:
+msgid "default"
+msgstr "varsayılan"
+
+#:
+msgid "warning"
+msgstr "uyarı"
+
+#:
+msgid "error"
+msgstr "hata"
+
+#: 
+msgid "Preloading UI"
+msgstr "Arayüz hazırlanıyor"
+
+#: 
+msgid "GRID SIZE"
+msgstr "IZGARA BOYUTU"
+
+#: 
+msgid "DEFAULT GRID SIZE"
+msgstr "VARSAYILAN IZGARA BOYUTU"
+
+#: 
+msgid "UI MODE"
+msgstr "ARAYÜZ MODU"
+
+#: 
+msgid "PRELOAD UI"
+msgstr "ARAYÜZÜ ÖN YÜKLE"
+
+#: 
+msgid "VSYNC"
+msgstr "VSYNC"
+
+#: 
+msgid "DISPLAY FAVORITES FIRST IN GAMELIST"
+msgstr "FAVORİLER LİSTEDE ÖNCE"
+
+#: 
+msgid "OPTIMIZE IMAGES VRAM USE"
+msgstr "VRAM GÖRSEL OPTİMİZASYONU"
+
+#: 
+msgid "Full"
+msgstr "Tam"
+
+#: 
+msgid "Kiosk"
+msgstr "Kiosk"
+
+#: 
+msgid "Kid"
+msgstr "Çocuk"
+
+#: 
+msgstr "GAME COLLECTION SETTINGS"
+msgstr "KOLEKSİYON AYARLARI"
+
+#:
+msgstr "CANCEL"
+msgstr "EINGESCHRÄNKT (Kids)"
+
+#:
+msgid "automatic"
+msgstr "otomatik"
+
+#: 
+msgid "basic"
+msgstr "basit"
+
+#: 
+msgid "BASIC"
+msgstr "BASİT"
+
+#: 
+msgid "detailed"
+msgstr "detaylı"
+
+#: 
+msgid "DETAILED"
+msgstr "DETAYLI"
+
+#: 
+msgid "grid"
+msgstr "ızgara"
+
+#: 
+msgid "fade"
+msgstr "solma"
+
+#: 
+msgid "slide"
+msgstr "kaydırma"
+
+#: 
+msgid "gridex"
+msgstr "gridex"
+
+#:
+msgid "SWAP VIDEO AFTER (SECS)"
+msgstr "VİDEO DEĞİŞİMİ (SN)"
+
+#:
+msgid "SWAP IMAGE AFTER (SECS)"
+msgstr "GÖRSEL DEĞİŞİMİ (SN)"
+
+#:
+msgid "STRETCH IMAGES"
+msgstr "GÖRSELLERİ GER"
+
+#:
+msgid "USE CUSTOM IMAGES"
+msgstr "ÖZEL GÖRSEL KULLAN"
+
+#:
+msgid "CUSTOM IMAGE DIR"
+msgstr "ÖZEL GÖRSEL KLASÖRÜ"
+
+#:
+msgid "CUSTOM IMAGE DIR RECURSIVE"
+msgstr "ÖZEL GÖRSEL ALT KLASÖRLERİ"
+
+#:
+msgid "CUSTOM IMAGE FILTER"
+msgstr "ÖZEL GÖRSEL FİLTRESİ"
+
+#:
+msgid "USE OMX PLAYER FOR SCREENSAVER"
+msgstr "KORUYUCUDA OMX PLAYER KULLAN"
+
+#:
+msgid "SHOW GAME INFO"
+msgstr "OYUN BİLGİSİ GÖSTER"
+
+#:
+msgid "SHOW GAME INFO ON SCREENSAVER"
+msgstr "KORUYUCUDA OYUN BİLGİSİ"
+
+#:
+msgid "USE MARQUEE AS GAME INFO"
+msgstr "OYUN BİLGİSİ İÇİN MARQUEE"
+
+#:
+msgid "STRETCH VIDEO ON SCREENSAVER"
+msgstr "KORUYUCUDA VİDEOYU GER"
+
+#:
+msgid "This collection is empty"
+msgstr "Bu koleksiyon boş"
+
+#:
+msgid "None"
+msgstr "Yok"
+
+#:
+msgid "Various"
+msgstr "Çeşitli"
+
+#:
+msgid "among other titles."
+msgstr "ve diğer oyunlar."
+
+#:
+msgid "This collection contains"
+msgstr "Bu koleksiyon şunları içerir"
+
+
+#: 
+msgid "ENABLE NAVIGATION SOUNDS"
+msgstr "GEZİNME SESLERİ"
+
+#: 
+msgid "ENABLE VIDEO AUDIO"
+msgstr "VİDEO SESİ"
+
+#: 
+msgid "APPLY FILTER"
+msgstr "FİLTRE UYGULA"
+
+#: 
+msgid "AUTOMATIC GAME COLLECTIONS"
+msgstr "OTOMATİK KOLEKSİYONLAR"
+
+#: 
+msgid "SELECT COLLECTIONS"
+msgstr "KOLEKSİYON SEÇ"
+
+#: 
+msgid "CUSTOM GAME COLLECTIONS"
+msgstr "ÖZEL KOLEKSİYONLAR"
+
+#: 
+msgid "CREATE NEW CUSTOM COLLECTION FROM THEME"
+msgstr "TEMADAN ÖZEL KOLEKSİYON OLUŞTUR"
+
+#: 
+msgid "GAME COLLECTION SETTINGS"
+msgstr "KOLEKSİYON AYARLARI"
+
+#: 
+msgid "SELECT THEME FOLDER"
+msgstr "TEMA KLASÖRÜ SEÇ"
+
+#: 
+msgid "CREATE NEW CUSTOM COLLECTION"
+msgstr "YENİ ÖZEL KOLEKSİYON"
+
+#: 
+msgid "New Collection Name"
+msgstr "Yeni Koleksiyon Adı"
+
+#: 
+msgid "Loading..."
+msgstr "Yükleniyor..."
+
+#: 
+msgid "GROUP UNTHEMED CUSTOM COLLECTIONS"
+msgstr "TEMASIZ KOLEKSİYONLARI GRUPLA"
+
+#: 
+msgid "SORT CUSTOM COLLECTIONS AND SYSTEMS"
+msgstr "KOLEKSİYON VE SİSTEMLERİ SIRALA"
+
+#: 
+msgid "SHOW SYSTEM NAME IN COLLECTIONS"
+msgstr "KOLEKSİYONDA SİSTEM ADI"
+
+#: 
+msgid "FINISH EDITING COLLECTION"
+msgstr "DÜZENLEMEYİ BİTİR"
+
+#: 
+msgid "PARSE GAMESLISTS ONLY"
+msgstr "SADECE OYUN LİSTESİNİ OKU"
+
+#: 
+msgid "POWER SAVER MODES"
+msgstr "GÜÇ TASARRUF MODU"
+
+#: 
+msgid "Enhanced"
+msgstr "Gelişmiş"
+
+#: 
+msgid "instant"
+msgstr "anında"
+
+#: 
+msgid "SAVE METADATA ON EXIT"
+msgstr "ÇIKIŞTA BİLGİLERİ KAYDET"
+
+#: 
+msgid "SHOW HIDDEN FILES"
+msgstr "GİZLİ DOSYALARI GÖSTER"
+
+#: 
+msgid "VRAM LIMIT"
+msgstr "VRAM SINIRI"
+
+#: 
+msgid "RESET ALL FILTERS"
+msgstr "FİLTRELERİ SIFIRLA"
+
+#: 
+msgid "GAMELIST VIEW STYLE"
+msgstr "OYUN LİSTESİ GÖRÜNÜMÜ"
+
+#: 
+msgid "GAME LAUNCH TRANSITION"
+msgstr "OYUN AÇILIŞ GEÇİŞİ"
+
+#: 
+msgid "Searching..."
+msgstr "Aranıyor..."
+
+#: 
+msgid "RANDOM"
+msgstr "RASTGELE"
+
+#: 
+msgid "Rating"
+msgstr "Puan"
+
+#: 
+msgid "Rating:"
+msgstr "Puan:"
+
+#: 
+msgid "Released"
+msgstr "Çıkış"
+
+#: 
+msgid "Released:"
+msgstr "Çıkış:"
+
+#: 
+msgid "Developer"
+msgstr "Geliştirici"
+
+#: 
+msgid "Publisher"
+msgstr "Yayıncı"
+
+#: 
+msgid "Genre"
+msgstr "Tür"
+
+#: 
+msgid "Players"
+msgstr "Oyuncu"
+
+#: 
+msgid "Players:"
+msgstr "Oyuncu:"
+
+#: 
+msgid "NO GAMES FOUND - SKIP"
+msgstr "OYUN BULUNAMADI - ATLA"
+
+#: 
+msgid "RETRY"
+msgstr "TEKRAR DENE"
+
+#: 
+msgid "SKIP"
+msgstr "ATLA"
+
+#: 
+msgid "SEARCH FOR"
+msgstr "ŞUNU ARA"
+
+#: 
+msgid "SEARCH FOR LOCAL ART"
+msgstr "YEREL GÖRSEL ARA"
+
+#: 
+msgid "THREADED LOADING"
+msgstr "PARALEL YÜKLEME"
+
+#:
+msgid "COMPLETE QUIT MENU"
+msgstr "TAM ÇIKIŞ MENÜSÜ"
+
+#: 
+msgid "SEARCH"
+msgstr "ARA"
+
+#: 
+msgid "SCRAPING IN PROGRESS"
+msgstr "TARAMA SÜRÜYOR"
+
+#: 
+msgid "SYSTEM"
+msgstr "SİSTEM"
+
+#: 
+msgid "subtitle text"
+msgstr "alt yazı metni"
+
+#: 
+msgid "INPUT"
+msgstr "GİRİŞ"
+
+#: 
+msgid "search"
+msgstr "ara"
+
+#: 
+msgid "STOP"
+msgstr "DURDUR"
+
+#: 
+msgid "stop (progress saved)"
+msgstr "durdur (ilerleme kaydedildi)"
+
+#: 
+msgid "GAME %i OF %i"
+msgstr "OYUN %i / %i"
+
+#: 
+msgid "WE CAN'T FIND ANY SYSTEMS!\n"
+msgid "WE CAN'T FIND ANY SYSTEMS!\n"
+"CHECK THAT YOUR PATHS ARE CORRECT IN THE SYSTEMS CONFIGURATION FILE, AND YOUR GAME DIRECTORY HAS AT LEAST ONE GAME WITH THE CORRECT EXTENSION.\n"
+"\n"
+""
+msgstr "HİÇBİR SİSTEM BULUNAMADI!\n"
+"Überprüfen bitte ob der Pfad in der Systemkonfigurationsdatei korrekt ist und ob mindestens ein Spiel mit der richtigen Erweiterung in Ihrem Spieleverzeichnis vorhanden ist.\n"
+"\n"
+""
+
+#: 
+msgid "%i GAME SUCCESSFULLY SCRAPED!"
+msgid "%i GAME SUCCESSFULLY SCRAPED!"
+msgid_plural "%i GAMES SUCCESSFULLY SCRAPED!"
+msgstr[0] "%i OYUN BAŞARIYLA TARANDI!"
+msgstr[1] "%i OYUN BAŞARIYLA TARANDI!"
+
+#: 
+msgid "%i GAME SKIPPED."
+msgid "%i GAME SKIPPED."
+msgid_plural "%i GAMES SKIPPED."
+msgstr[0] "%i OYUN ATLANDI!"
+msgstr[1] "%i OYUN ATLANDI!"
+
+#: 
+msgid "OK"
+msgstr "TAMAM"
+
+#: 
+msgid "EDIT METADATA"
+msgstr "BİLGİLERİ DÜZENLE"
+
+#: 
+msgid "SCRAPE"
+msgstr "TARA"
+
+#: 
+msgid "SAVE"
+msgstr "KAYDET"
+
+#: 
+msgid "THIS WILL DELETE A FILE!\n"
+msgid "THIS WILL DELETE A FILE!\n"
+"ARE YOU SURE?"
+msgstr "DOSYA SİLİNECEK!\n"
+" BIST DU SICHER?"
+
+#: 
+msgid "YES"
+msgstr "EVET"
+
+#: 
+msgid "NO"
+msgstr "HAYIR"
+
+#: 
+msgid "DELETE"
+msgstr "SİL"
+
+#: 
+msgid "SAVE CHANGES?"
+msgstr "DEĞİŞİKLİKLER KAYDEDİLSİN Mİ?"
+
+#: 
+msgid "BACK"
+msgstr "GERİ"
+
+#: 
+msgid "CLOSE"
+msgstr "KAPAT"
+
+#: 
+msgid "MAIN MENU"
+msgstr "ANA MENÜ"
+
+#: 
+msgid "KODI MEDIA CENTER"
+msgstr "KODI MEDYA MERKEZİ"
+
+#: 
+msgid "SYSTEM SETTINGS"
+msgstr "SİSTEM AYARLARI"
+
+#: 
+msgid "VERSION"
+msgstr "SÜRÜM"
+
+#: 
+msgid "DISK USAGE"
+msgstr "DİSK KULLANIMI"
+
+#: 
+msgid "STORAGE DEVICE"
+msgstr "DEPOLAMA AYGITI"
+
+#: 
+msgid "LANGUAGE"
+msgstr "DİL"
+
+#: 
+msgid "OVERCLOCK"
+msgstr "OVERCLOCK"
+
+#: 
+msgid "EXTREM (1100Mhz)"
+msgstr "EKSTREM (1100Mhz)"
+
+#: 
+msgid "TURBO (1000Mhz)"
+msgstr "TURBO (1000Mhz)"
+
+#: 
+msgid "HIGH (950Mhz)"
+msgstr "YÜKSEK (950Mhz)"
+
+#: 
+msgid "NONE (700Mhz)"
+msgstr "YOK (700Mhz)"
+
+#: 
+msgid "TURBO (1050Mhz)+"
+msgstr "TURBO (1050Mhz)+"
+
+#: 
+msgid "HIGH (1050Mhz)"
+msgstr "YÜKSEK (1050Mhz)"
+
+#: 
+msgid "NONE (900Mhz)"
+msgstr "YOK (900Mhz)"
+
+#: 
+msgid "NONE (1200Mhz)"
+msgstr "YOK (1200Mhz)"
+
+#: 
+msgid "NONE"
+msgstr "YOK"
+
+#. NEW SETTINGS ORGANIZATION
+#: 
+msgid "UPDATES"
+msgstr "GÜNCELLEMELER"
+
+#: 
+msgid "AUTO UPDATES"
+msgstr "OTOMATİK GÜNCELLEME"
+
+#: 
+msgid "START UPDATE"
+msgstr "GÜNCELLEMEYİ BAŞLAT"
+
+#: 
+msgid "APPLY UPDATE"
+msgstr "GÜNCELLEMEYİ UYGULA"
+
+#: 
+msgid "DOWNLOADS AND UPDATES"
+msgstr "İNDİRME VE GÜNCELLEME"
+
+#: 
+msgid "THEME INSTALLER"
+msgstr "TEMA YÜKLEYİCİ"
+
+#: 
+msgid "IMAGE SOURCE"
+msgstr "GÖRSEL KAYNAĞI"
+
+#: 
+msgid "BOX SOURCE"
+msgstr "KUTU KAYNAĞI"
+
+#: 
+msgid "LOGO SOURCE"
+msgstr "LOGO KAYNAĞI"
+
+#:
+msgid "SHOW FILENAMES IN LISTS"
+msgstr "LİSTEDE DOSYA ADI GÖSTER"
+
+#:
+msgid "LOWER MUSIC WHEN PLAYING VIDEO"
+msgstr "VİDEODA MÜZİĞİ KIS"
+
+#:
+msgid "PLAY THEME MUSICS"
+msgstr "TEMA MÜZİKLERİNİ ÇAL"
+
+#:
+msgid "DISPLAY SONG TITLES"
+msgstr "ŞARKI ADINI GÖSTER"
+
+#:
+msgid "SHOW FAVORITES ON TOP"
+msgstr "FAVORİLERİ ÜSTTE GÖSTER"
+
+#:
+msgid "SHOW CLOCK"
+msgstr "SAATİ GÖSTER"
+
+#: 
+msgid "KODI SETTINGS"
+msgstr "KODI AYARLARI"
+
+#: 
+msgid "ENABLE KODI"
+msgstr "KODI'Yİ ETKİNLEŞTİR"
+
+#: 
+msgid "KODI AT START"
+msgstr "AÇILIŞTA KODI"
+
+#: 
+msgid "START KODI WITH X"
+msgstr "X İLE KODI BAŞLAT"
+
+#: 
+msgid "SECURITY"
+msgstr "GÜVENLİK"
+
+#: 
+msgid "ENFORCE SECURITY"
+msgstr "GÜVENLİĞİ ZORLA"
+
+#: 
+msgid "ROOT PASSWORD"
+msgstr "ROOT ŞİFRESİ"
+
+#: 
+msgid "THE SYSTEM WILL NOW REBOOT"
+msgstr "SİSTEM YENİDEN BAŞLATILACAK"
+
+#: 
+msgid "GAMES SETTINGS"
+msgstr "OYUN AYARLARI"
+
+#: 
+msgid "GAME RATIO"
+msgstr "OYUN ORANI"
+
+#: 
+msgid "SMOOTH GAMES"
+msgstr "GÖRÜNTÜYÜ YUMUŞAT"
+
+#: 
+msgid "REWIND"
+msgstr "GERİ SARMA"
+
+#: 
+msgid "AUTO SAVE/LOAD"
+msgstr "OTOMATİK KAYIT/YÜKLEME"
+
+#: 
+msgid "SHADERS SET"
+msgstr "GÖLGELENDİRİCİ SETİ"
+
+#: 
+msgid "SCANLINES"
+msgstr "TARAMA ÇİZGİLERİ"
+
+#: 
+msgid "RETRO"
+msgstr "RETRO"
+
+#: 
+msgid "RETROACHIEVEMENTS SETTINGS"
+msgstr "RETROACHIEVEMENTS AYARLARI"
+
+#: 
+msgid "RETROACHIEVEMENTS"
+msgstr "RETROACHIEVEMENTS"
+
+#: 
+msgid "HARDCORE MODE"
+msgstr "HARDCORE MOD"
+
+#: 
+msgid "USERNAME"
+msgstr "KULLANICI ADI"
+
+#: 
+msgid "PASSWORD"
+msgstr "ŞİFRE"
+
+#: 
+msgid "ADVANCED"
+msgstr "GELİŞMİŞ"
+
+#: 
+msgid "REALLY UPDATE GAMES LISTS ?"
+msgstr "OYUN LİSTELERİ GÜNCELLENSİN Mİ?"
+
+#: 
+msgid "UPDATE GAMES LISTS"
+msgstr "OYUN LİSTELERİNİ GÜNCELLE"
+
+#: 
+msgid "CONTROLLERS SETTINGS"
+msgstr "KUMANDA AYARLARI"
+
+#: 
+msgid "UI SETTINGS"
+msgstr "ARAYÜZ AYARLARI"
+
+#: 
+msgid "OVERSCAN"
+msgstr "OVERSCAN"
+
+#:
+msgid "LAUNCH SCREENSAVER"
+msgstr "EKRAN KORUYUCUYU BAŞLAT"
+
+#: 
+msgid "SCREENSAVER SETTINGS"
+msgstr "EKRAN KORUYUCU AYARLARI"
+
+#: 
+msgid "SCREENSAVER AFTER"
+msgstr "KORUYUCU SÜRESİ"
+
+#: 
+msgid "TRANSITION STYLE"
+msgstr "GEÇİŞ STİLİ"
+
+#: 
+msgid "SCREENSAVER BEHAVIOR"
+msgstr "KORUYUCU DAVRANIŞI"
+
+#: 
+msgid "SHOW FRAMERATE"
+msgstr "FPS GÖSTER"
+
+#: 
+msgid "ON-SCREEN HELP"
+msgstr "EKRAN YARDIMI"
+
+#: 
+msgid "HIDE WHEN RUNNING GAME"
+msgstr "OYUNDA GİZLE"
+
+#: 
+msgid "QUICK SYSTEM SELECT"
+msgstr "HIZLI SİSTEM SEÇİMİ"
+
+#: 
+msgid "THEME"
+msgstr "TEMA"
+
+#: 
+msgid "SOUND SETTINGS"
+msgstr "SES AYARLARI"
+
+#: 
+msgid "SYSTEM VOLUME"
+msgstr "SİSTEM SESİ"
+
+#: 
+msgid "FRONTEND MUSIC"
+msgstr "ARAYÜZ MÜZİĞİ"
+
+#: 
+msgid "ONLY PLAY SYSTEM-SPECIFIC MUSIC FOLDER"
+msgstr "SADECE SİSTEME ÖZEL MÜZİK"
+
+#: 
+msgid "FILTER GAMES BY TEXT"
+msgstr "OYUNLARI METİNLE FİLTRELE"
+
+#: 
+msgid "OUTPUT DEVICE"
+msgstr "ÇIKIŞ AYGITI"
+
+#: 
+msgid "HDMI"
+msgstr "HDMI"
+
+#: 
+msgid "JACK"
+msgstr "JACK"
+
+#: 
+msgid "AUTO"
+msgstr "OTOMATİK"
+
+#: 
+msgid "NETWORK SETTINGS"
+msgstr "AĞ AYARLARI"
+
+#: 
+msgid "CONNECTED"
+msgstr "BAĞLI"
+
+#: 
+msgid "NOT CONNECTED"
+msgstr "BAĞLI DEĞİL"
+
+#: 
+msgid "STATUS"
+msgstr "DURUM"
+
+#: 
+msgid "IP ADDRESS"
+msgstr "IP ADRESİ"
+
+#: 
+msgid "HOSTNAME"
+msgstr "SUNUCU ADI"
+
+#: 
+msgid "ENABLE WIFI"
+msgstr "WIFI'Yİ AÇ"
+
+#: 
+msgid "WIFI SSID"
+msgstr "WIFI SSID"
+
+#: 
+msgid "WIFI KEY"
+msgstr "WIFI ŞİFRESİ"
+
+#: 
+msgid "WIFI ENABLED"
+msgstr "WIFI AÇIK"
+
+#: 
+msgid "WIFI CONFIGURATION ERROR"
+msgstr "WIFI AYAR HATASI"
+
+#: 
+msgid "SCRAPER"
+msgstr "TARAYICI"
+
+#: 
+msgid "SCRAPE FROM"
+msgstr "TARAMA KAYNAĞI"
+
+#: 
+msgid "SCRAPE RATINGS"
+msgstr "PUANLARI TARA"
+
+#: 
+msgid "SCRAPE NOW"
+msgstr "ŞİMDİ TARA"
+
+#: 
+msgid "QUIT"
+msgstr "ÇIKIŞ"
+
+#: 
+msgid "QUIT EMULATIONSTATION"
+msgstr "EMULATIONSTATION'DAN ÇIK"
+
+#: 
+msgid "RESTART EMULATIONSTATION"
+msgstr "EMULATIONSTATION'I YENİDEN BAŞLAT"
+
+#: 
+msgid "REALLY QUIT?"
+msgstr "ÇIKILSIN MI?"
+
+#: 
+msgid "REALLY RESTART?"
+msgstr "YENİDEN BAŞLATILSIN MI?"
+
+#: 
+msgid "RESTART SYSTEM"
+msgstr "SİSTEMİ YENİDEN BAŞLAT"
+
+#: 
+msgid "REALLY SHUTDOWN?"
+msgstr "KAPATILSIN MI?"
+
+#: 
+msgid "SHUTDOWN SYSTEM"
+msgstr "SİSTEMİ KAPAT"
+
+#: 
+msgid "Emulator"
+msgstr "Emülatör"
+
+#: 
+msgid "Core"
+msgstr "Çekirdek"
+
+#: 
+msgid "YOU ARE GOING TO CONFIGURE A CONTROLLER. IF YOU HAVE ONLY ONE JOYSTICK, CONFIGURE THE DIRECTIONS KEYS AND SKIP JOYSTICK CONFIG BY HOLDING A BUTTON. IF YOU DO NOT HAVE A SPECIAL KEY FOR HOTKEY, CHOOSE THE SELECT BUTTON. SKIP ALL BUTTONS YOU DO NOT HAVE BY HOLDING A KEY. BUTTONS NAMES ARE BASED ON THE SNES CONTROLLER."
+msgstr "BİR KUMANDA AYARLAYACAKSINIZ. TEK ANALOG ÇUBUĞUNUZ VARSA YÖN TUŞLARINI AYARLAYIN VE BİR TUŞA BASILI TUTARAK ÇUBUK AYARINI ATLAYIN. KISAYOL İÇİN ÖZEL TUŞUNUZ YOKSA SELECT TUŞUNU SEÇİN. OLMAYAN TÜM TUŞLARI BİR TUŞA BASILI TUTARAK ATLAYIN. TUŞ ADLARI SNES KUMANDASINA GÖREDİR."
+
+#. GUIMENU
+#: 
+msgid "CONFIGURE A CONTROLLER"
+msgstr "KUMANDA AYARLA"
+
+#. Bluetooth
+#: 
+msgid "CONTROLLER PAIRED"
+msgstr "KUMANDA EŞLEŞTİ"
+
+#: 
+msgid "UNABLE TO PAIR CONTROLLER"
+msgstr "KUMANDA EŞLEŞTİRİLEMEDİ"
+
+#: 
+msgid "AN ERROR OCCURED"
+msgstr "BİR HATA OLUŞTU"
+
+#: 
+msgid "NO CONTROLLERS FOUND"
+msgstr "KUMANDA BULUNAMADI"
+
+#: 
+msgid "PAIR A BLUETOOTH CONTROLLER"
+msgstr "BLUETOOTH KUMANDA EŞLEŞTİR"
+
+#: 
+msgid "CONTROLLERS LINKS HAVE BEEN DELETED."
+msgstr "KUMANDA BAĞLANTILARI SİLİNDİ."
+
+#: 
+msgid "FORGET BLUETOOTH CONTROLLERS"
+msgstr "BLUETOOTH KUMANDALARI UNUT"
+
+#: 
+msgid "INPUT P%i"
+msgstr "GİRİŞ P%i"
+
+#: 
+msgid "CHOOSE"
+msgstr "SEÇ"
+
+#: 
+msgid "SELECT"
+msgstr "SELECT"
+
+#: 
+msgid "OPTIONS"
+msgstr "SEÇENEKLER"
+
+#: 
+msgid "JUMP TO LETTER"
+msgstr "HARFE ATLA"
+
+#: 
+msgid "SORT GAMES BY"
+msgstr "SIRALAMA ÖLÇÜTÜ"
+
+#. FAVORITES
+#: 
+msgid "FAVORITES ONLY"
+msgstr "SADECE FAVORİLER"
+
+#: 
+msgid "EDIT THIS GAME'S METADATA"
+msgstr "OYUN BİLGİLERİNİ DÜZENLE"
+
+#: 
+msgid "SCRAPE THESE GAMES"
+msgstr "BU OYUNLARI TARA"
+
+#: 
+msgid "All Games"
+msgstr "Tüm Oyunlar"
+
+#. MISSING SCRAPPER TRANSLATIONS
+#: 
+msgid "Only missing image"
+msgstr "Sadece görseli eksik"
+
+#: 
+msgid "FILTER"
+msgstr "FİLTRE"
+
+#: 
+msgid "SCRAPE THESE SYSTEMS"
+msgstr "BU SİSTEMLERİ TARA"
+
+#: 
+msgid "SYSTEMS"
+msgstr "SİSTEMLER"
+
+#: 
+msgid "USER DECIDES ON CONFLICTS"
+msgstr "ÇAKIŞMADA KULLANICI KARAR VERİR"
+
+#: 
+msgid "START"
+msgstr "BAŞLAT"
+
+#: 
+msgid "WARNING: SOME OF YOUR SELECTED SYSTEMS DO NOT HAVE A PLATFORM SET. RESULTS MAY BE EVEN MORE INACCURATE THAN USUAL!\n"
+msgid "WARNING: SOME OF YOUR SELECTED SYSTEMS DO NOT HAVE A PLATFORM SET. RESULTS MAY BE EVEN MORE INACCURATE THAN USUAL!\n"
+"CONTINUE ANYWAY?"
+msgstr "UYARI: SEÇTİĞİNİZ BAZI SİSTEMLERİN PLATFORMU AYARLANMAMIŞ. SONUÇLAR BEKLENENDEN DAHA HATALI OLABİLİR!\n"
+"TROTZDEM FORTFAHREN?"
+
+#: 
+msgid "NO GAMES FIT THAT CRITERIA."
+msgstr "BU ÖLÇÜTE UYAN OYUN YOK."
+
+#: 
+msgid "REALLY UPDATE?"
+msgstr "GÜNCELLENSİN Mİ?"
+
+#: 
+msgid "NETWORK CONNECTION NEEDED"
+msgstr "AĞ BAĞLANTISI GEREKLİ"
+
+#: 
+msgid "UPDATE DOWNLOADED, THE SYSTEM WILL NOW REBOOT"
+msgstr "GÜNCELLEME İNDİRİLDİ, SİSTEM YENİDEN BAŞLATILACAK"
+
+#: 
+msgid "UPDATE FAILED, THE SYSTEM WILL NOW REBOOT"
+msgstr "GÜNCELLEME BAŞARISIZ, SİSTEM YENİDEN BAŞLATILACAK"
+
+#: 
+msgid "NO UPDATE AVAILABLE"
+msgstr "GÜNCELLEME YOK"
+
+#: 
+msgid "enter emulator"
+msgstr "emülatör gir"
+
+#: 
+msgid "enter core"
+msgstr "çekirdek gir"
+
+#: 
+msgid "Ratio"
+msgstr "Oran"
+
+#: 
+msgid "enter ratio"
+msgstr "oran gir"
+
+#: 
+msgid "Name"
+msgstr "Ad"
+
+#: 
+msgid "enter game name"
+msgstr "oyun adı gir"
+
+#: 
+msgid "Description"
+msgstr "Açıklama"
+
+#: 
+msgid "enter description"
+msgstr "açıklama gir"
+
+#: 
+msgid "Image"
+msgstr "Görsel"
+
+#: 
+msgid "enter path to image"
+msgstr "görsel yolu gir"
+
+#: 
+msgid "Thumbnail"
+msgstr "Küçük resim"
+
+#: 
+msgid "enter path to thumbnail"
+msgstr "küçük resim yolu gir"
+
+#: 
+msgid "enter rating"
+msgstr "puan gir"
+
+#: 
+msgid "Release date"
+msgstr "Çıkış tarihi"
+
+#: 
+msgid "enter release date"
+msgstr "çıkış tarihi gir"
+
+#: 
+msgid "enter game developer"
+msgstr "geliştirici gir"
+
+#: 
+msgid "enter game publisher"
+msgstr "yayıncı gir"
+
+#: 
+msgid "enter game genre"
+msgstr "tür gir"
+
+#: 
+msgid "enter number of players"
+msgstr "oyuncu sayısı gir"
+
+#: 
+msgid "Favorite"
+msgstr "Favori"
+
+#: 
+msgid "enter favorite"
+msgstr "favori gir"
+
+#: 
+msgid "Region"
+msgstr "Bölge"
+
+#: 
+msgid "enter region"
+msgstr "bölge gir"
+
+#: 
+msgid "Romtype"
+msgstr "Rom türü"
+
+#: 
+msgid "enter romtype"
+msgstr "rom türü gir"
+
+#: 
+msgid "Hidden"
+msgstr "Gizli"
+
+#: 
+msgid "HIDDEN"
+msgstr "GİZLİ"
+
+#: 
+msgid "NAME"
+msgstr "AD"
+
+#: 
+msgid "EMULATOR"
+msgstr "EMÜLATÖR"
+
+#: 
+msgid "FAVORITE"
+msgstr "FAVORİ"
+
+#: 
+msgid "set hidden"
+msgstr "gizli yap"
+
+#: 
+msgid "Play count"
+msgstr "Oynanma sayısı"
+
+#: 
+msgid "enter number of times played"
+msgstr "oynanma sayısı gir"
+
+#: 
+msgid "Last played"
+msgstr "Son oynanma"
+
+#: 
+msgid "enter last played date"
+msgstr "son oynanma tarihi gir"
+
+#: 
+msgid "GAMES AVAILABLE"
+msgstr "OYUN MEVCUT"
+
+#:
+msgid "%i GAME AVAILABLE"
+msgid "%i GAME AVAILABLE"
+msgid_plural "%i GAMES AVAILABLE"
+msgstr[0] "%i OYUN VAR"
+msgstr[1] "%i OYUN VAR"
+
+#: 
+msgid "%i FAVORITE"
+msgid "%i FAVORITE"
+msgid_plural "%i FAVORITES"
+msgstr[0] "%i FAVORITE"
+msgstr[1] "%i FAVORITEN"
+
+#: 
+msgid "SCROLL"
+msgstr "KAYDIR"
+
+#: 
+msgid "LAUNCH"
+msgstr "BAŞLAT"
+
+#: 
+msgid "Times played"
+msgstr "Oynanma sayısı"
+
+#: 
+msgid "MENU"
+msgstr "MENÜ"
+
+#: 
+msgid "FILENAME, ASCENDING"
+msgstr "DOSYA ADI, ARTAN"
+
+#: 
+msgid "FILENAME, DESCENDING"
+msgstr "DOSYA ADI, AZALAN"
+
+#: 
+msgid "RATING, ASCENDING"
+msgstr "PUAN, ARTAN"
+
+#: 
+msgid "RATING, DESCENDING"
+msgstr "PUAN, AZALAN"
+
+#: 
+msgid "TIMES PLAYED, ASCENDING"
+msgstr "OYNANMA, ARTAN"
+
+#: 
+msgid "TIMES PLAYED, DESCENDING"
+msgstr "OYNANMA, AZALAN"
+
+#: 
+msgid "LAST PLAYED, ASCENDING"
+msgstr "SON OYNANMA, ARTAN"
+
+#: 
+msgid "LAST PLAYED, DESCENDING"
+msgstr "SON OYNANMA, AZALAN"
+
+#: 
+msgid "WORKING..."
+msgstr "ÇALIŞIYOR..."
+
+#: 
+msgid "CHANGE"
+msgstr "DEĞİŞTİR"
+
+#: 
+msgid "never"
+msgstr "asla"
+
+#: 
+msgid "just now"
+msgstr "az önce"
+
+#: 
+msgid "%i sec ago"
+msgid "%i sec ago"
+msgid_plural "%i secs ago"
+msgstr[0] "vor %i Sekunde"
+msgstr[1] "vor %i Sekunden"
+
+#: 
+msgid "%i min ago"
+msgid "%i min ago"
+msgid_plural "%i mins ago"
+msgstr[0] "vor %i Minute"
+msgstr[1] "vor %i Minuten"
+
+#: 
+msgid "%i hour ago"
+msgid "%i hour ago"
+msgid_plural "%i hours ago"
+msgstr[0] "vor %i Stunde"
+msgstr[1] "vor %i Stunden"
+
+#: 
+msgid "%i day ago"
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "vor %i Tag"
+msgstr[1] "vor %i Tagen"
+
+#: 
+msgid "unknown"
+msgstr "bilinmiyor"
+
+#: 
+msgid "SELECT ALL"
+msgstr "TÜMÜNÜ SEÇ"
+
+#: 
+msgid "SELECT NONE"
+msgstr "SEÇİMİ KALDIR"
+
+#: 
+msgid "%i SELECTED"
+msgid "%i SELECTED"
+msgid_plural "%i SELECTED"
+msgstr[0] "%i MARKIERT"
+msgstr[1] "%i MARKIERT"
+
+#:
+msgid "VIDEO SCREENSAVER SETTINGS"
+msgstr "VİDEO KORUYUCU AYARLARI"
+
+#:
+msgid "SLIDESHOW SCREENSAVER SETTINGS"
+msgstr "SLAYT KORUYUCU AYARLARI"
+
+#:
+msgid "SLIDESHOW SCREENSAVER"
+msgstr "SLAYT KORUYUCU"
+
+#:
+msgid "SCREENSAVER CONTROLS"
+msgstr "KORUYUCU KONTROLLERİ"
+
+#:
+msgid "GROUPED SYSTEMS"
+msgstr "GRUPLU SİSTEMLER"
+
+#: 
+msgid "UP"
+msgstr "YUKARI"
+
+#: 
+msgid "DOWN"
+msgstr "AŞAĞI"
+
+#: 
+msgid "LEFT"
+msgstr "SOL"
+
+#: 
+msgid "RIGHT"
+msgstr "SAĞ"
+
+#: 
+msgid "JOYSTICK 1 UP"
+msgstr "ÇUBUK 1 YUKARI"
+
+#: 
+msgid "JOYSTICK 1 LEFT"
+msgstr "ÇUBUK 1 SOL"
+
+#: 
+msgid "JOYSTICK 2 UP"
+msgstr "ÇUBUK 2 YUKARI"
+
+#: 
+msgid "JOYSTICK 2 LEFT"
+msgstr "ÇUBUK 2 SOL"
+
+#: 
+msgid "PAGE UP"
+msgstr "SAYFA YUKARI"
+
+#: 
+msgid "PAGE DOWN"
+msgstr "SAYFA AŞAĞI"
+
+#: 
+msgid "HOTKEY"
+msgstr "KISAYOL"
+
+#: 
+msgid "CONFIGURING"
+msgstr "AYARLANIYOR"
+
+#: 
+msgid "KEYBOARD"
+msgstr "KLAVYE"
+
+#: 
+msgid "GAMEPAD %i"
+msgstr "KUMANDA %i"
+
+#. Config controllers missing translation
+#: 
+msgid "PRESS ANYTHING"
+msgstr "BİR TUŞA BASIN"
+
+#: 
+msgid "ALREADY TAKEN"
+msgstr "ZATEN KULLANILIYOR"
+
+#: 
+msgid "DISCARD CHANGES"
+msgstr "DEĞİŞİKLİKLERİ AT"
+
+#: 
+msgid "WELCOME"
+msgstr "HOŞ GELDİNİZ"
+
+#: 
+msgid "CONFIGURE INPUT"
+msgstr "GİRİŞİ AYARLA"
+
+#: 
+msgid "%i GAMEPAD DETECTED"
+msgid "%i GAMEPAD DETECTED"
+msgid_plural "%i GAMEPADS DETECTED"
+msgstr[0] "%i KUMANDA BULUNDU"
+msgstr[1] "%i KUMANDA BULUNDU"
+
+#: 
+msgid "NO GAMEPADS DETECTED"
+msgstr "KUMANDA BULUNAMADI"
+
+#: 
+msgid "HOLD A BUTTON ON YOUR DEVICE TO CONFIGURE IT."
+msgstr "AYARLAMAK İÇİN CİHAZINIZDA BİR TUŞA BASILI TUTUN."
+
+#: 
+msgid "PRESS F4 TO QUIT AT ANY TIME."
+msgstr "ÇIKMAK İÇİN İSTEDİĞİNİZ AN F4'E BASIN."
+
+#: 
+msgid "PRESS ESC OR THE HOTKEY TO CANCEL."
+msgstr "İPTAL İÇİN ESC VEYA KISAYOL TUŞUNA BASIN."
+
+#: 
+msgid "DO YOU WANT TO START KODI MEDIA CENTER ?"
+msgstr "KODI MEDYA MERKEZİ BAŞLATILSIN MI?"
+
+#: 
+msgid "LOADING..."
+msgstr "YÜKLENİYOR..."
+
+#: 
+msgid "PLEASE WAIT..."
+msgstr "LÜTFEN BEKLEYİN..."
+
+#: 
+msgid "REALLY SHUTDOWN WITHOUT SAVING METADATAS?"
+msgstr "BİLGİLER KAYDEDİLMEDEN KAPATILSIN MI?"
+
+#: 
+msgid "FAST SHUTDOWN SYSTEM"
+msgstr "HIZLI SİSTEM KAPATMA"
+
+#: 
+msgid "WE CAN'T FIND ANY SYSTEMS!\n"
+msgid "WE CAN'T FIND ANY SYSTEMS!\n"
+"CHECK THAT YOUR PATHS ARE CORRECT IN THE SYSTEMS CONFIGURATION FILE, AND YOUR GAME DIRECTORY HAS AT LEAST ONE GAME WITH THE CORRECT EXTENSION.\n"
+"\n"
+"VISIT EMULATIONSTATION.ORG FOR MORE INFORMATION."
+msgstr "HİÇBİR SİSTEM BULUNAMADI!\n"
+"Überprüfen Sie, ob Ihre PFADE in der SYSTEMKONFIGURATIONSDATEI korrekt sind und ob Ihr SPIELVERZEICHNIS mindestens ein SPIEL mit der richtigen DATEIENDUNG enthält.\n"
+"BESUCHEN SIE EMULATIONSSTATION.ORG FÜR WEITERE INFORMATIONEN."
+
+#: 
+msgid "ON SCREEN KEYBOARD"
+msgstr "EKRAN KLAVYESİ"
+
+#: 
+msgid "SHIFTS FOR UPPER,LOWER, AND SPECIAL"
+msgstr "BÜYÜK, KÜÇÜK VE ÖZEL İÇİN SHIFT"
+
+#: 
+msgid "SPACE"
+msgstr "BOŞLUK"
+
+#: 
+msgid "DELETE A CHAR"
+msgstr "KARAKTER SİL"
+
+#: 
+msgid "SHIFT"
+msgstr "SHIFT"
+
+#: 
+msgid "STOP EDITING"
+msgstr "DÜZENLEMEYİ BİTİR"
+
+#: 
+msgid "MOVE CURSOR"
+msgstr "İMLECİ TAŞI"
+
+#: 
+msgid "EDIT"
+msgstr "DÜZENLE"
+
+#: 
+msgid "ACCEPT RESULT"
+msgstr "SONUCU KABUL ET"
+
+#: 
+msgid "FILENAME"
+msgstr "DOSYA ADI"
+
+#: 
+msgid "RATING"
+msgstr "PUAN"
+
+#: 
+msgid "PARTIES JOUÉES"
+msgstr "OYNANMA SAYISI"
+
+#: 
+msgid "LAST PLAYED"
+msgstr "SON OYNANMA"
+
+#: 
+msgid "NUMBER OF PLAYERS"
+msgstr "OYUNCU SAYISI"
+
+#: 
+msgid "DEVELOPER"
+msgstr "GELİŞTİRİCİ"
+
+#: 
+msgid "GENRE"
+msgstr "TÜR"
+
+#: 
+msgid "SHOW HIDDEN"
+msgstr "GİZLİLERİ GÖSTER"
+
+#: 
+msgid "EXTREM (1400Mhz)"
+msgstr "EKSTREM (1400Mhz)"
+
+#: 
+msgid "TURBO (1350Mhz)"
+msgstr "TURBO (1350Mhz)"
+
+#: 
+msgid "HIGH (1300Mhz)"
+msgstr "YÜKSEK (1300Mhz)"
+
+#: 
+msgid "TURBO AND EXTREM OVERCLOCK PRESETS MAY CAUSE SYSTEM UNSTABILITIES, SO USE THEM AT YOUR OWN RISK.\n"
+msgid "TURBO AND EXTREM OVERCLOCK PRESETS MAY CAUSE SYSTEM UNSTABILITIES, SO USE THEM AT YOUR OWN RISK.\n"
+"IF YOU CONTINUE, THE SYSTEM WILL REBOOT NOW."
+msgstr "TURBO VE AŞIRI HIZ AŞIRTMA AYARLARI SİSTEMİ KARARSIZ YAPABİLİR, KENDİ SORUMLULUĞUNUZDA KULLANIN.\n"
+"WENN SIE FORTFAHREN, WIRD DAS SYSTEM JETZT NEU GESTARTET."
+
+#: 
+msgid "%i GAME HIDDEN"
+msgid "%i GAME HIDDEN"
+msgid_plural "%i GAMES HIDDEN"
+msgstr[0] "%i OYUN GİZLENDİ"
+msgstr[1] "%i OYUN GİZLENDİ"
+
+#: 
+msgid "Start kodi media player."
+msgstr "Kodi medya oynatıcıyı başlat."
+
+#: 
+msgid "Select the language for your recalbox, select an external drive to store your games and configurations, check your current version and the free space on your drive"
+msgstr "Recalbox dilinizi seçin, oyun ve ayarlarınızı saklayacak harici bir sürücü belirleyin, mevcut sürümünüzü ve sürücünüzdeki boş alanı görün"
+
+#:
+msgid "Configure games display, ratio, filters (shaders), auto save and load and retroachievement account."
+msgstr "Oyun görüntüsü, oran, filtreler (gölgelendiriciler), otomatik kayıt/yükleme ve retroachievement hesabını ayarlayın."
+
+#: 
+msgid "The game ratio is the ratio between image width and image height. Use AUTO to let the emulator choose the original game ratio, that will give you the best retrogaming experience."
+msgstr "Oyun oranı, görüntü genişliğinin yüksekliğine oranıdır. Emülatörün orijinal oyun oranını seçmesi için OTOMATİK kullanın; en iyi retro oyun deneyimini bu verir."
+
+#: 
+msgid "Smooth the game image. This option makes the image smoother, using bilinear filtering."
+msgstr "Oyun görüntüsünü yumuşatır. Bu seçenek bilinear filtreleme kullanarak görüntüyü daha pürüzsüz yapar."
+
+#: 
+msgid "This option allows you to rewind the game if you get killed by a monster, or if you make any other mistake. Use the HOTKEY + LEFT command within the game to rewind."
+msgstr "Bu seçenek, bir canavara yakalandığınızda veya başka bir hata yaptığınızda oyunu geri sarmanızı sağlar. Oyun içinde geri sarmak için KISAYOL + SOL komutunu kullanın."
+
+#: 
+msgid "Auto save the state when you quit a game, and auto load last saved state when you start a game."
+msgstr "Oyundan çıkarken durumu otomatik kaydeder, oyunu başlatırken son kayıtlı durumu otomatik yükler."
+
+#: 
+msgid "Integer scaling is scaling by a factor of a whole number, such as 2x, 3x, 4x, etc. This option scales the image up to the greatest integer scale below the set resolution. So for instance, if you set your fullscreen resolution to 1920x1080 and enable integer scaling, it will only scale a 320x240 image up to 1280x960, and leave black borders all around. This is to maintain a 1:1 pixel ratio with the original source image, so that pixels are not unevenly duplicated."
+msgstr "Tamsayı ölçekleme, görüntüyü 2x, 3x, 4x gibi tam sayı katlarıyla büyütmektir. Bu seçenek görüntüyü ayarlı çözünürlüğün altındaki en büyük tam kata kadar büyütür. Örneğin tam ekran çözünürlüğünü 1920x1080 yapıp tamsayı ölçeklemeyi açarsanız, 320x240 bir görüntü sadece 1280x960'a büyütülür ve çevresinde siyah kenarlar kalır. Böylece orijinal görüntüyle 1:1 piksel oranı korunur ve pikseller düzensiz çoğaltılmaz."
+
+#: 
+msgid "Shaders are like filters for the game rendering. You can select a shader set here, which is a collection of shaders selected for each system. You can also change the shader within the game with HOTKEY + L2 or HOTKEY + R2."
+msgstr "Gölgelendiriciler oyun görüntüsü için filtre gibidir. Buradan her sistem için seçilmiş bir gölgelendirici seti seçebilirsiniz. Oyun içinde KISAYOL + L2 veya KISAYOL + R2 ile de değiştirebilirsiniz."
+
+#: 
+msgid "Enable or disable RetroAchievements in games."
+msgstr "Oyunlarda RetroAchievements'ı açın veya kapatın."
+
+#: 
+msgid "Hardcore mode disables *all* savestate and rewind functions within the emulator: you will not be able to save and reload at any time. You will have to complete the game and get the achievements first time, just like on the original console. In reward for this, you will earn both the standard and the hardcore achievement, in effect earning double points! A regular game worth 400 points, is now worth 800 if you complete it on hardcore! For example: if you complete the game for 400 points, you then have the opportunity to earn another 400 on hardcore."
+msgstr "Hardcore mod, emülatördeki *tüm* kayıt durumu ve geri sarma işlevlerini kapatır: istediğiniz an kaydedip yükleyemezsiniz. Oyunu orijinal konsoldaki gibi ilk seferde bitirip başarımları kazanmanız gerekir. Karşılığında hem standart hem hardcore başarımını alırsınız, yani çift puan! 400 puanlık bir oyun, hardcore'da bitirirseniz 800 puan eder! Örneğin: oyunu 400 puanla bitirdikten sonra hardcore'da 400 puan daha kazanma şansınız olur."
+
+#: 
+msgid "The website retroachievements.org proposes challenges/achievements/trophies on platforms like NES, SNES, GB, GBC, GBA, Genesis/Megadrive, TurboGrafx16/PCEngine and more! Create your account on retroachievements.org and start your quest for achievements!"
+msgstr "retroachievements.org sitesi NES, SNES, GB, GBC, GBA, Genesis/Megadrive, TurboGrafx16/PCEngine ve daha fazlası için görevler/başarımlar/kupalar sunar! retroachievements.org üzerinde hesabınızı açın ve başarım avına başlayın!"
+
+#: 
+msgid "Add and configure up to 5 controllers."
+msgstr "En fazla 5 kumanda ekleyin ve ayarlayın."
+
+#: 
+msgid "Start the screensaver after N minutes."
+msgstr "Ekran koruyucuyu N dakika sonra başlatır."
+
+#: 
+msgid "Set the screensaver behavior. DIM will reduce the screen light, and BLACK will turn the screen black."
+msgstr "Ekran koruyucu davranışını ayarlayın. DIM ekran ışığını kısar, BLACK ekranı karartır."
+
+#: 
+msgid "Shows a help at the bottom of the screen which displays commands you can use."
+msgstr "Ekranın altında kullanabileceğiniz komutları gösteren bir yardım çubuğu görüntüler."
+
+#: 
+msgid "When enabled, you can switch between systems while browsing a gamelist by pressing LEFT or RIGHT."
+msgstr "Açıkken, oyun listesinde gezerken SOL veya SAĞ tuşuyla sistemler arasında geçiş yapabilirsiniz."
+
+#: 
+msgid "Updates the gamelists, if you added games since the last boot."
+msgstr "Son açılıştan beri oyun eklediyseniz oyun listelerini günceller."
+
+#: 
+msgid "Set the volume of the sound output for the frontend and the games."
+msgstr "Arayüz ve oyunlar için ses çıkış seviyesini ayarlar."
+
+#: 
+msgid "Get informations and visual for your games. The scraper downloads metadata and visuals for your games from different servers and enhances the user experience in EmulationStation completely."
+msgstr "Oyunlarınız için bilgi ve görseller alın. Tarayıcı, farklı sunuculardan oyun bilgilerini ve görsellerini indirerek EmulationStation deneyimini tamamen zenginleştirir."
+
+#: 
+msgid "Select a server to scrape from. The SCREENSCRAPER server is recommended and is based on www.screenscraper.fr and scrapes game data in your language, if available."
+msgstr "Taranacak sunucuyu seçin. SCREENSCRAPER sunucusu önerilir; www.screenscraper.fr tabanlıdır ve varsa oyun bilgilerini kendi dilinizde tarar."
+
+#: 
+msgid "Begin the scrape process with the configuration shown below."
+msgstr "Aşağıda gösterilen ayarlarla tarama işlemini başlatır."
+
+#: 
+msgid "Scrape and display game ratings."
+msgstr "Oyun puanlarını tarar ve gösterir."
+
+#: 
+msgid "Advanced settings. Please make sure you really know what you're doing, before changing any values in this menu."
+msgstr "Gelişmiş ayarlar. Bu menüdeki değerleri değiştirmeden önce ne yaptığınızı gerçekten bildiğinizden emin olun."
+
+#: 
+msgid "Overclock your board to increase the performance.\n"
+msgid "Overclock your board to increase the performance.\n"
+"Overclock settings are tested and validated by the community. Keep in mind that overclocking your board can void your warranty."
+msgstr "İşlemciyi hızaşırtarak performansı artırır.\n"
+"Übertaktungseinstellungen werden von der Community getestet und validiert. Bitte beachte, dass das übertakten deines Prozessors zum Erlöschen deiner Garantie führen kann."
+
+#: 
+msgid "Only show games contained in the gamelist.xml file (located in your roms directories).\n"
+msgid "Only show games contained in the gamelist.xml file (located in your roms directories).\n"
+"This option highly speeds up boot time, but new games will not be detected."
+msgstr "Sadece gamelist.xml dosyasında bulunan oyunları gösterir (ROM klasörlerinizdeki).\n"
+"Mit dieser Option wird die Bootzeit stark beschleunigt, aber neue Spiele werden nicht erkannt."
+
+#: 
+msgid "This option allows you to set the selected system to fixed mode. With this option activated, the user cannot access other systems."
+msgstr "Bu seçenek, seçili sistemi sabit moda almanızı sağlar. Bu seçenek açıkken kullanıcı diğer sistemlere erişemez."
+
+#: 
+msgid "Always display the basic gamelist view, even if you have scraped your games."
+msgstr "Oyunlarınızı taramış olsanız bile her zaman basit oyun listesi görünümünü göster."
+
+#: 
+msgid "Enable or disable Kodi, customize the Kodi startup, enable the X button to start Kodi"
+msgstr "Kodi'yi açın veya kapatın, Kodi açılışını özelleştirin, X tuşuyla Kodi başlatmayı etkinleştirin"
+
+#: 
+msgid "Enable or disable Kodi. If kodi is disabled, you won't be able to start it with the X button, or start it automatically at boot. The menu entry will be removed as well."
+msgstr "Kodi'yi açın veya kapatın. Kodi kapalıysa X tuşuyla ya da açılışta otomatik olarak başlatamazsınız. Menü girdisi de kaldırılır."
+
+#: 
+msgid "Use the X button to start Kodi."
+msgstr "Kodi'yi başlatmak için X tuşunu kullanın."
+
+#: 
+msgid "Automatically start into Kodi on boot."
+msgstr "Açılışta otomatik olarak Kodi'yi başlatır."
+
+#: 
+msgid "Show the framerate in EmulationStation and in game."
+msgstr "EmulationStation'da ve oyun içinde FPS göster."
+
+#: 
+msgid "Select which emulator to use when you start a game for this system."
+msgstr "Bu sistemde bir oyun başlatırken kullanılacak emülatörü seçin."
+
+#: 
+msgid "Select which core to use for the selected emulator. For example, the LIBRETRO emulator has many cores to run Super Nintendo games. The default core you choose here can also be overridden in game specific settings."
+msgstr "Seçili emülatör için kullanılacak çekirdeği seçin. Örneğin LIBRETRO emülatörünün Super Nintendo oyunlarını çalıştıran birçok çekirdeği vardır. Burada seçtiğiniz varsayılan çekirdek, oyuna özel ayarlardan da değiştirilebilir."
+
+#: 
+msgid "USE COMPOSED VISUALS"
+msgstr "BİRLEŞİK GÖRSELLER KULLAN"
+
+#: 
+msgid "CHECK UPDATES"
+msgstr "GÜNCELLEME KONTROLÜ"
+
+#: 
+msgid "UPDATE TYPE"
+msgstr "GÜNCELLEME TÜRÜ"
+
+#: 
+msgid "INTEGER SCALE (PIXEL PERFECT)"
+msgstr "TAMSAYI ÖLÇEK (PİKSEL TAM)"
+
+#: 
+msgid "ADVANCED SETTINGS"
+msgstr "GELİŞMİŞ AYARLAR"
+
+#: 
+msgid "BOOT SETTINGS"
+msgstr "AÇILIŞ AYARLARI"
+
+#: 
+msgid "GAMELIST ONLY"
+msgstr "SADECE OYUN LİSTESİ"
+
+#: 
+msgid "START ON SYSTEM"
+msgstr "AÇILIŞ SİSTEMİ"
+
+#: 
+msgid "BOOT ON GAMELIST"
+msgstr "OYUN LİSTESİNDE AÇIL"
+
+#: 
+msgid "HIDE SYSTEM VIEW"
+msgstr "SİSTEM GÖRÜNÜMÜNÜ GİZLE"
+
+#: 
+msgid "EMULATOR ADVANCED CONFIGURATION"
+msgstr "GELİŞMİŞ EMÜLATÖR AYARI"
+
+#: 
+msgid "ADVANCED EMULATOR CONFIGURATION"
+msgstr "GELİŞMİŞ EMÜLATÖR AYARLARI"
+
+#: 
+msgid "HELP"
+msgstr "YARDIM"
+
+#: 
+msgid "THE SYSTEM IS UP TO DATE"
+msgstr "SİSTEM GÜNCEL"
+
+#: 
+msgid "FORCE BASIC GAMELIST VIEW"
+msgstr "BASİT LİSTE GÖRÜNÜMÜNÜ ZORLA"
+
+#: 
+msgid "DOWNLOADED"
+msgstr "İNDİRİLDİ"
+
+#: 
+msgid "UPDATE VERSION:"
+msgstr "GÜNCELLEME SÜRÜMÜ:"
+
+#: 
+msgid "UPDATE CHANGELOG:"
+msgstr "DEĞİŞİKLİK LİSTESİ:"
+
+#: 
+msgid "MORE DETAILS"
+msgstr "DAHA FAZLA DETAY"
+
+#: 
+msgid "CAROUSEL TRANSITIONS"
+msgstr "KARUSEL GEÇİŞLERİ"
+
+#: 
+msgid "ENABLE FILTERS"
+msgstr "FİLTRELERİ ETKİNLEŞTİR"
+
+#: 
+msgid "THEME CONFIGURATION"
+msgstr "TEMA AYARLARI"
+
+#: 
+msgid "THEME COLORSET"
+msgstr "TEMA RENK SETİ"
+
+#: 
+msgid "THEME ICONSET"
+msgstr "TEMA İKON SETİ"
+
+#: 
+msgid "THEME MENU"
+msgstr "TEMA MENÜSÜ"
+
+#: 
+msgid "THEME SYSTEMVIEW"
+msgstr "TEMA SİSTEM GÖRÜNÜMÜ"
+
+#: 
+msgid "THEME GAMELISTVIEW"
+msgstr "TEMA LİSTE GÖRÜNÜMÜ"
+
+#: 
+msgid "THEME REGION"
+msgstr "TEMA BÖLGESİ"
+
+#: 
+msgid "THIS THEME HAS NO OPTION"
+msgstr "BU TEMANIN SEÇENEĞİ YOK"
+
+#: 
+msgid "MANUAL INPUT"
+msgstr "ELLE GİRİŞ"
+
+#: 
+msgid "AN ERROR OCCURED - DOWNLOADED"
+msgstr "BİR HATA OLUŞTU - İNDİRİLDİ"
+
+#: 
+msgid "START KODI"
+msgstr "KODI'Yİ BAŞLAT"
+
+#: 
+msgid "Shows the current available update version."
+msgstr "Mevcut güncelleme sürümünü gösterir."
+
+#: 
+msgid "Shows the current available update changelog."
+msgstr "Mevcut güncellemenin değişiklik listesini gösterir."
+
+#: 
+msgid "Configure an associated controller. Your controller has to be associated / plugged before."
+msgstr "Bağlı bir kumandayı ayarlayın. Kumandanızın önceden eşleştirilmiş / takılmış olması gerekir."
+
+#: 
+msgid "Choose if carousel will be animated or not during transitions"
+msgstr "Geçişlerde karuselin animasyonlu olup olmayacağını seçin"
+
+#: 
+msgid "Select the type of transition that occurs when you start a game. INSTANT will do nothing, FADE will fade to dark, and SLIDE will zoom on the game cover (or name if there is no scrape information)"
+msgstr "Bir oyun başlatırken oluşacak geçiş türünü seçin. INSTANT hiçbir şey yapmaz, FADE karartarak geçer, SLIDE ise oyun kapağına (tarama bilgisi yoksa adına) yakınlaşır"
+
+#: 
+msgid "Select exisiting colorset options for this theme."
+msgstr "Bu tema için mevcut renk seti seçeneklerini seçin."
+
+#: 
+msgid "Select exisiting iconset options for this theme."
+msgstr "Bu tema için mevcut ikon seti seçeneklerini seçin."
+
+#: 
+msgid "Select exisiting menu style options for this theme."
+msgstr "Bu tema için mevcut menü stili seçeneklerini seçin."
+
+#: 
+msgid "Select exisiting system view options for this theme."
+msgstr "Bu tema için mevcut sistem görünümü seçeneklerini seçin."
+
+#: 
+msgid "Select exisiting gamelist view options for this theme."
+msgstr "Bu tema için mevcut oyun listesi görünümü seçeneklerini seçin."
+
+#: 
+msgid "Configure theme options if available."
+msgstr "Varsa tema seçeneklerini ayarlayın."
+
+#: 
+msgid "Select Region of logos, pictures for system that are different for some countries. E.g. Megadrive in EU / Genesis in US"
+msgstr "Bazı ülkelerde farklı olan sistemler için logo ve görsel bölgesini seçin. Örn. Avrupa'da Megadrive, ABD'de Genesis"
+
+#: 
+msgid "Type the name of your SSID if it is hidden or not listed"
+msgstr "SSID gizliyse veya listede yoksa adını yazın"
+
+#: 
+msgid "Select a letter and the listing will go directly on the first game starting with this letter."
+msgstr "Bir harf seçin, liste doğrudan o harfle başlayan ilk oyuna gitsin."
+
+#: 
+msgid "Select the way the game list is sortered (alphabetically, by notation...)."
+msgstr "Oyun listesinin nasıl sıralanacağını seçin (alfabetik, puana göre...)."
+
+#: 
+msgid "Switch between seing or not only the favorites games. To add a game in the favorite list, select the game and toggle its state using 'Y'."
+msgstr "Sadece favori oyunları görmek ile tümünü görmek arasında geçiş yapar. Bir oyunu favorilere eklemek için oyunu seçip 'Y' ile durumunu değiştirin."
+
+#: 
+msgid "Switch between seing or not the hidden games. To hide a game, edit its data and select 'Hide'."
+msgstr "Gizli oyunları görmek ile gizlemek arasında geçiş yapar. Bir oyunu gizlemek için bilgilerini düzenleyip 'Gizli' seçin."
+
+#: 
+msgid "This option display a menu which allows to change game data and many others options."
+msgstr "Bu seçenek, oyun bilgilerini ve diğer birçok ayarı değiştirmenizi sağlayan bir menü açar."
+
+#: 
+msgid "AVAILABLE UPDATE"
+msgstr "MEVCUT GÜNCELLEME"
+
+#: 
+msgid "UPDATE CHANGELOG"
+msgstr "DEĞİŞİKLİK LİSTESİ"
+
+#: 
+msgid "CLOCK IN MENU"
+msgstr "MENÜDE SAAT"
+
+#: 
+msgid "Now playing"
+msgstr "Şimdi çalıyor"
+
+#: 
+msgid "DEFAULT (%1%)"
+msgstr "VARSAYILAN (%1%)"
+
+#: 
+msgid "INPUT REQUIRED"
+msgstr "GİRİŞ GEREKLİ"
+
+#: 
+msgid "(skipped)"
+msgstr "(atlandı)"
+
+#: 
+msgid "UP/DOWN TO SKIP"
+msgstr "ATLAMAK İÇİN YUKARI/AŞAĞI"
+
+#: 
+msgid "A TO UNSET"
+msgstr "KALDIRMAK İÇİN A"
+
+#: 
+msgid "DOWN TO SKIP AND KEEP [%1%]"
+msgstr "ATLAYIP KORUMAK İÇİN AŞAĞI [%1%]"
+
+#: 
+msgid "UP/DOWN TO SKIP AND KEEP [%1%]"
+msgstr "ATLAYIP KORUMAK İÇİN YUKARI/AŞAĞI [%1%]"
+
+#: 
+msgid "Set duration of help popups, 0 means no popup."
+msgstr "Yardım bildirimlerinin süresini ayarlar, 0 bildirim yok demektir."
+
+#: 
+msgid "HELP POPUP DURATION"
+msgstr "YARDIM BİLDİRİM SÜRESİ"
+
+#: 
+msgid "Set duration of music popups, 0 means no popup."
+msgstr "Müzik bildirimlerinin süresini ayarlar, 0 bildirim yok demektir."
+
+#: 
+msgid "MUSIC POPUP DURATION"
+msgstr "MÜZİK BİLDİRİM SÜRESİ"
+
+#: 
+msgid "POPUP SETTINGS"
+msgstr "BİLDİRİM AYARLARI"
+
+#: 
+msgid "POPUP POSITION"
+msgstr "BİLDİRİM KONUMU"
+
+#: 
+msgid "Select the position of popups on screen."
+msgstr "Bildirimlerin ekrandaki konumunu seçin."
+
+#: 
+msgid "Set position and duration of popups."
+msgstr "Bildirimlerin konumunu ve süresini ayarlayın."
+
+#: 
+msgid "TOP/RIGHT"
+msgstr "ÜST/SAĞ"
+
+#: 
+msgid "BOTTOM/RIGHT"
+msgstr "ALT/SAĞ"
+
+#: 
+msgid "BOTTOM/LEFT"
+msgstr "ALT/SOL"
+
+#: 
+msgid "TOP/LEFT"
+msgstr "ÜST/SOL"
+
+#: 
+msgid "SHOW FOLDERS CONTENT"
+msgstr "KLASÖR İÇERİĞİNİ GÖSTER"
+
+#: 
+msgid "Switch between seeing the folders structure and seeing all games in a flatten top level."
+msgstr "Klasör yapısını görmek ile tüm oyunları tek düz listede görmek arasında geçiş yapar."
+
+#: 
+msgid "NETPLAY"
+msgstr "NETPLAY"
+
+#: 
+msgid "NETPLAY SETTINGS"
+msgstr "NETPLAY AYARLARI"
+
+#: 
+msgid "NETPLAY LOBBY"
+msgstr "NETPLAY LOBİSİ"
+
+#: 
+msgid "Enable or disable Netplay in games."
+msgstr "Oyunlarda Netplay'i açın veya kapatın."
+
+#: 
+msgid "PORT"
+msgstr "PORT"
+
+#: 
+msgid "NICKNAME"
+msgstr "TAKMA AD"
+
+#: 
+msgid "RELAY SERVER"
+msgstr "AKTARIM SUNUCUSU"
+
+#: 
+msgid "Enable or disable connections throught relay servers."
+msgstr "Aktarım sunucuları üzerinden bağlantıları açın veya kapatın."
+
+#: 
+msgid "KODI/NETPLAY"
+msgstr "KODI/NETPLAY"
+
+#: 
+msgid "NO GAMES OR NO CONNECTION"
+msgstr "OYUN YOK VEYA BAĞLANTI YOK"
+
+#: 
+msgid "HASH NOW"
+msgstr "ŞİMDİ HASHLE"
+
+#: 
+msgid "HASH THESE SYSTEMS"
+msgstr "BU SİSTEMLERİ HASHLE"
+
+#: 
+msgid "Add hash of roms in your gamelists to have more accurate results in Netplay."
+msgstr "Netplay'de daha doğru sonuçlar için oyun listelerinize rom hash'lerini ekleyin."
+
+#: 
+msgid "HASH ROMS"
+msgstr "ROM HASHLE"
+
+#: 
+msgid "Only missing hashs"
+msgstr "Sadece eksik hash'ler"
+
+#: 
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+#: 
+msgid "Country"
+msgstr "Ülke"
+
+#: 
+msgid "Latency"
+msgstr "Gecikme"
+
+#: 
+msgid "Host arch."
+msgstr "Sunucu mim."
+
+#: 
+msgid "Core ver."
+msgstr "Çekirdek sür."
+
+#: 
+msgid "RA ver."
+msgstr "RA sür."
+
+#: 
+msgid "Can join"
+msgstr "Katılabilir"
+
+#: 
+msgid "Rom and core match"
+msgstr "Rom ve çekirdek uyuyor"
+
+#: 
+msgid "Rom found"
+msgstr "Rom bulundu"
+
+#: 
+msgid "No rom match"
+msgstr "Rom uyuşmuyor"
+
+#: 
+msgid "Match"
+msgstr "Uyumlu"
+
+#: 
+msgid "No Match"
+msgstr "Uyumsuz"
+
+#: 
+msgid "Rom file"
+msgstr "Rom dosyası"
+
+#: 
+msgid "Rom hash"
+msgstr "Rom hash'i"
+
+#: 
+msgid "THIS COULD TAKE A WHILE, CONFIRM?"
+msgstr "BU BİRAZ SÜREBİLİR, ONAYLIYOR MUSUNUZ?"
+
+#: 
+msgid "good"
+msgstr "iyi"
+
+#: 
+msgid "bad"
+msgstr "kötü"
+
+#: 
+msgid "medium"
+msgstr "orta"
+
+#: 
+msgid "NETPLAY POPUP DURATION"
+msgstr "NETPLAY BİLDİRİM SÜRESİ"
+
+#: 
+msgid "Set duration of netplay popups, 0 means no popup."
+msgstr "Netplay bildirimlerinin süresini ayarlar, 0 bildirim yok demektir."
+
+#: 
+msgid "Player"
+msgstr "Oyuncu"
+
+#: 
+msgid "Game"
+msgstr "Oyun"
+
+#: 
+msgid "Play online on games running through Retroarch like NES, SNES, FBA, Genesis/Megadrive and more!"
+msgstr "NES, SNES, FBA, Genesis/Megadrive ve daha fazlası gibi Retroarch ile çalışan oyunları çevrimiçi oynayın!"
+
+#: 
+msgid "Rom, hash and core match"
+msgstr "Rom, hash ve çekirdek uyuyor"
+
+#: 
+msgid "No core match"
+msgstr "Çekirdek uyuşmuyor"
+
+#: 
+msgid "Add a clock in the main menu."
+msgstr "Ana menüye saat ekler."
+
+#:
+msgid "UPGRADING"
+msgstr "YÜKSELTİLİYOR"
+
+#:
+msgid "PREPARING"
+msgstr "HAZIRLANIYOR"
+
+#:
+msgid "Starting UI"
+msgstr "Arayüz başlatılıyor"
+
+#:
+msgid "VERIFYING"
+msgstr "DOĞRULANIYOR"
+
+#:
+msgid "EMPTY LIST"
+msgstr "LİSTE BOŞ"
+
+#:
+msgid "VISIBLE SYSTEMS"
+msgstr "GÖRÜNÜR SİSTEMLER"
+
+#: Retroarch ratio
+msgid "Auto"
+msgstr "Otomatik"
+
+msgid "Square pixel"
+msgstr "Kare piksel"
+
+msgid "Retroarch Config"
+msgstr "Retroarch Ayarı"
+
+msgid "Retroarch Custom"
+msgstr "Retroarch Özel"
+
+msgid "Core provided"
+msgstr "Çekirdek sağlar"
+
+msgid "Do not set"
+msgstr "Ayarlanmasın"
+
+#. Ek ceviriler - ES dahili metinleri
+
+#: 
+msgid "NUMBER PLAYERS, ASCENDING"
+msgstr "OYUNCU SAYISI, ARTAN"
+
+#: 
+msgid "NUMBER PLAYERS, DESCENDING"
+msgstr "OYUNCU SAYISI, AZALAN"
+
+#: 
+msgid "RELEASE DATE, ASCENDING"
+msgstr "ÇIKIŞ TARİHİ, ARTAN"
+
+#: 
+msgid "RELEASE DATE, DESCENDING"
+msgstr "ÇIKIŞ TARİHİ, AZALAN"
+
+#: 
+msgid "GENRE, ASCENDING"
+msgstr "TÜR, ARTAN"
+
+#: 
+msgid "GENRE, DESCENDING"
+msgstr "TÜR, AZALAN"
+
+#: 
+msgid "DEVELOPER, ASCENDING"
+msgstr "YAPIMCI, ARTAN"
+
+#: 
+msgid "DEVELOPER, DESCENDING"
+msgstr "YAPIMCI, AZALAN"
+
+#: 
+msgid "PUBLISHER, ASCENDING"
+msgstr "DAĞITICI, ARTAN"
+
+#: 
+msgid "PUBLISHER, DESCENDING"
+msgstr "DAĞITICI, AZALAN"
+
+#: 
+msgid "SYSTEM, ASCENDING"
+msgstr "SİSTEM, ARTAN"
+
+#: 
+msgid "SYSTEM, DESCENDING"
+msgstr "SİSTEM, AZALAN"
+
+#: 
+msgid "VISIT EMULATIONSTATION.ORG FOR MORE INFORMATION."
+msgstr "DAHA FAZLA BİLGİ: EMULATIONSTATION.ORG"
+
+#: 
+msgid "WE CAN'T FIND ANY SYSTEMS!"
+msgstr "HİÇBİR SİSTEM BULUNAMADI!"
+
+#: 
+msgid "SAVING DATA. PLEASE WAIT..."
+msgstr "VERİ KAYDEDİLİYOR. LÜTFEN BEKLEYİN..."
+
+#: 
+msgid "FAVORITES"
+msgstr "FAVORİLER"
+
+#: 
+msgid "PLAYERS"
+msgstr "OYUNCU"
+
+#: 
+msgid "PUBLISHER / DEVELOPER"
+msgstr "DAĞITICI / YAPIMCI"
+
+#: 
+msgid "KIDGAME"
+msgstr "ÇOCUK OYUNU"
+
+#: 
+msgid "STARS"
+msgstr "YILDIZ"
+
+#: 
+msgid "FALSE"
+msgstr "HAYIR"
+
+#: 
+msgid "TRUE"
+msgstr "EVET"
+
+#: 
+msgid "0 STARS"
+msgstr "0 YILDIZ"
+
+#: 
+msgid "UNKNOWN"
+msgstr "BİLİNMİYOR"
+
+#: 
+msgid "N/A"
+msgstr "YOK"
+
+#: 
+msgid "DOWNLOADING"
+msgstr "İNDİRİLİYOR"
+
+#: 
+msgid "AN ERROR OCCURRED"
+msgstr "BİR HATA OLUŞTU"
+
+#: 
+msgid "AN ERROR HAS OCCURRED"
+msgstr "BİR HATA OLUŞTU"
+
+#: 
+msgid "CANCEL"
+msgstr "İPTAL"
+
+#: 
+msgid "FINISH"
+msgstr "BİTİR"
+
+#: 
+msgid "SEARCHING"
+msgstr "ARANIYOR"
+
+#: 
+msgid "THIS WILL DELETE THE ACTUAL GAME FILE(S)!"
+msgstr "BU, OYUN DOSYALARINI SİLECEK!"
+
+#: 
+msgid "ARE YOU SURE?"
+msgstr "EMİN MİSİNİZ?"
+
+#: 
+msgid "SAVE CHANGES ?"
+msgstr "DEĞİŞİKLİKLER KAYDEDİLSİN Mİ?"
+
+#: 
+msgid "DEFAULT"
+msgstr "VARSAYILAN"
+
+#: 
+msgid "CORE"
+msgstr "ÇEKİRDEK"
+
+#: 
+msgid "GOVERNOR"
+msgstr "GÜÇ MODU"
+
+#: 
+msgid "MODIFIER"
+msgstr "DEĞİŞTİRİCİ"
+
+#: 
+msgid "THIS FUNCTION IS DISABLED WHEN SCRAPING IS RUNNING"
+msgstr "TARAMA SIRASINDA BU İŞLEV KAPALIDIR"
+
+#: 
+msgid "JUMP TO..."
+msgstr "ATLA..."
+
+#: 
+msgid "VIEW CUSTOMIZATION"
+msgstr "GÖRÜNÜM ÖZELLEŞTİRME"
+
+#: 
+msgid "ADD/REMOVE GAMES TO THIS GAME COLLECTION"
+msgstr "BU KOLEKSİYONA OYUN EKLE/ÇIKAR"
+
+#: 
+msgid "FINISH EDITING"
+msgstr "DÜZENLEMEYİ BİTİR"
+
+#: 
+msgid "COLLECTION"
+msgstr "KOLEKSİYON"
+
+#: 
+msgid "COLLECTIONS"
+msgstr "KOLEKSİYONLAR"
+
+#: 
+msgid "VIDEO SCREENSAVER"
+msgstr "VİDEO EKRAN KORUYUCU"
+
+#: 
+msgid "THE 'RANDOM VIDEO' SCREENSAVER SHOWS VIDEOS FROM YOUR GAMELIST."
+msgstr "'RASTGELE VİDEO' KORUYUCUSU OYUN LİSTENİZDEN VİDEO GÖSTERİR."
+
+#: 
+msgid "SHOW DATE TIME"
+msgstr "TARİH SAAT GÖSTER"
+
+#: 
+msgid "DATE FORMAT"
+msgstr "TARİH BİÇİMİ"
+
+#: 
+msgid "TIME FORMAT"
+msgstr "SAAT BİÇİMİ"
+
+#: 
+msgid "SCRAPING IS RUNNING. DO YOU WANT TO STOP IT ?"
+msgstr "TARAMA SÜRÜYOR. DURDURULSUN MU?"
+
+#: 
+msgid "UPDATE IS ALREADY RUNNING"
+msgstr "GÜNCELLEME ZATEN SÜRÜYOR"
+
+#: 
+msgid "BUILD"
+msgstr "SÜRÜM"
+
+#: 
+msgid "SHOW OVERLAY WHEN BRIGHTNESS CHANGES"
+msgstr "PARLAKLIK DEĞİŞİNCE GÖSTERGE"
+
+#: 
+msgid "BOX 2D"
+msgstr "KUTU 2D"
+
+#: 
+msgid "BOX 3D"
+msgstr "KUTU 3D"
+
+#: 
+msgid "AUDIO DEVICE"
+msgstr "SES AYGITI"
+
+#: 
+msgid "SHOW OVERLAY WHEN VOLUME CHANGES"
+msgstr "SES DEĞİŞİNCE GÖSTERGE"
+
+#: 
+msgid "FLIP VOLUME BUTTONS"
+msgstr "SES TUŞLARINI TERS ÇEVİR"
+
+#: 
+msgid "MALE 1"
+msgstr "ERKEK 1"
+
+#: 
+msgid "MALE 2"
+msgstr "ERKEK 2"
+
+#: 
+msgid "FEMALE"
+msgstr "KADIN"
+
+#: 
+msgid "VERBAL BATTERY VOICE"
+msgstr "PİL SESİ"
+
+#: 
+msgid "VERBAL BATTERY WARNING"
+msgstr "SESLİ PİL UYARISI"
+
+#: 
+msgid "YOU MUST APPLY THE THEME BEFORE EDIT CONFIGURATION"
+msgstr "AYARLARI DÜZENLEMEDEN ÖNCE TEMAYI UYGULAYIN"
+
+#: 
+msgid "RESET GAMELIST CUSTOMIZATIONS"
+msgstr "OYUN LİSTESİNİ SIFIRLA"
+
+#: 
+msgid "FILE EXTENSIONS"
+msgstr "DOSYA UZANTILARI"
+
+#: 
+msgid "SHOW CLOCK IN 12-HOUR FORMAT"
+msgstr "SAATİ 12 SAAT BİÇİMİNDE GÖSTER"
+
+#: 
+msgid "SWITCH A/B BUTTONS IN EMULATIONSTATION"
+msgstr "A/B TUŞLARINI DEĞİŞTİR"
+
+#: 
+msgid "SWITCH POWER BUTTON TAP TO OFF"
+msgstr "GÜÇ TUŞUNA BASINCA KAPAT"
+
+#: 
+msgid "RESET FILE EXTENSIONS"
+msgstr "DOSYA UZANTILARINI SIFIRLA"
+
+#: 
+msgid "SCREENSHOT"
+msgstr "EKRAN GÖRÜNTÜSÜ"
+
+#: 
+msgid "TITLE SCREENSHOT"
+msgstr "BAŞLIK EKRANI"
+
+#: 
+msgid "MIX V1"
+msgstr "KARIŞIM V1"
+
+#: 
+msgid "MIX V2"
+msgstr "KARIŞIM V2"
+
+#: 
+msgid "WHEEL"
+msgstr "LOGO"
+
+#: 
+msgid "MARQUEE"
+msgstr "AFİŞ"
+
+#: 
+msgid "REGION SOURCE"
+msgstr "BÖLGE KAYNAĞI"
+
+#: 
+msgid "SHOW BATTERY STATUS"
+msgstr "PİL DURUMUNU GÖSTER"
+
+#: 
+msgid "ICON"
+msgstr "SİMGE"
+
+#: 
+msgid "ICON AND TEXT"
+msgstr "SİMGE VE YAZI"
+
+#: 
+msgid "IGNORE LEADING ARTICLES WHEN SORTING"
+msgstr "SIRALAMADA BAŞTAKİ ARTİKELLERİ YOKSAY"
+
+#: 
+msgid "GAME LOADING IMAGE MODE"
+msgstr "OYUN YÜKLEME GÖRSEL MODU"
+
+#: 
+msgid "IMAGE"
+msgstr "GÖRSEL"
+
+#: 
+msgid "THUMB"
+msgstr "KÜÇÜK GÖRSEL"
+
+#: 
+msgid "GAME LOADING IMAGE"
+msgstr "OYUN YÜKLEME GÖRSELİ"
+
+#: 
+msgid "DISPLAY SETTINGS AND INFO"
+msgstr "EKRAN AYARLARI VE BİLGİ"
+
+#: 
+msgid "NO GAMES WERE SCRAPED."
+msgstr "HİÇBİR OYUN TARANMADI."
+
+#: 
+msgid "GAME"
+msgstr "OYUN"
+
+#: 
+msgid "SUCCESSFULLY SCRAPED!"
+msgstr "BAŞARIYLA TARANDI!"
+
+#: 
+msgid "FILTER GAMELIST BY"
+msgstr "OYUN LİSTESİNİ FİLTRELE"
+
+#: 
+msgid "SELECT THEME TO INSTALL"
+msgstr "KURULACAK TEMAYI SEÇ"
+
+#: 
+msgid "ARCADE SYSTEMS"
+msgstr "ARCADE SİSTEMLERİ"
+
+#: 
+msgid "SORT COLLECTIONS AND SYSTEMS"
+msgstr "KOLEKSİYON VE SİSTEMLERİ SIRALA"
+
+#: 
+msgid "ALPHABETICALLY"
+msgstr "ALFABETİK"
+
+#: 
+msgid "BY MANUFACTURER"
+msgstr "ÜRETİCİYE GÖRE"
+
+#: 
+msgid "BY HARDWARE TYPE"
+msgstr "DONANIM TÜRÜNE GÖRE"
+
+#: 
+msgid "BY RELEASE YEAR"
+msgstr "ÇIKIŞ YILINA GÖRE"
+
+#: 
+msgid "SORT SYSTEMS"
+msgstr "SİSTEMLERİ SIRALA"
+
+#: 
+msgid "SCRAPE FAILED"
+msgstr "TARAMA BAŞARISIZ"
+
+#: 
+msgid "SCRAPING FINISHED. REFRESH UPDATE GAMES LISTS TO APPLY CHANGES."
+msgstr "TARAMA BİTTİ. DEĞİŞİKLİKLER İÇİN LİSTEYİ YENİLEYİN."
+
+#: 
+msgid "QUICK SEARCH"
+msgstr "HIZLI ARAMA"
+
+#: 
+msgid "%i GAMES AVAILABLE"
+msgstr "%i OYUN VAR"
+
+#: 
+msgid "%i GAMEPADS DETECTED"
+msgstr "%i KUMANDA BULUNDU"
+
+#: 
+msgid "GO TO LETTER"
+msgstr "HARFE GİT"
+
+#: 
+msgid "GO TO MANUFACTURER"
+msgstr "ÜRETİCİYE GİT"
+
+#: 
+msgid "GO TO HARDWARE"
+msgstr "DONANIMA GİT"
+
+#: 
+msgid "GO TO DECADE"
+msgstr "ON YILA GİT"
+
+#: 
+msgid "ERROR: EVERY SYSTEM IS HIDDEN, RE-DISPLAYING ALL OF THEM NOW"
+msgstr "HATA: TÜM SİSTEMLER GİZLİ, HEPSİ TEKRAR GÖSTERİLİYOR"
+
+#: 
+msgid "SYSTEM INFO"
+msgstr "SİSTEM BİLGİSİ"
+
+#: 
+msgid "IO ERROR (DISK FULL?)"
+msgstr "GİRİŞ/ÇIKIŞ HATASI (DİSK DOLU?)"
+
+#: 
+msgid "ERROR"
+msgstr "HATA"
+
+#: 
+msgid "WARNING"
+msgstr "UYARI"
+
+#: 
+msgid "DEBUG"
+msgstr "HATA AYIKLA"
+
+#: 
+msgid "INFO"
+msgstr "BİLGİ"
+
+#: 
+msgid "PRESS ESC TO CANCEL."
+msgstr "İPTAL İÇİN ESC'YE BASIN."
+
+#: 
+msgid "HOLD FOR"
+msgstr "BASILI TUT"
+
+#: 
+msgid "S TO SKIP"
+msgstr "SN ATLAMAK İÇİN"
+
+#: 
+msgid "GAMEPAD"
+msgstr "KUMANDA"
+
+#: 
+msgid "HOLD ANY BUTTON TO SKIP"
+msgstr "ATLAMAK İÇİN BİR TUŞA BASILI TUTUN"
+
+#: 
+msgid "D-PAD UP"
+msgstr "YÖN TUŞU YUKARI"
+
+#: 
+msgid "D-PAD DOWN"
+msgstr "YÖN TUŞU AŞAĞI"
+
+#: 
+msgid "D-PAD LEFT"
+msgstr "YÖN TUŞU SOL"
+
+#: 
+msgid "D-PAD RIGHT"
+msgstr "YÖN TUŞU SAĞ"
+
+#: 
+msgid "BUTTON A / EAST"
+msgstr "A TUŞU / DOĞU"
+
+#: 
+msgid "BUTTON B / SOUTH"
+msgstr "B TUŞU / GÜNEY"
+
+#: 
+msgid "BUTTON X / NORTH"
+msgstr "X TUŞU / KUZEY"
+
+#: 
+msgid "BUTTON Y / WEST"
+msgstr "Y TUŞU / BATI"
+
+#: 
+msgid "LEFT SHOULDER"
+msgstr "SOL OMUZ"
+
+#: 
+msgid "RIGHT SHOULDER"
+msgstr "SAĞ OMUZ"
+
+#: 
+msgid "LEFT TRIGGER"
+msgstr "SOL TETİK"
+
+#: 
+msgid "RIGHT TRIGGER"
+msgstr "SAĞ TETİK"
+
+#: 
+msgid "LEFT THUMB"
+msgstr "SOL ÇUBUK"
+
+#: 
+msgid "RIGHT THUMB"
+msgstr "SAĞ ÇUBUK"
+
+#: 
+msgid "LEFT ANALOG UP"
+msgstr "SOL ANALOG YUKARI"
+
+#: 
+msgid "LEFT ANALOG DOWN"
+msgstr "SOL ANALOG AŞAĞI"
+
+#: 
+msgid "LEFT ANALOG LEFT"
+msgstr "SOL ANALOG SOL"
+
+#: 
+msgid "LEFT ANALOG RIGHT"
+msgstr "SOL ANALOG SAĞ"
+
+#: 
+msgid "RIGHT ANALOG UP"
+msgstr "SAĞ ANALOG YUKARI"
+
+#: 
+msgid "RIGHT ANALOG DOWN"
+msgstr "SAĞ ANALOG AŞAĞI"
+
+#: 
+msgid "RIGHT ANALOG LEFT"
+msgstr "SAĞ ANALOG SOL"
+
+#: 
+msgid "RIGHT ANALOG RIGHT"
+msgstr "SAĞ ANALOG SAĞ"
+
+#: 
+msgid "HOTKEY ENABLE"
+msgstr "KISAYOL TUŞU"
+
+#: 
+msgid "MISSING"
+msgstr "EKSİK"
+
+#: 
+msgid "HOME"
+msgstr "ANA SAYFA"
