@@ -21,10 +21,9 @@ do
 		if [ ! -d "/roms/backup/" ]; then
 	      sudo mkdir -v /roms/backup
 		fi
-		if [ -f "/roms/backup/arkosbackup.tar.gz" ]; then
-		  sudo rm /roms/backup/arkosbackup.tar.gz
-		fi
 		LOG_FILE="/roms/backup/arkosbackup.log"
+		BACKUP_FILE="/roms/backup/arkosbackup.tar.gz"
+		TEMP_BACKUP="${BACKUP_FILE}.tmp.$$"
 		printf "\033[0mCreating a backup.  Please wait...\n"
 		sleep 2
 
@@ -39,13 +38,16 @@ do
 
 		# Backup currently set timezone
 		/usr/local/bin/timezones current > /dev/shm/TZ
+		sudo rm -f "$TEMP_BACKUP"
 		if [ -f "/boot/rk3566.dtb" ] || [ -f "/boot/rk3566-OC.dtb" ]; then
-		  sudo tar -zchvf /roms/backup/arkosbackup.tar.gz /home/ark/.config/panel_settings.txt /home/ark/.kodi/ /etc/NetworkManager/system-connections /home/ark/.config/retroarch/retroarch.cfg /home/ark/.config/retroarch/config /home/ark/.config/retroarch/retroarch-core-options.cfg /home/ark/.config/retroarch32/retroarch.cfg /home/ark/.config/retroarch32/retroarch-core-options.cfg /home/ark/.config/retroarch32/config /home/ark/.emulationstation/collections /home/ark/.emulationstation/es_settings.cfg /opt/amiberry/savestates /opt/amiberry/whdboot /opt/mupen64plus/InputAutoCfg.ini /opt/drastic/config/drastic.cfg /dev/shm/TZ /home/ark/.bigpemu_userdata/ "${EXTRA_BACKUP_FILES[@]}" | tee -a "$LOG_FILE"
+		  sudo tar -zchvf "$TEMP_BACKUP" /home/ark/.config/panel_settings.txt /home/ark/.kodi/ /etc/NetworkManager/system-connections /home/ark/.config/retroarch/retroarch.cfg /home/ark/.config/retroarch/config /home/ark/.config/retroarch/retroarch-core-options.cfg /home/ark/.config/retroarch32/retroarch.cfg /home/ark/.config/retroarch32/retroarch-core-options.cfg /home/ark/.config/retroarch32/config /home/ark/.emulationstation/collections /home/ark/.emulationstation/es_settings.cfg /opt/amiberry/savestates /opt/amiberry/whdboot /opt/mupen64plus/InputAutoCfg.ini /opt/drastic/config/drastic.cfg /dev/shm/TZ /home/ark/.bigpemu_userdata/ "${EXTRA_BACKUP_FILES[@]}" | tee -a "$LOG_FILE"
+		  TAR_STATUS=${PIPESTATUS[0]}
 		else
-		  sudo tar -zchvf /roms/backup/arkosbackup.tar.gz /etc/NetworkManager/system-connections /home/ark/.config/retroarch/retroarch.cfg /home/ark/.config/retroarch/config /home/ark/.config/retroarch32/retroarch.cfg /home/ark/.config/retroarch32/config /home/ark/.emulationstation/collections /home/ark/.emulationstation/es_settings.cfg /opt/amiberry/savestates /opt/amiberry/whdboot /opt/mupen64plus/InputAutoCfg.ini /opt/drastic/config/drastic.cfg /dev/shm/TZ "${EXTRA_BACKUP_FILES[@]}" | tee -a "$LOG_FILE"
+		  sudo tar -zchvf "$TEMP_BACKUP" /etc/NetworkManager/system-connections /home/ark/.config/retroarch/retroarch.cfg /home/ark/.config/retroarch/config /home/ark/.config/retroarch32/retroarch.cfg /home/ark/.config/retroarch32/config /home/ark/.emulationstation/collections /home/ark/.emulationstation/es_settings.cfg /opt/amiberry/savestates /opt/amiberry/whdboot /opt/mupen64plus/InputAutoCfg.ini /opt/drastic/config/drastic.cfg /dev/shm/TZ "${EXTRA_BACKUP_FILES[@]}" | tee -a "$LOG_FILE"
+		  TAR_STATUS=${PIPESTATUS[0]}
 		fi
 
-		if [ $? -eq 0 ]; then
+		if [ "$TAR_STATUS" -eq 0 ] && sudo mv -f "$TEMP_BACKUP" "$BACKUP_FILE"; then
 		  if [ ! -z "$(cat /etc/fstab | grep roms2 | tr -d '\0')" ]; then
 			if [ ! -d "/roms2/backup/" ]; then
 	          sudo mkdir -v /roms2/backup
@@ -59,6 +61,7 @@ do
 		  printf "\033[0m"  | tee -a "$LOG_FILE"
 		  sleep 5
 		else
+		  sudo rm -f "$TEMP_BACKUP"
 		  printf "\n\n\e[31mThe backup did NOT complete successfully! \n\e[33mVerify you have at least 1GB of space available on your easyroms partition then try again.\n" | tee -a "$LOG_FILE"
 		  printf "\033[0m" | tee -a "$LOG_FILE"
 		  sleep 5
