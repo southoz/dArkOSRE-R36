@@ -1,0 +1,51 @@
+#version 450
+// GPU present stage: one invocation per PANEL pixel of the scanout buffer
+// (imported into Vulkan). Lays out, scales, rotates and blends the PiP inset
+// -- what the CPU scanline scaler did -- so no panel-sized pixel touches the CPU.
+layout(local_size_x = 16, local_size_y = 8) in;
+layout(binding = 0, rgba8) uniform writeonly image2D dst;
+layout(std430, binding = 1) readonly buffer Src { uint src[]; };   // slot base + screen * 49152 + y * 256 + x, 0xAARRGGBB
+layout(std430, binding = 2) readonly buffer Over { uint over[]; };  // frontend overlay (OSD, menu), 0xAARRGGBB; b.z bit 8 = has content
+layout(std430, binding = 3) readonly buffer Tab  { uint tab[]; };   // LCD grid seam bitmasks: per view, 32 words columns then 32 rows
+layout(push_constant) uniform P {
+  uvec4 a;        // presented w, h; logical w, h
+  uvec4 b;        // rotation (0/90/180/270), nviews, inset alpha 0..255 | 1 << 8 (overlay drawn) | grid brightness 0..256 << 16 (256 = off), source base (words)
+  ivec4 rect[2];  // x, y, w, h in the logical frame, draw order
+  ivec4 view[2];  // screen, shown, blends (inset), the LCD grid applies
+} pc;
+
+// LCD grid: dims the first panel pixel/row of each source pixel/line to
+// f/256. Columns/rows depend only on view size, so the CPU precomputes them
+// as bitmasks and this just tests two bits a pixel (avoids integer divide).
+bool grid_seam(int v, int d, int axis) {
+  return ((tab[v * 64 + axis * 32 + (d >> 5)] >> uint(d & 31)) & 1u) != 0u;
+}
+
+void main() {
+  uvec2 p = gl_GlobalInvocationID.xy;
+  if (p.x >= pc.a.x || p.y >= pc.a.y) return;
+  int lw = int(pc.a.z), lh = int(pc.a.w), px = int(p.x), py = int(p.y), lx, ly;
+  // Matches Display::rotate_out's transposes.
+  if (pc.b.x == 90u)       { lx = py;          ly = lh - 1 - px; }
+  else if (pc.b.x == 180u) { lx = lw - 1 - px; ly = lh - 1 - py; }
+  else if (pc.b.x == 270u) { lx = lw - 1 - py; ly = px; }
+  else                     { lx = px;          ly = py; }
+  vec3 c = vec3(0.0);
+  for (int v = 0; v < int(pc.b.y); ++v) {
+    ivec4 r = pc.rect[v]; ivec4 vi = pc.view[v];
+    if (vi.y == 0 || lx < r.x || ly < r.y || lx >= r.x + r.z || ly >= r.y + r.w) continue;
+    int sx = (lx - r.x) * 256 / r.z, sy = (ly - r.y) * 192 / r.w;
+    uint s = src[pc.b.w + uint(vi.x) * 49152u + uint(sy) * 256u + uint(sx)];
+    vec3 col = vec3(float((s >> 16) & 255u), float((s >> 8) & 255u), float(s & 255u));
+    uint gf = (pc.b.z >> 16) & 0x1FFu;
+    if (gf < 256u && vi.w != 0 && (grid_seam(v, lx - r.x, 0) || grid_seam(v, ly - r.y, 1))) col = floor(col * (float(gf) / 256.0));
+    col /= 255.0;
+    c = (vi.z != 0 && (pc.b.z & 0xFFu) < 255u) ? mix(c, col, float(pc.b.z & 0xFFu) / 255.0) : col;
+  }
+  if ((pc.b.z & 0x100u) != 0u) {   // frontend overlay over the picture; see Display::blend_row
+    uint ov = over[min(uint(ly) * uint(lw) + uint(lx), uint(lw * lh) - 1u)];
+    uint oa = ov >> 24;
+    if (oa != 0u) c = mix(c, vec3(float((ov >> 16) & 255u), float((ov >> 8) & 255u), float(ov & 255u)) / 255.0, float(oa) / 255.0);
+  }
+  imageStore(dst, ivec2(p), vec4(c, 1.0));
+}

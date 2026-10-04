@@ -1,0 +1,15 @@
+[Unit]
+Description=R36 Wi-Fi credentials importer
+After=firstboot.service network-pre.target
+Before=emulationstation.service
+RequiresMountsFor=/opt/system/Tools
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/home/ark
+ExecStart=/usr/local/bin/importwifi.sh
+Restart=no
+
+[Install]
+WantedBy=multi-user.target

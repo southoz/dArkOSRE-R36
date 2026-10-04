@@ -1,0 +1,109 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  # Native arm64, the main target: the JIT and NEON paths on real silicon, and
+  # the binaries a handheld runs (see Package for the two tarballs). Other
+  # devices build with their own toolchains; what they share with this job is
+  # the committed PGO profiles (pgo/<arch>[-gcc<ver>]/), not a CI variant.
+  arm64:
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          # libvulkan-dev: the headers only; nothing links libvulkan (it is
+          # dlopen'd on the device). Without them the build silently has no
+          # GPU 3D raster and no Vulkan present -- the configure check below
+          # refuses that.
+          sudo apt-get install -y ninja-build libsdl2-dev libvulkan-dev
+      # Profile-guided, from the profile committed under pgo/aarch64/ (made on a
+      # developer machine with the ROMs by tools/pgo_refresh.sh). The configure
+      # fails if the runner's compiler or the flags no longer match the
+      # profile's MANIFEST -- refresh it, do not silently ship an unprofiled
+      # build. STRICT keeps the per-function mismatch warnings in the log.
+      - name: Build and test
+        run: |
+          cmake --preset host -DDSPERATE_PGO=use -DDSPERATE_PGO_STRICT=ON | tee configure.log
+          grep -q "Vulkan presenter and 3D raster enabled" configure.log || { echo "::error::Vulkan headers not found: the build would ship without GPU 3D and the Vulkan present"; exit 1; }
+          # "source locations ... have changed" is benign (the checkout path is
+          # in the checksum; the counts still apply) and one per function, so it
+          # is filtered; "control flow ... does not match" is a dropped profile.
+          cmake --build --preset host 2>&1 | grep -v "source locations for function" | tee build.log
+          echo "PGO: $(grep -c 'control flow of function' build.log || true) functions changed since the profile ($(sed -n 's/^commit //p' pgo/aarch64/MANIFEST | cut -c1-9), $(sed -n 's/^date //p' pgo/aarch64/MANIFEST)); $(grep -c 'data file not found' build.log || true) objects without one"
+          ctest --preset host --output-on-failure
+      - name: configs/default.ini matches the built-in defaults
+        run: tools/gen_example_configs.sh && git diff --exit-code configs/default.ini
+      # Two tarballs from one build. The standard one is what a distro with a
+      # current libstdc++ wants (ROCKNIX packages it as a binary): dynamically
+      # linked and stripped. The -static one carries libstdc++/libgcc inside
+      # and its debug symbols, for a device whose runtime may be older than
+      # the runner's or for a backtrace; the reconfigure only relinks.
+      - name: Package
+        run: |
+          d=dsperate-${GITHUB_REF_NAME}-linux-aarch64
+          mkdir -p dist/$d dist/$d-static
+          cp build/host/src/frontend/sdl/dsperate build/host/src/frontend/headless/dsperate-headless dist/$d/
+          strip dist/$d/dsperate dist/$d/dsperate-headless
+          cp LICENSE README.md dist/$d/
+          tar -C dist -czf $d.tar.gz $d
+          cmake --preset host -DCMAKE_EXE_LINKER_FLAGS="-static-libstdc++ -static-libgcc"
+          cmake --build --preset host
+          cp build/host/src/frontend/sdl/dsperate build/host/src/frontend/headless/dsperate-headless \
+             LICENSE README.md dist/$d-static/
+          tar -C dist -czf $d-static.tar.gz $d-static
+          ls -l *.tar.gz
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dsperate-linux-aarch64
+          path: dsperate-*-linux-aarch64*.tar.gz
+  # Tag v* to publish. The notes are a stand-in (name, tag, changelog link)
+  # meant to be edited on GitHub afterwards.
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [arm64]
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: dsperate-linux-aarch64
+      # Fail here, with the listing, rather than in gh's glob error: an
+      # artefact uploaded under the wrong name is not downloaded at all.
+      - name: Check the tarballs arrived
+        run: |
+          ls -l
+          test -f dsperate-${GITHUB_REF_NAME}-linux-aarch64.tar.gz
+          test -f dsperate-${GITHUB_REF_NAME}-linux-aarch64-static.tar.gz
+      - name: Write release notes
+        run: |
+          prev=$(git describe --tags --abbrev=0 "${GITHUB_REF_NAME}^" 2>/dev/null || true)
+          if [ -n "$prev" ]; then
+            changes="https://github.com/${GITHUB_REPOSITORY}/compare/${prev}...${GITHUB_REF_NAME}"
+          else
+            changes="https://github.com/${GITHUB_REPOSITORY}/commits/${GITHUB_REF_NAME}"
+          fi
+          {
+            echo "# DSperate ${GITHUB_REF_NAME}"
+            echo
+            echo "Full changelog: ${changes}"
+            echo
+            echo "Games run without BIOS or firmware dumps (built-in FreeBIOS and a generated firmware); a set dumped from your own DS unlocks the firmware boot and cycle-exact SWI timing. None is included."
+            echo
+            echo "Tarballs: \`linux-aarch64\` is dynamically linked and stripped -- the one to package. \`linux-aarch64-static\` carries libstdc++/libgcc inside and keeps its debug symbols, for a device whose runtime is older than the build's, or for a backtrace."
+          } > notes.md
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "${GITHUB_REF_NAME}" dsperate-*-linux-aarch64.tar.gz dsperate-*-linux-aarch64-static.tar.gz --title "DSperate ${GITHUB_REF_NAME}" --notes-file notes.md

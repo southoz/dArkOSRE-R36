@@ -1,0 +1,15 @@
+build/
+build-*/
+.cache/
+compile_commands.json
+*.sav
+*.nds
+
+# the recorded scenes need their battery saves: without them the replay diverges
+# (M&L most of all)
+!scenes/*.sav
+
+# Python bytecode from the tools/ scripts; one of these was committed by
+# accident in abd035a and showed up as a spurious diff whenever a tool ran.
+__pycache__/
+*.pyc

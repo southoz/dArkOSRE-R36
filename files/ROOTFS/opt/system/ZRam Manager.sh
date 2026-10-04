@@ -222,14 +222,16 @@ EOF
 [Unit]
 Description=ZRam Compressed Swap for R36S
 Documentation=man:zram(4)
-After=local-fs.target
-Before=swap.target
+DefaultDependencies=no
+After=systemd-modules-load.service
+Before=swap.target shutdown.target
+Conflicts=shutdown.target
 
 [Service]
 Type=oneshot
 ExecStart=$SCRIPT_PATH
 RemainAfterExit=yes
-ExecStop=/usr/bin/swapoff /dev/zram0
+ExecStop=/usr/sbin/swapoff /dev/zram0
 
 [Install]
 WantedBy=swap.target multi-user.target

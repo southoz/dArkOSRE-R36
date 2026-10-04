@@ -1,0 +1,50 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libgsm
+Upstream-Contact: Jutta Degener <jutta@pobox.com>
+Source: http://www.quut.com/gsm/
+
+Files: *
+Copyright:
+ 1992-1994 by Jutta Degener and Carsten Bormann, Technische Universitaet Berlin
+License: TU-Berlin-2.0
+
+Files: debian/*
+Copyright:
+ 1997, Klee Dienes <klee@debian.org>
+ 1999, Martin Mitchell <martin@debian.org>
+ 2004-2012, Jochen Friedrich <jochen@scram.de>
+ 2018-2022, Felix Lechner <felix.lechner@lease-up.com>
+License: TU-Berlin-2.0
+
+License: TU-Berlin-2.0
+ Any use of this software is permitted provided that this notice is not
+ removed and that neither the authors nor the Technische Universitaet
+ Berlin are deemed to have made any representations as to the
+ suitability of this software for any purpose nor are held responsible
+ for any defects of this software.  THERE IS ABSOLUTELY NO WARRANTY FOR
+ THIS SOFTWARE.
+ .
+ As a matter of courtesy, the authors request to be informed about uses
+ this software has found, about bugs in this software, and about any
+ improvements that may be of general interest.
+ .
+ Berlin, 28.11.1994
+ Jutta Degener
+ Carsten Bormann
+ .
+ Since the original terms of 15 years ago maybe do not make our
+ intentions completely clear given today's refined usage of the legal
+ terms, we append this additional permission:
+ .
+       Permission to use, copy, modify, and distribute this software
+       for any purpose with or without fee is hereby granted,
+       provided that this notice is not removed and that neither
+       the authors nor the Technische Universitaet Berlin are
+       deemed to have made any representations as to the suitability
+       of this software for any purpose nor are held responsible
+       for any defects of this software.  THERE IS ABSOLUTELY NO
+       WARRANTY FOR THIS SOFTWARE.
+ .
+ Berkeley/Bremen, 05.04.2009
+ Jutta Degener
+ Carsten Bormann

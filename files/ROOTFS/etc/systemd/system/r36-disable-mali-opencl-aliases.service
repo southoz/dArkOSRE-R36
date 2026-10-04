@@ -1,0 +1,14 @@
+[Unit]
+Description=Remove invalid Mali OpenCL linker aliases
+After=local-fs.target
+Before=emulationstation.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/r36_disable_mali_opencl_aliases.sh
+RemainAfterExit=true
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

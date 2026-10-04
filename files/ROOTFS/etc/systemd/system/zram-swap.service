@@ -1,0 +1,16 @@
+[Unit]
+Description=ZRam Compressed Swap for R36S
+Documentation=man:zram(4)
+DefaultDependencies=no
+After=systemd-modules-load.service
+Before=swap.target shutdown.target
+Conflicts=shutdown.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/zram-autostart.sh
+RemainAfterExit=yes
+ExecStop=/usr/sbin/swapoff /dev/zram0
+
+[Install]
+WantedBy=swap.target multi-user.target

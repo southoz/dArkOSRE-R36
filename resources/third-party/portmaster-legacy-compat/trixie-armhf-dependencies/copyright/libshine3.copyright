@@ -1,0 +1,61 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: shine
+Upstream-Contact: savonet-users@lists.sourceforge.net
+Source: https://github.com/savonet/shine
+
+Files: *
+Copyright:
+ Gabriel Bougvigne
+ 2001 Pete Everett
+ Patrick Roberts
+ 2014 Zeng Zhaoxiu
+ 2013-2015 Romain Beauxis <toots@rastageeks.org>
+License: LGPL-2
+Comment:
+ Reconstructed from README.old and the commit history from
+ https://github.com/toots/shine.
+
+Files: src/lib/bitstream.*
+Copyright:
+ Jean-Georges Fritsch, C-Cube Microsystems
+License: LGPL-2
+
+Files: debian/*
+Copyright:
+ 2013 Romain Beauxis <toots@rastageeks.org>
+ 2016 Sebastian Ramacher <sramacher@debian.org>
+License: GPL-2+
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+Comment:
+ On Debian systems, the complete text of the GNU General Public
+ License can be found in /usr/share/common-licenses/GPL-2 file.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+Comment:
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License can be found in /usr/share/common-licenses/LGPL-2 file.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.

@@ -1,0 +1,161 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: sodium
+Upstream-Contact: Frank Denis <j at pureftpd dot org>
+Source: https://github.com/jedisct1/libsodium
+
+Files: *
+Copyright: 2013-2017 Frank Denis <j at pureftpd dot org>
+License: ISC
+ Permission to use, copy, modify, and/or distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above 
+ copyright notice and this permission notice appear in all copies. 
+ . 
+ THE SOFTWARE IS PROVIDED "AS IS" AND ISC DISCLAIMS ALL WARRANTIES WITH REGARD
+ TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND 
+ FITNESS. IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, 
+ OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+ DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE 
+ OF THIS SOFTWARE.
+
+Files: src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt.h
+ src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c
+ src/libsodium/crypto_pwhash/scryptsalsa208sha256/sse/pwhash_scryptsalsa208sha256_sse.c
+Copyright: 2009 Colin Percival
+ 2012, 2013 Alexander Peslyak
+License: BSD-2-clause
+
+Files: src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c
+ src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c
+Copyright: 2013 Alexander Peslyak
+License: BSD-2-clause
+
+Files: src/libsodium/crypto_auth/hmacsha256/cp/hmac_hmacsha256.c
+ src/libsodium/crypto_auth/hmacsha512/cp/hmac_hmacsha256.c
+ src/libsodium/crypto_auth/hmacsha512256/cp/hmac_hmacsha512256.c
+ src/libsodium/crypto_hash/sha256/cp/hash_sha256.c
+ src/libsodium/crypto_hash/sha512/cp/hash_sha512.c
+ src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.h
+ src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c
+Copyright: 2005,2007,2009 Colin Percival
+License: BSD-2-clause
+
+Files: src/libsodium/crypto_core/salsa208/ref/core_salsa208.c
+ src/libsodium/crypto_core/salsa20/ref/core_salsa20.c
+ src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20.c
+ src/libsodium/crypto_core/salsa2012/ref/core_salsa2012.c
+ src/libsodium/crypto_onetimeauth/poly1305/53/auth_poly1305_53.c
+ src/libsodium/crypto_stream/salsa20/ref/stream_salsa20_ref.c
+ src/libsodium/crypto_stream/salsa20/ref/xor_salsa20_ref.c
+ src/libsodium/crypto_stream/salsa208/ref/stream_salsa208.c
+ src/libsodium/crypto_stream/salsa208/ref/xor_salsa208.c
+ src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012.c
+ src/libsodium/crypto_stream/salsa2012/ref/xor_salsa2012.c
+ src/libsodium/crypto_stream/xsalsa20/ref/stream_xsalsa20.c
+ src/libsodium/crypto_stream/xsalsa20/ref/xor_xsalsa20.c
+Copyright: no copyright claimed
+License: public-domain
+Comment: Written by Daniel J. Bernstein 2009
+
+Files: src/libsodium/crypto_stream/aes128ctr/portable/beforenm_aes128ctr.c
+ src/libsodium/crypto_stream/aes128ctr/portable/xor_afternm_aes128ctr.c
+ src/libsodium/crypto_stream/aes128ctr/portable/afternm_aes128ctr.c
+Copyright: no copyright claimed
+License: public-domain
+Comment: Written by Peter Schwabe, Emilia Käsper 2009
+
+Files: src/libsodium/crypto_scalarmult/curve25519/ref/base_curve25519_ref.c
+ src/libsodium/crypto_scalarmult/curve25519/ref/smult_curve25519_ref.c
+Copyright: no copyright claimed
+License: public-domain
+Comment: Written by Matthew Dempsky 2008
+
+Files: src/libsodium/crypto_scalarmult/curve25519/donna_c64/smult_curve25519_donna_c64.c
+Copyright: 2008 Adam Langley, Google Inc.
+License: public-domain
+
+Files: src/libsodium/crypto_generichash/blake2/ref/blake2b-ref.c
+Copyright: 2012 Samuel Neves <sneves@dei.uc.pt>
+License: CC0
+
+Files: packaging/nuget/package.gsl
+Copyright: 2013-2017 Frank Denis <j at pureftpd dot org>
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files: src/libsodium/crypto_pwhash/argon2/argon2-encoding.*
+Copyright: 2015 Thomas Pornin <pornin@bolet.org>
+License: CC0
+
+Files: debian/*
+Copyright: 2014- Laszlo Boszormenyi (GCS) <gcs@debian.org>,
+ 2013-2014 Raúl Sánchez Siles <rasasi78@gmail.com>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: public-domain
+ Only public domain stated, no further description or requirements.
+ No license required for any purpose; the work is not subject to copyright in
+ any jurisdiction.
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: CC0
+ To the extent possible under law, the author(s) have dedicated all copyright
+ and related and neighboring rights to this software to the public domain
+ worldwide. This software is distributed without any warranty.
+ .
+ You should have received a copy of the CC0 Public Domain Dedication along with
+ this software. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>
+ On Debian systems, the complete text of the CC0 Public Domain Dedication
+ License can be found in "/usr/share/common-licenses/CC0-1.0".

@@ -16,7 +16,7 @@ fi
 
 sudo timedatectl set-ntp 1
 
-LOCATION="https://raw.githubusercontent.com/southoz/darkos-updates/master"
+LOCATION="https://raw.githubusercontent.com/dixtuel/darkos-updates/main"
 
 wget -t 3 -T 60 --no-check-certificate "$LOCATION"/LICENSE -O /dev/shm/LICENSE -a "$LOG_FILE"
 if [ $? -ne 0 ]; then

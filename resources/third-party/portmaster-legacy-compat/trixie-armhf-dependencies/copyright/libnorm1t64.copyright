@@ -1,0 +1,216 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: norm
+Upstream-Contact: https://publists.nrl.navy.mil/pipermail/norm-dev/
+Source: https://github.com/USNavalResearchLaboratory
+Comment: Upstream tarball has been repackaged to remove the binary waf files
+         and Win-specific sources with an unknown license. Java pre-compiled
+         binaries are also removed.
+Files-Excluded: protolib/src/java/libprotolibjni.jnilib
+                protolib/src/java/ProtolibJni.dll*
+                protolib/src/java/protolib-jni.jar*
+                protolib/src/win32
+                protolib/src/wince
+                protolib/android
+                protolib/makefiles
+                protolib/waf
+                protolib/wscript
+                android
+                makefiles
+                waf
+                wscript
+                _deps
+
+Files: *
+Copyright: 2005-2015 Naval Research Laboratory (NRL)
+License: NRL-2-clause
+
+Files: src/sim/opnet/11.5/norm_protolib.pr.cpp
+       src/sim/opnet/12.0/norm_protolib.pr.cpp
+Copyright: 1992-2006 OPNET Technologies, Inc.
+           2005-2015 Naval Research Laboratory (NRL)
+License: NRL-2-clause
+
+Files: src/unix/unixPostProcess.cpp
+Copyright: 1996 Netscape Communications Corporation
+           2005-2015 Naval Research Laboratory (NRL)
+License: NRL-3-clause
+
+Files: include/galois.h
+       include/normEncoder.h
+       include/normEncoderMDP.h
+       include/normVersion.h
+       protolib/doc/doxygen/mainpages/introduction.h
+       protolib/include/protoDispatcher.h
+       protolib/include/protoTimer.h
+       protolib/include/protoTree.h
+       protolib/src/common/protoDispatcher.cpp
+       protolib/src/common/protoTree.cpp
+       protolib/src/sim/ns/nsProtoManetKernel.cpp
+       protolib/src/sim/ns/nsProtoManetKernel.h
+       protolib/src/sim/ns/nsProtoManetKernel_packet.h
+       src/common/galois.cpp
+       src/common/normEncoder.cpp
+       src/common/normEncoderMDP.cpp
+       src/sim/ns/nsNormAgent.cpp
+       src/sim/ns/nsNormAgent.h
+Copyright: 2005-2015 Naval Research Laboratory (NRL)
+License: NRL-3-clause
+
+Files: src/common/normEncoderRS16.cpp
+       src/common/normEncoderRS8.cpp
+Copyright: 1997-1998 Luigi Rizzo <luigi@iet.unipi.it>
+License: BSD-2-clause
+ This includes forward error correction code based on Vandermonde matrices
+ 980624
+ (C) 1997-98 Luigi Rizzo (luigi@iet.unipi.it)
+ .
+ Portions derived from code by Phil Karn (karn@ka9q.ampr.org),
+ Robert Morelos-Zaragoza (robert@spectra.eng.hawaii.edu) and Hari
+ Thirumoorthy (harit@spectra.eng.hawaii.edu), Aug 1995
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above
+    copyright notice, this list of conditions and the following
+    disclaimer in the documentation and/or other materials
+    provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+ THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+ PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS
+ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+ OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+ TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+ OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+ OF SUCH DAMAGE.
+
+Files: protolib/src/sim/ns/ns233/*
+       protolib/src/sim/ns/ns234/*
+       protolib/src/sim/ns/ns235/*
+Copyright: 1994-1997 Regents of the University of California.
+License: BSD-4-clause-UC
+ Copyright (c) 1994-1997 Regents of the University of California.
+ All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. All advertising materials mentioning features or use of this software
+    must display the following acknowledgement:
+      This product includes software developed by the Computer Systems
+      Engineering Group at Lawrence Berkeley Laboratory.
+ 4. Neither the name of the University nor of the Laboratory may be used
+    to endorse or promote products derived from this software without
+    specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+Files: debian/*
+Copyright: 2017-2023 Luca Boccassi <bluca@debian.org>
+License: BSD-3-clause
+
+License: NRL-2-clause
+ AUTHORIZATION TO USE AND DISTRIBUTE
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that: 
+ .
+ (1) source code distributions retain this paragraph in its entirety, 
+ .
+ (2) distributions including binary code include this paragraph in
+     its entirety in the documentation or other materials provided 
+     with the distribution.
+ .
+      "This product includes software written and developed 
+       by Code 5520 of the Naval Research Laboratory (NRL)." 
+ .
+ The name of NRL, the name(s) of NRL  employee(s), or any entity
+ of the United States Government may not be used to endorse or
+ promote  products derived from this software, nor does the 
+ inclusion of the NRL written and developed software  directly or
+ indirectly suggest NRL or United States  Government endorsement
+ of this product.
+ .
+ THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+License: NRL-3-clause
+ AUTHORIZATION TO USE AND DISTRIBUTE
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that: 
+ .
+ (1) source code distributions retain this paragraph in its entirety, 
+ .
+ (2) distributions including binary code include this paragraph in
+     its entirety in the documentation or other materials provided 
+     with the distribution, and 
+ .
+ (3) all advertising materials mentioning features or use of this 
+     software display the following acknowledgment:
+ .
+      "This product includes software written and developed 
+       by Brian Adamson and Joe Macker of the Naval Research 
+       Laboratory (NRL)." 
+ .
+ The name of NRL, the name(s) of NRL  employee(s), or any entity
+ of the United States Government may not be used to endorse or
+ promote  products derived from this software, nor does the 
+ inclusion of the NRL written and developed software  directly or
+ indirectly suggest NRL or United States  Government endorsement
+ of this product.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT,
+ INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+ IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.

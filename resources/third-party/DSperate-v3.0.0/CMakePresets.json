@@ -1,0 +1,36 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "host",
+      "displayName": "Native host build (JIT/NEON only if host is AArch64)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/host",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "RelWithDebInfo" }
+    },
+    {
+      "name": "arm32-cross",
+      "displayName": "Linux ARMv7 (armhf) cross build (run under qemu-arm-static or on device)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/arm32",
+      "toolchainFile": "${sourceDir}/cmake/arm-linux-gnueabihf.cmake",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "RelWithDebInfo" }
+    },
+    {
+      "name": "aarch64-cross",
+      "displayName": "Linux AArch64 cross build (run under qemu-aarch64-static or on device)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/aarch64",
+      "toolchainFile": "${sourceDir}/cmake/aarch64-linux-gnu.cmake",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "RelWithDebInfo" }
+    }
+  ],
+  "buildPresets": [
+    { "name": "host",          "configurePreset": "host" },
+    { "name": "aarch64-cross", "configurePreset": "aarch64-cross" },
+    { "name": "arm32-cross",   "configurePreset": "arm32-cross" }
+  ],
+  "testPresets": [
+    { "name": "host", "configurePreset": "host", "output": { "outputOnFailure": true } }
+  ]
+}

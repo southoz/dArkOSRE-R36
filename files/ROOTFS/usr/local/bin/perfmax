@@ -1,4 +1,13 @@
 #!/bin/bash
+
+launch_root=/roms
+case "${2:-}" in
+  /roms2/*) if mountpoint -q /roms2; then launch_root=/roms2; fi ;;
+  /roms/*) launch_root=/roms ;;
+  *) if mountpoint -q /roms2 && grep -Eq '<path>/roms2/' /etc/emulationstation/es_systems.cfg; then
+       launch_root=/roms2
+     fi ;;
+esac
 printf "\033c" >> /dev/tty1
 export SDL_VIDEO_EGL_DRIVER=libEGL.so
 
@@ -13,10 +22,10 @@ if [[ ! -z "$isitrk3326" ]] && [[ $(tty) != *"pts"* ]]; then
 fi
 
 if [ -e "/home/ark/.config/.GameLoadingIModeASCII" ] && [[ $(tty) != *"pts"* ]]; then
-  if [ -f "/roms/launchimages/loading.ascii" ]; then
-    echo -en "\033[21m" > /dev/tty1 && cat /roms/launchimages/loading.ascii > /dev/tty1
+  if [ -f "${launch_root}/launchimages/loading.ascii" ]; then
+    echo -en "\033[21m" > /dev/tty1 && cat "${launch_root}/launchimages/loading.ascii" > /dev/tty1
   else
-    continue
+    : # No fallback artwork on this ROM card.
   fi
 elif [ -e "/home/ark/.config/.GameLoadingIModeGIF" ] && [[ $(tty) != *"pts"* ]]; then
   if [ -e "/home/ark/.config/.IMAGEDELAYTIME" ]; then
@@ -24,12 +33,12 @@ elif [ -e "/home/ark/.config/.GameLoadingIModeGIF" ] && [[ $(tty) != *"pts"* ]];
   else
     delay="1.5"
   fi
-  if [ -f "/roms/launchimages/loading.gif" ]; then
-    ffplay -x 1280 -y 720 -loglevel quiet -autoexit /roms/launchimages/loading.gif &
+  if [ -f "${launch_root}/launchimages/loading.gif" ]; then
+    ffplay -x 1280 -y 720 -loglevel quiet -autoexit "${launch_root}/launchimages/loading.gif" &
     PROC=$!
     (sleep ${delay}s; kill -9 $PROC)
   else
-    continue
+    : # No fallback artwork on this ROM card.
   fi
 elif [ -e "/home/ark/.config/.GameLoadingIModeVID" ] && [[ $(tty) != *"pts"* ]]; then
   if [ -e "/home/ark/.config/.IMAGEDELAYTIME" ]; then
@@ -37,12 +46,12 @@ elif [ -e "/home/ark/.config/.GameLoadingIModeVID" ] && [[ $(tty) != *"pts"* ]];
   else
     delay="1.5"
   fi
-  if [ -f "/roms/launchimages/loading.mp4" ]; then
-    ffplay -x 1280 -y 720 -loglevel quiet -autoexit /roms/launchimages/loading.mp4 &
+  if [ -f "${launch_root}/launchimages/loading.mp4" ]; then
+    ffplay -x 1280 -y 720 -loglevel quiet -autoexit "${launch_root}/launchimages/loading.mp4" &
     PROC=$!
     (sleep ${delay}s; kill -9 $PROC)
   else
-    continue
+    : # No fallback artwork on this ROM card.
   fi
 elif [ -e "/home/ark/.config/.GameLoadingIModePIC" ] && [[ $(tty) != *"pts"* ]]; then
   directory=$(echo "$(dirname "$2")"/images)
@@ -67,12 +76,12 @@ elif [ -e "/home/ark/.config/.GameLoadingIModePIC" ] && [[ $(tty) != *"pts"* ]];
     PROC=$!
     (sleep ${delay}s; kill -9 $PROC)
   else
-    if [ -f "/roms/launchimages/loading.jpg" ]; then
-      ffplay -x 1280 -y 720 /roms/launchimages/loading.jpg &
+    if [ -f "${launch_root}/launchimages/loading.jpg" ]; then
+      ffplay -x 1280 -y 720 "${launch_root}/launchimages/loading.jpg" &
       PROC=$!
       (sleep ${delay}s; kill -9 $PROC)
     else
-      continue
+      : # No fallback artwork on this ROM card.
     fi
   fi
 else

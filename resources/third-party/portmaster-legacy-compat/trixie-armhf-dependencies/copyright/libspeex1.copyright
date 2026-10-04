@@ -1,0 +1,131 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: speex
+Source: https://gitlab.xiph.org/xiph/speex
+Comment:
+ This package was first debianized by A. Maitland Bottoms <bottoms@debian.org>
+ on Tue, 16 Jul 2002 10:02:40 -0400.
+
+Files: *
+Copyright:
+ 2002-2007 Jean-Marc Valin <jean-marc.valin@hermes.usherb.ca>
+ 1994-2007 Xiph.org Foundation
+ 1993, 2002, 2006 David Rowe <david@voicetronix.com.au>
+ 2005-2009 Analog Devices Inc.
+ 2003-2004 Mark Borgerding
+ 2003-2007 Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+ 2005 Christopher Montgomery
+ 2003 EpicGames
+ 1992-1994 Jutta Degener, Carsten Bormann, Technische Universitaet Berlin
+ Tahseen Mohammad
+ 2002, John Edwards
+ 2005-2007 Psi Systems, Inc.
+License: BSD-3-Clause
+
+Files: doc/manual.pdf
+Copyright:
+ 2002-2007 Jean-Marc Valin
+ 2002-2007 Xiph.org Foundation
+License: GFDL-1.1-or-later
+
+Files:
+ include/speex/speex_types.h
+ libspeex/smallft.c
+ libspeex/smallft.h
+Copyright:
+ 1994-2002 Xiph.Org Foundation
+License: BSD-3-Clause
+Comment:
+ taken from libogg
+
+Files:
+ libspeex/lpc.c
+Copyright:
+ 1992, 1993, 1994 by Jutta Degener and Carsten Bormann, Technische Universitaet Berlin
+ Jean-Marc Valin
+License: BSD-3-Clause and custom-1
+
+Files:
+ src/getopt1.c
+ src/getopt.c
+ src/getopt_win.h
+Copyright:
+ 1987,88,89,90,91,92,93,94,96,97,98,99 Free Software Foundation, Inc.
+License: LGPL-2.0-or-later
+
+Files: debian/*
+Copyright:
+ 2002 A. Maitland Bottoms <bottoms@debian.org>
+License: BSD-3-Clause
+
+License: BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ - Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ - Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ - Neither the name of the Xiph.org Foundation nor the names of its
+ contributors may be used to endorse or promote products derived from
+ this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: LGPL-2.0-or-later
+ This file is part of the GNU C Library.
+ .
+ The GNU C Library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public License as
+ published by the Free Software Foundation; either version 2 of the
+ License, or (at your option) any later version.
+ .
+ The GNU C Library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with the GNU C Library; see the file COPYING.LIB.  If not,
+ see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: custom-1
+ Any use of this software is permitted provided that this notice is not
+ removed and that neither the authors nor the Technische Universitaet Berlin
+ are deemed to have made any representations as to the suitability of this
+ software for any purpose nor are held responsible for any defects of
+ this software.  THERE IS ABSOLUTELY NO WARRANTY FOR THIS SOFTWARE.
+ .
+ As a matter of courtesy, the authors request to be informed about uses
+ this software has found, about bugs in this software, and about any
+ improvements that may be of general interest.
+ .
+ Berlin, 28.11.1994
+ Jutta Degener
+ Carsten Bormann
+
+License: GFDL-1.1-or-later
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.1 or
+ any later version published by the Free Software Foundation;
+ with no Invariant Section, with no Front-Cover Texts, and with no
+ Back-Cover.
+ .
+ On Debian systems, the complete text of the GNU Free Documentation License
+ version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".

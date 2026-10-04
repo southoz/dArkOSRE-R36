@@ -1,0 +1,26 @@
+diff --git a/es-app/src/components/TextListComponent.h b/es-app/src/components/TextListComponent.h
+index 3692601..26f8834 100644
+--- a/es-app/src/components/TextListComponent.h
++++ b/es-app/src/components/TextListComponent.h
+@@ -31,7 +31,7 @@ protected:
+ 	using IList<TextListData, T>::getTransform;
+ 	using IList<TextListData, T>::mSize;
+ 	using IList<TextListData, T>::mCursor;
+-	using IList<TextListData, T>::Entry;
++	using typename IList<TextListData, T>::Entry;
+ 
+ public:
+ 	using IList<TextListData, T>::size;
+diff --git a/es-core/src/components/ImageGridComponent.h b/es-core/src/components/ImageGridComponent.h
+index 8e3bf94..ca32284 100644
+--- a/es-core/src/components/ImageGridComponent.h
++++ b/es-core/src/components/ImageGridComponent.h
+@@ -57,7 +57,7 @@ protected:
+ 	using IList<ImageGridData, T>::getTransform;
+ 	using IList<ImageGridData, T>::mSize;
+ 	using IList<ImageGridData, T>::mCursor;
+-	using IList<ImageGridData, T>::Entry;
++	using typename IList<ImageGridData, T>::Entry;
+ 	using IList<ImageGridData, T>::mWindow;
+ 
+ public:

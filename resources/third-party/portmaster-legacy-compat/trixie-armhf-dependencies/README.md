@@ -1,0 +1,11 @@
+# Pinned ARMhf dependency candidates for legacy FFmpeg
+
+These 26 Debian 13.3 ARMhf packages close the previously identified 21 direct + 5 transitive dependency package gaps. They are preserved package inputs, **not an automatic installation step or active OTA**. SHA256/size match the signed historical Debian indices dated 2026-01-10, retrieved via `https://snapshot.debian.org/archive/debian/20260314T000000Z/`. Exact pool paths, dependency records and hashes are in package-manifest.json; package copyright notices are included. Source package names/versions are in the preserved Debian control metadata; source is unmodified and available from the same Debian snapshot suite.
+
+An isolated native APT solver, using copied status independently from the official R36 base and current device, selects 26 new ARMhf packages and zero upgrades/removals. No broad apt upgrade, libc/kernel/Mali/ARM64 replacement or live package installation was performed. The package installation policy must check local versions/dependencies instead of downgrading an already newer public installation to these pins.
+
+All control scripts were inspected: packages request ldconfig triggers; libgcrypt20's postinst also invokes its stale-library cleanup helper on upgrades (when argument 2 is nonempty). This set is a new ARMhf installation on both tested statuses; unknown device states require separate review. Do not extract these package-managed libraries blindly over a newer dpkg-owned file.
+
+Physical loader-only test: 29 extracted ARMhf objects (including the separately pinned R2 WebP mux) were staged under /tmp, supplied via ld-linux-armhf --library-path. libavcodec58, libavformat58, libavutil56, libswresample3 and libswscale5 resolve for ARMhf. The five AArch64 objects also resolve using current system libraries. Loader checks do not execute gameplay or prove clean-image R36 boot. No files in /usr/lib, dpkg status or ldconfig cache changed. Clean official-base ELF closure and real PortMaster games remain validation gates.
+
+The firmware build recipe and OTA installer must explicitly integrate the package set with proper package metadata, rollback, conditional installation and dependency review. Firmware image work remains paused. The raw updater feed is unchanged.

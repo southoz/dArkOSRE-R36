@@ -1,8 +1,21 @@
 #!/bin/bash
 
-directory=$(dirname "$1" | cut -d "/" -f2)
+if [[ "$1" =~ ^/(roms2?)/atarijaguar/ ]]; then
+  directory="${BASH_REMATCH[1]}"
+else
+  printf 'BigPEmu: game must be inside a ROM card Atari Jaguar directory.\n' >&2
+  exit 1
+fi
+if [[ "$directory" == roms2 ]] && ! mountpoint -q /roms2; then
+  printf 'BigPEmu: second ROM card is not mounted.\n' >&2
+  exit 1
+fi
+if [[ -e "/home/ark/.bigpemu_userdata" && ! -L "/home/ark/.bigpemu_userdata" ]]; then
+  printf 'BigPEmu: refusing to replace a real home config directory.\n' >&2
+  exit 1
+fi
 if [[ ! -d "/$directory/atarijaguar/.bigpemu_userdata" ]]; then
-  mkdir -p /$directory/atarijaguar/.bigpemu_userdata
+  mkdir -p "/$directory/atarijaguar/.bigpemu_userdata" || exit 1
   if [ -f "/boot/rk3326-rg351mp-linux.dtb" ] || [ -f "/boot/rk3326-g350-linux.dtb" ] || [ -f "/boot/rk3326-r36s-linux.dtb" ]; then
     CONFIG="BigPEmuConfig.bigpcfg.rg351mp"
   elif [ -f "/boot/rk3326-odroidgo2-linux.dtb" ] || [ -f "/boot/rk3326-odroidgo2-linux-v11.dtb" ]; then
@@ -14,11 +27,10 @@ if [[ ! -d "/$directory/atarijaguar/.bigpemu_userdata" ]]; then
   else
     CONFIG="BigPEmuConfig.bigpcfg.rk3566"
   fi
-  cp -f /opt/bigpemu/defaultconfigs/${CONFIG} /$directory/atarijaguar/.bigpemu_userdata/BigPEmuConfig.bigpcfg
+  cp -f "/opt/bigpemu/defaultconfigs/${CONFIG}" "/$directory/atarijaguar/.bigpemu_userdata/BigPEmuConfig.bigpcfg" || exit 1
 fi
 
-rm -rf /home/ark/.bigpemu_userdata
-ln -s /$directory/atarijaguar/.bigpemu_userdata
+ln -sfn "/$directory/atarijaguar/.bigpemu_userdata" "/home/ark/.bigpemu_userdata" || exit 1
 
 echo "VAR=bigpemu" > /home/ark/.config/KILLIT
 sudo systemctl restart killer_daemon.service

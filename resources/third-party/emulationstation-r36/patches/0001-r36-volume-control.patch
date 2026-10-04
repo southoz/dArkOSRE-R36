@@ -1,0 +1,117 @@
+--- a/es-core/src/VolumeControl.cpp
++++ b/es-core/src/VolumeControl.cpp
+@@ -9,12 +9,8 @@
+ #endif
+ 
+ #if defined(__linux__)
+-#if defined(_RPI_) || defined(_VERO4K_)
+-const char * VolumeControl::mixerName = "PCM";
+-#else
+-std::string VolumeControl::mixerName = "Master";
+-#endif
+-std::string VolumeControl::mixerCard = "default";
++    std::string VolumeControl::mixerName = "Playback";
++    std::string VolumeControl::mixerCard = "rockchiprk817co"; 
+ #endif
+ 
+ std::weak_ptr<VolumeControl> VolumeControl::sInstance;
+@@ -295,11 +291,20 @@
+ 			long rawVolume;
+ 			if (snd_mixer_selem_get_playback_volume(mixerElem, SND_MIXER_SCHN_MONO, &rawVolume) == 0)
+ 			{
+-				//worked. bring into range 0-100
+-				rawVolume -= minVolume;
+-				if (rawVolume > 0)
+-					volume = (rawVolume * 100.0) / (maxVolume - minVolume) + 0.5;
+-				//else volume = 0;
++			    rawVolume -= minVolume;
++			    if (rawVolume > 0)
++			    {
++				volume = (rawVolume * 100.0) / (maxVolume - minVolume) + 0.5;
++
++				// === ADD THIS SCALING (matches alsamixer exactly) ===
++				volume = 0.000146 * volume*volume*volume
++				       - 0.008280 * volume*volume
++				       + 0.3628 * volume
++				       - 0.873;
++				if (volume < 0) volume = 0;
++				if (volume > 100) volume = 100;
++				// ===================================================
++			    }
+ 			}
+ 			else
+ 			{
+@@ -368,7 +373,7 @@
+ 
+ void VolumeControl::setVolume(int volume)
+ {
+-	//clamp to 0-100 range
++    // Clamp input to valid range
+ 	if (volume < 0)
+ 	{
+ 		volume = 0;
+@@ -377,28 +382,44 @@
+ 	{
+ 		volume = 100;
+ 	}
+-	//store values in internal variables
++
++	// Store the displayed (unboosted) value internally
+ 	internalVolume = volume;
+ 
+-	if (mixerElem != nullptr)
+-	{
+-		//get volume range
+-		long minVolume;
+-		long maxVolume;
+-		if (snd_mixer_selem_get_playback_volume_range(mixerElem, &minVolume, &maxVolume) == 0)
+-		{
+-			//ok. bring into minVolume-maxVolume range and set
+-			long rawVolume = (volume * (maxVolume - minVolume) / 100) + minVolume;
+-			if (snd_mixer_selem_set_playback_volume(mixerElem, SND_MIXER_SCHN_FRONT_LEFT, rawVolume) < 0
+-				|| snd_mixer_selem_set_playback_volume(mixerElem, SND_MIXER_SCHN_FRONT_RIGHT, rawVolume) < 0)
+-			{
+-				LOG(LogError) << "VolumeControl::getVolume() - Failed to set mixer volume!";
+-			}
+-		}
+-		else
+-		{
+-			LOG(LogError) << "VolumeControl::getVolume() - Failed to get volume range!";
+-		}
++	if (mixerElem == nullptr)
++	{
++		return;
++	}
++
++	// Get hardware volume range
++	long minVolume;
++	long maxVolume;
++	if (snd_mixer_selem_get_playback_volume_range(mixerElem, &minVolume, &maxVolume) != 0)
++	{
++		LOG(LogError) << "VolumeControl::setVolume() - Failed to get volume range!";
++        	return;
++	}
++
++	// === INVERSE SCALING: Boost low % so it's not quiet ===
++	// This cubic maps displayed % → boosted hardware target %
++	// Coefficients from your data (R² very high, matches inverse fit)
++	double boosted = 0.000222 * volume * volume * volume
++		- 0.04397 * volume * volume
++		+ 3.108 * volume
++		+ 9.116;
++
++	// Clamp boosted value
++	if (boosted < 0) boosted = 0;
++	if (boosted > 100) boosted = 100;
++
++	// Convert boosted % to raw ALSA value
++	long rawVolume = (long)((boosted * (maxVolume - minVolume) / 100.0) + minVolume + 0.5);
++
++	// Apply to both channels (stereo)
++	if (snd_mixer_selem_set_playback_volume(mixerElem, SND_MIXER_SCHN_FRONT_LEFT, rawVolume) < 0
++	|| snd_mixer_selem_set_playback_volume(mixerElem, SND_MIXER_SCHN_FRONT_RIGHT, rawVolume) < 0)
++	{
++		LOG(LogError) << "VolumeControl::setVolume() - Failed to set mixer volume!";
+ 	}
+ }
+ bool VolumeControl::isAvailable()

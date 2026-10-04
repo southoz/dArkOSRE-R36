@@ -1,0 +1,10 @@
+diff --git a/es-core/src/ThemeData.cpp b/es-core/src/ThemeData.cpp
+--- a/es-core/src/ThemeData.cpp
++++ b/es-core/src/ThemeData.cpp
+@@ -181,5 +181,6 @@ static const std::map<std::string, std::map<std::string, ElementPropertyType>> s
+ 		{ "size", NORMALIZED_PAIR },		
+ 		{ "itemSpacing", FLOAT },
+ 		{ "horizontalAlignment", STRING },
++		{ "networkIcon", PATH },
+ 		{ "incharge", PATH },
+ 		{ "full", PATH },

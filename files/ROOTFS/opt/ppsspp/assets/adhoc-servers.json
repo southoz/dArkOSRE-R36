@@ -1,0 +1,188 @@
+{
+	"servers": [
+		{
+			"name": "Socom Adhoc Server",
+			"host": "socom.cc",
+			"discord": "https://discord.com/invite/XtVYDr7",
+			"web": "",
+			"location": "France",
+			"location-emoji": "🇫🇷",
+			"description": "For players looking to play any games",
+			"data_mode": "AemuPostoffice",
+			"status_xml": "https://www.socom.cc/status.xml",
+			"icon": "/favicon.ico"
+		},
+		{
+			"name": "Madness Gaming Network",
+			"host": "psp.mgn.pub",
+			"discord": "https://discord.com/invite/kaPScVrPes",
+			"web": "",
+			"location": "Alaska USA",
+			"location-emoji": "🇺🇸",
+			"description": "For players looking to play any games, has a good amount of Monster Hunter players, also provides VPN to work around connection issues as well as P2P mode",
+			"data_mode": "AemuPostoffice"
+		},
+		{
+			"name": "EA Nation Hub",
+			"host": "eahub.eu",
+			"discord": "https://discord.com/invite/fwrQHHxrQQ",
+			"web": "",
+			"location": "France",
+			"location-emoji": "🇫🇷",
+			"description": "Mostly for Medal of Honor Heros 2 & Need For Speed Most Wanted players, but can be used for other games",
+			"data_mode": "AemuPostoffice",
+			"status_data_json": "https://adhoc.eahub.eu/data.json"
+		},
+		{
+			"name": "Psi-Hate",
+			"host": "psi-hate.com",
+			"discord": "https://discord.com/invite/wxeGVkM",
+			"web": "",
+			"location": "Minnesota USA",
+			"location-emoji": "🇺🇸",
+			"description": "For players looking to play any games",
+			"data_mode": "AemuPostoffice",
+			"status_data_json": "http://psi-hate.com:27315/data.json"
+		},
+		{
+			"name": "Relay Brasileiro",
+			"host": "jpa36a7.glddns.com",
+			"discord": "https://discord.com/invite/gp45nhdjQJ",
+			"web": "https://jpa36a7.glddns.com",
+			"location": "São Paulo Brazil",
+			"location-emoji": "🇧🇷",
+			"description": "For players looking to play any games",
+			"data_mode": "AemuPostoffice",
+			"status_data_json_2": "http://jpa36a7.glddns.com/data.json",
+			"icon": "/favicon.ico"
+		},
+		{
+			"name": "ArenaAnywhere SA",
+			"host": "relay-sa.arenaanywhere.site",
+			"discord": "https://discord.gg/GdsXWmNHq5",
+			"ip": "34.35.138.175",
+			"web": "",
+			"location": "South Africa",
+			"location-emoji": "🇿🇦",
+			"description": "For players looking to play any games",
+			"data_mode": "AemuPostoffice"
+		},
+		{
+			"name": "ArenaAnywhere EU",
+			"host": "relay.arenaanywhere.site",
+			"discord": "https://discord.gg/GdsXWmNHq5",
+			"ip": "34.91.25.46",
+			"web": "",
+			"location": "Europe",
+			"location-emoji": "🇪🇺",
+			"description": "For players looking to play any games",
+			"data_mode": "AemuPostoffice"
+		},
+		{
+			"name": "ArenaAnywhere Dubai",
+			"host": "relay-dubai.arenaanywhere.site",
+			"discord": "https://discord.gg/GdsXWmNHq5",
+			"ip": "34.165.197.39",
+			"web": "",
+			"location": "Dubai",
+			"location-emoji": "🇦🇪",
+			"description": "For players looking to play any games",
+			"data_mode": "AemuPostoffice"
+		},
+		{
+			"name": "ArenaAnywhere Asia",
+			"host": "relay-asia.arenaanywhere.site",
+			"ip": "35.198.217.43",
+			"discord": "https://discord.gg/GdsXWmNHq5",
+			"web": "",
+			"location": "Singapore",
+			"location-emoji": "🇸🇬",
+			"description": "For players looking to play any games",
+			"data_mode": "AemuPostoffice"
+		},
+		{
+			"name": "Saya Akan Lawan! (beta)",
+			"host": "sayaakanlawan.my.id",
+			"discord": "",
+			"web": "http://sayaakanlawan.my.id",
+			"location": "Indonesia",
+			"location-emoji": "🇮🇩",
+			"description": "For players looking to play any games",
+			"data_mode": "AemuPostoffice",
+			"status_data_json": "http://sayaakanlawan.my.id/data.json"
+		},
+		{
+			"name": "Retroverze Relay Beta",
+			"host": "psp.retroverze.my.id",
+			"discord": "",
+			"web": "https://retroverze.my.id/beta",
+			"location": "Unknown",
+			"description": "For players looking to play any games",
+			"data_mode": "AemuPostoffice"
+		},
+		{
+			"name": "Games Nexus",
+			"host": "adhoc.gamesnexus.ovh",
+			"discord": "",
+			"web": "https://adhoc.gamesnexus.ovh",
+			"location": "Milan Italy",
+			"location-emoji": "🇮🇹",
+			"description": "For players looking to play any games",
+			"data_mode": "AemuPostoffice",
+			"status_data_json": "https://adhoc.gamesnexus.ovh/data.json",
+			"status_web": "https://adhoc.gamesnexus.ovh"
+		},
+		{
+			"name": "CVN-Play",
+			"host": "cvn-play.top",
+			"discord": "",
+			"web": "https://game.cvn-play.top/emu",
+			"location": "China",
+			"location-emoji": "🇨🇳",
+			"description": "For players looking to play any games",
+			"data_mode": "AemuPostoffice"
+		},
+		{
+			"name": "NT Arena Brasil",
+			"host": "ntarena.duckdns.org",
+			"discord": "https://discord.gg/g9sNF5CdEg",
+			"location": "Brazil",
+			"location-emoji": "🇧🇷",
+			"description": "Relay for the Brazilian Dissidia 012 community, access managed through Discord, focused on organized lobbies",
+			"data_mode": "AemuPostoffice"
+		},
+		{
+			"name": "Lason Club Manila Server",
+			"discord": "https://discord.gg/gAdMvVAasS",
+			"host": "38.54.80.95",
+			"ip": "38.54.80.95",
+			"location": "Manila, Philippines",
+			"location-emoji": "🇵🇭",
+			"description": "For players looking to play any games mainly TEKKEN",
+			"data_mode": "AemuPostoffice",
+			"status_data_json": "http://38.54.80.95:27315/data.json"
+		},
+		{
+			"name": "Neko PSP",
+			"host": "cat.wjg.jp",
+			"discord": "https://discord.gg/8AgMCDgRQy",
+			"web": "https://cat.wjg.jp",
+			"location": "Japan",
+			"location-emoji": "🇯🇵",
+			"description": "For players looking to play any games",
+			"data_mode": "AemuPostoffice",
+			"status_data_json": "https://cat.wjg.jp/data.json"
+		},
+		{
+			"name": "Sprawl Relay - Brazil",
+			"host": "brazil-01.sprawl-relay.link",
+			"discord": "",
+			"web": "https://status-brazil-01.sprawl-relay.link",
+			"location": "Brazil",
+			"location-emoji": "🇧🇷",
+			"description": "For players looking to play any games",
+			"data_mode": "AemuPostoffice",
+			"status_data_json": "https://status-brazil-01.sprawl-relay.link?format=aemu"
+		}
+	]
+}

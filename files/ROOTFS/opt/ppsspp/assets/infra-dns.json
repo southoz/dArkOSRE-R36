@@ -9,19 +9,281 @@
 	},
 	"games": [
 		{
+			"name": "UEFA Champions League 2006-2007",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspuefa07.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULES00699",
+				"ULES00706",
+				"ULES00707",
+				"ULES00708",
+				"ULES00709",
+				"ULUS10221"
+			]
+		},
+		{
+			"name": "FIFA 07",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspfifa07.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULES00440",
+				"ULES00441",
+				"ULES00442",
+				"ULES00443",
+				"ULES00444",
+				"ULES00459",
+				"ULJM05191",
+				"ULUS10112"
+			]
+		},
+		{
+			"name": "FIFA 08",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspfifa08.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULES00891",
+				"ULES00892",
+				"ULES00893",
+				"ULES00894",
+				"ULES00895",
+				"ULES00896",
+				"ULES01057",
+				"ULKS46153",
+				"ULUS10293"
+			]
+		},
+		{
+			"name": "FIFA 09",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspfifa09.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULAS42141",
+				"ULES01135",
+				"ULES01136",
+				"ULES01137",
+				"ULES01138",
+				"ULES01139",
+				"ULES01140",
+				"ULES01141",
+				"ULES01143",
+				"ULUS10369",
+				"ULUS10394"
+			]
+		},
+		{
+			"name": "FIFA 10",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspfifa10.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULES01322",
+				"ULES01323",
+				"ULES01324",
+				"ULES01325",
+				"ULES01326",
+				"ULES01329",
+				"ULES01330",
+				"ULES01331",
+				"ULUS10464",
+				"ULUS10473"
+			]
+		},
+		{
+			"name": "FIFA World Cup Germany 2006",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspuefa06.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULES00340",
+				"ULUS10082"
+			]
+		},
+		{
+			"name": "FIFA World Cup South Africa 2010",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspworldcup10.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULES01412",
+				"ULES01413",
+				"ULES01414",
+				"ULUS10504",
+				"ULUS10517"
+			]
+		},
+		{
+			"name": "Fight Night Round 3",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspkok06.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULES00270",
+				"ULUS10066"
+			]
+		},
+		{
+			"name": "Madden NFL 07",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspmadden07.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULUS10117"
+			]
+		},
+		{
+			"name": "Madden NFL 08",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspmadden08.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULES00867",
+				"ULUS10275"
+			]
+		},
+		{
+			"name": "Madden NFL 09",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspmadden09.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULES01093",
+				"UCUS10352",
+				"ULUS10352"
+			]
+		},
+		{
+			"name": "Madden NFL 10",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspmadden10.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULUS10441"
+			]
+		},
+		{
 			"name": "Medal of Honor: Heroes",
 			"comment": {
 				"en_US": "Works"
 			},
 			"revival_credits": {
-				"group": "MOHH Revival",
-				"url": "https://mohh-revival.pages.dev/"
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
 			},
-			"dns": "81.49.107.142",
-			"dyn_dns": "ablondel.ddns.net",
+			"dns": "eahub.eu",
 			"domains": {
-				"pspmoh07.ea.com": "81.49.107.142",
-				"tos.ea.com": "81.49.107.142"
+				"pspmoh07.ea.com": "eahub.eu",
 			},
 			"score": 5,
 			"known_working_ids": [
@@ -45,14 +307,12 @@
 				"en_US": "Only the menu works!"
 			},
 			"revival_credits": {
-				"group": "MOHH Revival",
-				"url": "https://mohh-revival.pages.dev/"
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
 			},
-			"dns": "ablondel.ddns.net",
-			"dyn_dns": "ablondel.ddns.net",
+			"dns": "eahub.eu",
 			"domains": {
-				"pspmoh08.ea.com": "ablondel.ddns.net",
-				"tos.ea.com": "ablondel.ddns.net"
+				"pspmoh08.ea.com": "eahub.eu",
 			},
 			"score": 1,
 			"known_working_ids": [
@@ -63,6 +323,296 @@
 			],
 			"not_working_ids": [
 				"ULJM05301"
+			]
+		},
+		{
+			"name": "NBA Live 06",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspnba06.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULUS10030"
+			]
+		},
+		{
+			"name": "NBA Live 07",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspnba07.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULUS10113"
+			]
+		},
+		{
+			"name": "NBA Live 08",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspnba08.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULUS10294"
+			]
+		},
+		{
+			"name": "NCAA Football 07",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspncaa07.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULUS10116"
+			]
+		},
+		{
+			"name": "Need for Speed: Most Wanted 5-1-0",
+			"comment": {
+				"en_US": "Works but requires a patch for the EU version!"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspnfs06.ea.com": "eahub.eu"
+			},
+			"score": 5,
+			"known_working_ids": [
+				"ULES00196",
+				"ULUS10036",
+				"ULUS10036GH"
+			]
+		},
+		{
+			"name": "Need for Speed Carbon: Own the City",
+			"comment": {
+				"en_US": "Works"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspnfs07.ea.com": "eahub.eu"
+			},
+			"score": 5,
+			"known_working_ids": [
+				"ULES00576",
+				"ULES00577",
+				"ULUS10114"
+			]
+		},
+		{
+			"name": "Need for Speed: ProStreet",
+			"comment": {
+				"en_US": "Works"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspnfs08.ea.com": "eahub.eu"
+			},
+			"score": 5,
+			"known_working_ids": [
+				"ULES01019",
+				"ULES01020",
+				"ULUS10331"
+			]
+		},
+		{
+			"name": "Need for Speed: Undercover",
+			"comment": {
+				"en_US": "Works"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspnfs09.ea.com": "eahub.eu"
+			},
+			"score": 5,
+			"known_working_ids": [
+				"ULES01145",
+				"ULUS10376"
+			]
+		},
+		{
+			"name": "NHL 07",
+			"comment": {
+				"en_US": "Works but there are incompatibilities between platforms"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"pspnhl07.ea.com": "eahub.eu"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULES00477",
+				"ULUS10131"
+			]
+		},
+		{
+			"name": "Tiger Woods PGA Tour 07",
+			"comment": {
+				"en_US": "Works"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"psptw07.ea.com": "eahub.eu"
+			},
+			"score": 5,
+			"known_working_ids": [
+				"ULES00455",
+				"ULES00456",
+				"ULUS10115"
+			]
+		},
+		{
+			"name": "Tiger Woods PGA Tour 08",
+			"comment": {
+				"en_US": "Works"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"psptw08.ea.com": "eahub.eu"
+			},
+			"score": 5,
+			"known_working_ids": [
+				"ULES00845",
+				"ULES00846",
+				"ULUS10276"
+			]
+		},
+		{
+			"name": "Tiger Woods PGA Tour 10",
+			"comment": {
+				"en_US": "Works"
+			},
+			"revival_credits": {
+				"group": "EA Nation Hub",
+				"url": "https://discord.gg/fwrQHHxrQQ"
+			},
+			"dns": "eahub.eu",
+			"domains": {
+				"psptw10.ea.com": "eahub.eu"
+			},
+			"score": 5,
+			"known_working_ids": [
+				"ULES01260",
+				"ULUS10420"
+			]
+		},
+		{
+			"name": "Sega Rally Revo",
+			"comment": {
+				"en_US": "Works"
+			},
+			"revival_credits": {
+				"group": "PS3 Reborn",
+				"url": "https://discord.gg/kS9CJhjq9C"
+			},
+			"domains": {
+				"sega-rally-psp.lsg.mmp3.demonware.net": "146.190.205.197",
+				"sega-rally-psp.auth.mmp3.demonware.net": "146.190.205.197"
+			},
+			"score": 5,
+			"known_working_ids": [
+				"UCKS45072",
+				"ULAS42119",
+				"ULES00910",
+				"ULJM05302",
+				"ULJM05417",
+				"ULUS10311"
+			]
+		},
+		{
+			"name": "Portable Ops",
+			"comment": {
+				"en_US": "Support for MPO and MPO+."
+			},
+			"revival_credits": {
+				"group": "SaveMGO",
+				"url": "https://discord.gg/mgo2pc"
+			},
+			"dns": "mpo.savemgo.com",
+			"dyn_dns": "mpo.savemgo.com",
+			"domains": {
+				"mpoweb.konamionline.com": "mpo.savemgo.com",
+				"info.service.konamionline.com": "mpo.savemgo.com",
+				"mpostunus.konamionline.com": "stun.mgo2pc.com",
+				"mpostunjp.konamionline.com": "stun.mgo2pc.com",
+				"mpostuneu.konamionline.com": "stun.mgo2pc.com"
+			},
+			"score": 4,
+			"known_working_ids": [
+				"ULJM05261",
+				"ULJM05284",
+				"ULJM05284",
+				"ULUS10290",
+				"ULAS42123",
+				"ULES01003",
+				"ULUS10202",
+				"ULJM05193",
+				"VP033J1",
+				"ULKS46119",
+				"ULES00645",
+				"ULJM05256",
+				"ULJM08016",
+				"ULUS10202GH",
+				"NPJH50112",
+				"ULJM05573"
 			]
 		},
 		{
@@ -162,7 +712,7 @@
 				"UCES00038"
 			],
 			"not_working_ids": [
-				"UCKS45021"	
+				"UCKS45021"
 			],
 			"score": 4,
 			"domains": {

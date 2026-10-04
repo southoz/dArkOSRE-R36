@@ -1,0 +1,277 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: zvbi
+Upstream-Contact: Ileana Dumitrescu <ileanadumitrescu95@gmail.com>
+Source: http://github.com/zapping-vbi/zvbi
+
+Files: *
+Copyright: 2000-2013 Michael H. Schimek <mschimek@gmx.at, mschimek@users.sf.net>
+License: GPL-2+
+
+Files: contrib/dvbsubs.c
+Copyright: 2002 Dave Chapman
+           2009 Michael H. Schimek
+License: GPL-2+
+
+Files: contrib/dvbsubs.h
+Copyright: 2002 Dave Chapman
+License: GPL-2+
+
+Files: contrib/ntsc-cc.c
+Copyright: 2003-2007 Mike Baker <mbm@linux.com>
+           2003-2007 Timecop <timecop@japan.co.jp>
+           2003-2007 Mark K. Kim <dev@cbreak.org>
+           2005-2007 Michael H. Schimek <mschimek@users.sf.net>
+License: GPL-2+
+
+Files: README.md
+Copyright: 2000-2013 Michael H. Schimek <mschimek@users.sf.net>
+           2022-2023 Ileana Dumitrescu <ileanadumitrescu95@gmail.com>
+License: GPL-2+
+
+Files: contrib/x11font.c
+Copyright: 2002 Gerd Knorr
+License: GPL-2+
+
+Files: daemon/zvbi-chains.1
+       daemon/chains.c
+       daemon/proxyd.c
+       test/proxy-test.c
+Copyright: 2003-2004 Tom Zoerner
+License: GPL-2+
+
+Files: examples/*
+Copyright: 2005-2009 Michael H. Schimek <mschimek@users.sf.net>
+License: BSD-2-Clause
+
+Files: po/de.po
+Copyright: 2000-2002 Michael H. Schimek <mschimek@gmx.at, mschimek@users.sf.net>
+License: GPL-2+
+
+Files: po/es.po
+Copyright: 2000      Joseba García Etxebarria <josebag@mixmail.com>
+           2000-2001 Iñaki García Etxebarria <garetxe@users.sf.net>
+License: GPL-2+
+
+Files: po/pl.po
+Copyright: 2000 Paweł Sakowski <pawel@sakowski.eu.org>
+License: GPL-2+
+
+Files: po/sv.po
+Copyright: 2001 Henrik Isacsson <snout@ctrl-c.liu.se>
+License: GPL-2+
+
+Files: src/*
+Copyright: 1999-2008 Michael H. Schimek <mschimek@gmx.at, mschimek@users.sf.net>
+License: LGPL-2+
+
+Files: src/chains.c
+Copyright: 1998 Manish Singh <yosh@gimp.org>
+           2000 Stefan Westerfeld <stefan@space.twc.de>
+           2004 Tom Zoerner
+License: LGPL-2+
+
+Files: src/dvb/dmx.h
+Copyright: 2000 Marcus Metzler <marcus@convergence.de>
+           2000 Ralph  Metzler <ralph@convergence.de>
+License: LGPL-2.1+
+
+Files: src/dvb/frontend.h
+Copyright: 2000 Andre Draszik <ad@convergence.de>
+           2000 Holger Waechtler <holger@convergence.de>
+           2000 Marcus Metzler <marcus@convergence.de>
+           2000 Ralph  Metzler <ralph@convergence.de>
+License: LGPL-2.1+
+
+Files: src/exp-vtx.c
+Copyright: 1998-1999 Edgar Toernig <froese@gmx.de>
+           1999 Paul Ortyl <ortylp@from.pl>
+           1995-1997 Martin Buck <martin-2.buck@student.uni-ulm.de>
+License: LGPL-2+
+
+Files: src/inout.* src/io-v4l2k.c src/io-v4l.c
+Copyright: 1999-2005 Michael H. Schimek
+           2003-2004  Tom Zoerner
+License: LGPL-2+
+
+Files: src/libzvbi.h src/misc.h src/search.h
+Copyright: 2000-2007 Michael H. Schimek
+           2000-2003 Iñaki García Etxebarria
+License: LGPL-2+
+
+Files: src/packet-830.c
+       src/packet-830.h
+       src/pdc.c
+       src/pdc.h
+Copyright: 2000-2004 Michael H. Schimek <mschimek@users.sf.net>
+License: GPL-2
+
+Files: src/proxy-*
+Copyright: 2003-2004 Tom Zoerner
+License: LGPL-2+
+
+Files: src/ure.c src/ure.h
+Copyright: 1997-1999 Computing Research Labs, New Mexico State University
+                     Iñaki García Etxebarrria <garetxe@users.sf.net>
+                     Michael H. Schimek <mschimek@gmx.at, mschimek@users.sf.net>
+License: MIT
+
+Files: src/vbi.c src/vbi.h
+Copyright: 2000-2008 Michael H. Schimek
+           2000-2001 Iñaki García Etxebarria
+           2003-2004 Tom Zoerner
+License: LGPL-2+
+
+Files: src/videodev2k.h
+Copyright: 1999-2007 Bill Dirks <bill@thedirks.org>
+                     Justin Schoeman
+                     Hans Verkuil <hverkuil@xs4all.nl>
+License: GPL-2+ or BSD-3-Clause
+
+Files: test/osc.c
+Copyright: 2000-2002, 2004 Michael H. Schimek
+           2003 James Mastros
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2002-2012 Christian Marillat <marillat@debian.org>
+           2013      Emanuele Rocca <ema@debian.org>
+           2013      Jackson Doak <noskcaj@ubuntu.com>
+           2014      Andreas Barth <aba@ayous.org>
+           2015-2020 Joao Eriberto Mota Filho <eriberto@debian.org>
+           2016      Breno Leitao <brenohl@br.ibm.com>
+           2018      Ondřej Nový <onovy@debian.org>
+           2021-2025 Ileana Dumitrescu <ileanadumitrescu95@gmail.com>
+License: BSD-3-Clause
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 2 as
+ published by the Free Software Foundation.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ 
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: BSD-2-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE HOLDERS OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: LGPL-2+
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2.1+
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in "/usr/share/common-licenses/LGPL-2.1".
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE HOLDERS OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

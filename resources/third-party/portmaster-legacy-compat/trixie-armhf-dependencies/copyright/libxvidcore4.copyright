@@ -1,0 +1,101 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: xvidcore
+Upstream-Contact: xvid-devel@xvid.org
+Source: https://labs.xvid.com/source/
+
+Files: *
+Copyright: © 1999, Intel Corporation
+           © 2000-2001, Michel Lespinasse <walken@zoy.org>
+           © 2000, Royce Shih-Wea Liao <liaor@iname.com>
+           © 2000-2001, Peter Gubanov <peter@elecard.net.ru>
+           © 2001, Fabrice Bellard
+           © 2001, Michael Niedermayer <michaelni@gmx.at>
+           © 2001-2003, xvid team <xvid-devel@xvid.org>
+           © 2001-2004, Peter Ross <pross@xvid.org>
+           © 2001-2011, Michael Militzer <michael@xvid.org>
+           © 2002, Alexander Viehl
+           © 2002, Benjamin Herrenschmidt <benh@kernel.crashing.org>
+           © 2002, Christian Engel <christian.engel@ira.uka.de>
+           © 2002, Christian Schwarz <schwarz@ira.uka.de>
+           © 2002, Christopher Özbek <s_oezbek@ira.uka.de>
+           © 2002, Daniel Kallfass
+           © 2002, Daniel Smith <danielsmith@astroboymail.com>
+           © 2002, Daniel Winkler <infostudent@uni.de>
+           © 2002, Dirk Knop <dknop@gwdg.de>
+           © 2002, Dmitry Rozhdestvensky
+           © 2002, Haiko Gaisser <haiko@gaisser.de>
+           © 2002, Hannes Jütting <s_juetti@ira.uka.de>
+           © 2002, Hans-Joachim Daniels <hans-joachim.daniels@ira.uka.de>
+           © 2002, Ingo-Marc Weber
+           © 2002, Johannes Singler
+           © 2002, Kai Kühn
+           © 2002, Max Stengel
+           © 2002, MinChen <chenm001@163.com>
+           © 2002, Sebastian Felis
+           © 2002, Sebastian Hack <mail@s-hack.de>
+           © 2002, Stephan Krause
+           © 2002-2003, Christoph Lampert <gruel@web.de>
+           © 2002-2003, Jaan Kalda
+           © 2002-2004, Benjamin Lambert <foxer@hotmail.com>
+           © 2002-2004, Edouard Gomez <ed.gomez@free.fr>
+           © 2002-2005, Radoslaw Czyz <xvid@syskin.cjb.net>
+           © 2002-2006, Pascal Massimino <skal@planet-d.net>
+           © 2004, Dcoder <dcoder@alexandria.cc>
+           © 2004, Jean-Marc Bastide <jmtest@voila.fr>
+           © 2004, Marc Fauconneau
+           © 2004, Christoph Naegeli <chn@kbw.ch>
+           © 2004-2005, Christoph Naegeli <chn@kbw.ch>
+           © 2005, Carlo Bramini <carlo.bramix@libero.it>
+           © 2005-2006, Johannes Reinhardt <Johannes.Reinhardt@gmx.de>
+           © 2006-2011, Xvid Solutions GmbH
+           © 2008, Jason Garrett-Glaser <darkshikari@gmail.com>
+           © Johannes Singler <email@jsingler.de>
+License: GPL-2+
+
+Files: debian/*
+Copyright: © 2001, Christian Marillat <marillat@debian.org>
+           © 2003, Edouard Gomez <ed.gomez@free.fr>
+           © 2005-2009, Fabian Greffrath <fabian+debian@greffrath.com>
+           © 2009, Loïc Martin <loic.martin3@gmail.com>
+           © 2009-2011, Reinhard Tartler <siretart@tauware.de>,
+           © 2009-2011, Andres Mejia <amejia@debian.org>
+License: GPL-2+
+
+Files: src/dct/ppc_asm/*
+Copyright: © 2001, Michel Lespinasse <walken@zoy.org>
+           © 2004, Christoph Naegeli <chn@kbw.ch>
+License: LGPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ can be found at '/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ can be found at '/usr/share/common-licenses/LGPL-2'.

@@ -15,16 +15,43 @@ if [ ! -d "/roms/" ]; then
     sudo mkdir /roms
 fi
 
-filesystem=`lsblk -no FSTYPE /dev/mmcblk1p5`
-if [ "$filesystem" = "ntfs" ]; then
-	filesystem="ntfs-3g"
+# Resolve the configured main ROM partition instead of assuming a board-specific
+# mmcblk number. The ROM card may already be mounted at /roms while ROMs are on
+# /roms2; never remount it or disturb the /roms/tools bind mount in that case.
+mapfile -t MAIN_ROM_SOURCES < <(findmnt --fstab --evaluate --noheadings --raw \
+  --mountpoint /roms --output SOURCE 2>/dev/null)
+if [ "${#MAIN_ROM_SOURCES[@]}" -ne 1 ]; then
+  printf "\n\n\e[91mCannot switch to the main ROM card: expected one /roms entry in /etc/fstab.\n"
+  printf "\033[0m"
+  exit 1
 fi
 
-sudo mount -t $filesystem /dev/mmcblk1p5 /roms -o uid=1000
-status=$?
+MAIN_ROM_DEVICE=$(readlink -f "${MAIN_ROM_SOURCES[0]}")
+if [ -z "$MAIN_ROM_DEVICE" ] || [ ! -b "$MAIN_ROM_DEVICE" ] || \
+   ! sudo blkid -o value -s TYPE "$MAIN_ROM_DEVICE" >/dev/null 2>&1; then
+  printf "\n\n\e[91mCannot switch to the main ROM card: its configured device is unavailable.\n"
+  printf "\033[0m"
+  exit 1
+fi
 
-#if [ $status -eq 0 ] || [ $status -eq 16 ]
-#then
+if ! mountpoint -q /roms; then
+  if ! sudo mount /roms || ! mountpoint -q /roms; then
+    printf "\n\n\e[91mCannot switch to the main ROM card: /roms did not mount from /etc/fstab.\n"
+    printf "\033[0m"
+    exit 1
+  fi
+fi
+
+MOUNTED_ROM_DEVICE=$(findmnt --noheadings --raw --mountpoint /roms \
+  --output SOURCE 2>/dev/null)
+MOUNTED_ROM_DEVICE=$(readlink -f "$MOUNTED_ROM_DEVICE")
+if [ -z "$MOUNTED_ROM_DEVICE" ] || \
+   [ "$MOUNTED_ROM_DEVICE" != "$MAIN_ROM_DEVICE" ]; then
+  printf "\n\n\e[91mCannot switch to the main ROM card: /roms is not mounted from its configured device.\n"
+  printf "\033[0m"
+  exit 1
+fi
+
   if [ ! -d "/roms/videos/" ]; then
       sudo mkdir /roms/videos
   fi
@@ -38,7 +65,6 @@ status=$?
   sudo sed -i '/roms2\//s//roms\//g' /usr/local/bin/saturn.sh
   sudo sed -i '/roms2\//s//roms\//g' /usr/local/bin/atomiswave.sh
   sudo sed -i '/roms2\//s//roms\//g' /usr/local/bin/naomi.sh
-  sudo sed -i '/roms2\//s//roms\//g' /usr/local/bin/singe.sh
   sudo sed -i '/roms2\//s//roms\//g' /usr/local/bin/easyrpg.sh
   sudo sed -i '/roms2\//s//roms\//g' /usr/local/bin/ecwolf.sh
   sudo sed -i '/roms2\//s//roms\//g' /usr/local/bin/drastic.sh
@@ -51,8 +77,6 @@ status=$?
   sed -i '/roms2/s//roms/g'  /home/ark/.config/retroarch32/retroarch.cfg
   sed -i '/roms2/s//roms/g'  /home/ark/.atari800.cfg
   sed -i '/roms2/s//roms/g'  /home/ark/.config/retroarch/config/Atari800/retroarch_5200.cfg
-  sed -i '/roms2/s//roms/g'  /home/ark/.config/retroarch/config/Atari800/retroarch_A800.cfg
-  sed -i '/roms2/s//roms/g'  /home/ark/.config/retroarch/config/Atari800/retroarch_XEGS.cfg
   sed -i '/roms2/s//roms/g'  /home/ark/.config/duckstation/settings.ini
   sed -i '/roms2/s//roms/g'  /home/ark/.config/mupen64plus/mupen64plus.cfg
   sed -i '/roms2\/bios/s//roms\/bios/g' /opt/amiberry/conf/amiberry.conf
@@ -98,9 +122,3 @@ status=$?
   sleep 3
   printf "\033c" >> /dev/tty1
   sudo systemctl restart emulationstation
-#else
-#  printf "\n\n\e[91mCould not find a Fat, Fat32, Exfat, or NTFS based roms partition to mount from the main sdcard...\n"
-#  printf "\033[0m"
-#  sleep 3
-#  printf "\033c" >> /dev/tty1
-#fi
