@@ -109,3 +109,4 @@ Raise an [issue](https://github.com/southoz/dArkOS-G80CA-RE/issues) with the mot
 
 Feel free to report issues or suggest improvements in the [Issues tab](https://github.com/southoz/dArkOS-G80CA-RE/issues).  
 Happy retro gaming! 🎮
+.
